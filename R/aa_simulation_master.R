@@ -14,11 +14,14 @@ masterSimulation <- function() {
       library(dplyr)
 
       ## set logging file
-      logger::log_appender(logger::appender_file(here::here("inst", "simulation", "logging", glue::glue("{gsub('-', '_', Sys.Date())}_simulation_log"))))
+      logger::log_appender(logger::appender_tee(here::here("inst", "simulation", "logging", glue::glue("{gsub('-', '_', Sys.Date())}_simulation_log"))))
+      logger::log_info("Setting input variables")
 
       ## simulations
       nSimulation <- 10
       vSeed <- 1001:(1001 + nSimulation)
+
+      bForceNewData <- FALSE
 
 
       ## specifiy general amount
@@ -66,48 +69,54 @@ masterSimulation <- function() {
       #   ____________________________________________________________________________
       #   Creating Data                                                           ####
 
-      logger::log_info("Starting with simulating input data")
+      logger::log_info("Simulating input data for: {nSimulation} simulations")
       for (i in 1:nSimulation) {
 
-            logger::log_info("Run: {i}")
-            lRawData <- dgp_create_full(nY = nY, vBeta = vBeta,
-                                  nK = nK, nFreq = nFreq, nLag = nLag,
-                                  nMu = nMu, nRho = nRho,
-                                  nVar = nVar, nWithin = nWithin, nBetween = nBetween,
-                                  nT1 = nT1, nT2 = nT2,
-                                  .sSeed = nSeed[[i]])
-
-            # x2 <- create_predictor_lag_poly(x1[["x_align"]],
-            #                                 vLag = vLag, vP = vP,
-            #                                 .sPolyMatrix = "almon", .bEndpoint = FALSE)
-
-            dfX <- do.call("cbind", lRawData$x_align)
-
-            lModelInput <- create_model_input(maY = lRawData[["y"]], dfDataX = dfX,
-                                              nTrain = nTrain, nG = nG,
-                                              nGroupSize = nGroupSize)
-
-            lDataSave <- list(
-                  "x_raw" = lRawData$x_raw,
-                  "x_align" = lRawData$x_align,
-                  "y" = lRawData$y,
-                  "model_data" = lModelInput)
-
+            ## check if simulated file already exists
             ## save input data
             if (i < 10) {
-                  nSimRunSave <- paste0("00", i)
+               nSimRunSave <- paste0("00", i)
             } else if (i >= 10 & i < 100) {
-                  nSimRunSave <- paste0("0", i)
+               nSimRunSave <- paste0("0", i)
             } else {
-                  nSimRunSave <- as.character(i)
+               nSimRunSave <- as.character(i)
             }
 
             sDirSave <- here::here(sDir, "input", glue::glue("{nSimRunSave}_rawdata.rds"))
 
+            if (!file.exists(sDirSave) || bForceNewData) {
 
-            # helper_createFolder(sDirInput)
+               lRawData <- dgp_create_full(nY = nY, vBeta = vBeta,
+                                     nK = nK, nFreq = nFreq, nLag = nLag,
+                                     nMu = nMu, nRho = nRho,
+                                     nVar = nVar, nWithin = nWithin, nBetween = nBetween,
+                                     nT1 = nT1, nT2 = nT2,
+                                     .sSeed = nSeed[[i]])
 
-            saveRDS(lDataSave, file = sDirSave)
+               # x2 <- create_predictor_lag_poly(x1[["x_align"]],
+               #                                 vLag = vLag, vP = vP,
+               #                                 .sPolyMatrix = "almon", .bEndpoint = FALSE)
+
+               dfX <- do.call("cbind", lRawData$x_align)
+
+               lModelInput <- create_model_input(maY = lRawData[["y"]], dfDataX = dfX,
+                                                 nTrain = nTrain, nG = nG,
+                                                 nGroupSize = nGroupSize)
+
+               lDataSave <- list(
+                     "x_raw" = lRawData$x_raw,
+                     "x_align" = lRawData$x_align,
+                     "y" = lRawData$y,
+                     "model_data" = lModelInput)
+
+
+
+
+
+               # helper_createFolder(sDirInput)
+
+               saveRDS(lDataSave, file = sDirSave)
+            }
 
             # saveRDS(sDataSave,
             #         paste0(sDir, "/input/simulatedData_", i, "_seed_", nSeed[[i]], ".rds"))
@@ -148,11 +157,11 @@ masterSimulation <- function() {
 
       logger::log_info("Starting model fitting for each generated data")
 
-      start_time <- Sys.time()
       lTimes <- vector("list", length(sModelName))
+
       for (i in 1:nSimulation) {
 
-            logger::log_info("----------------- Run: {i}/{length(nSim)} -----------------")
+            logger::log_info("----------------- Run: {i}/{nSimulation} -----------------")
 
             ## get simulated data
             if (i < 10) {
@@ -165,21 +174,23 @@ masterSimulation <- function() {
 
             sDirInputLoad <- here::here(sDir, "input", glue::glue("{nSimRunSave}_rawdata.rds"))
 
+            logger::log_info("Load input file: {sDirInputLoad}")
             lData <- readRDS(sDirInputLoad)
             lDataStanInput <- lData$model_data
 
             ## estimate each model for a certain input data
             for (j in seq_along(lCMDmodels)) {
+
                   sModel <- names(lCMDmodels)[[j]]
                   logger::log_info("{sModel} (run {i})")
 
                   sModelSaveName <- tolower(gsub(" ", "_", sModel))
 
                   ## check if model output folder exist and create if necessary
-                  sFolderModel <- here::here(sDir, "output", sModelSaveName)
+                  sFolderModel <- here::here(sDir, "output", "01_stan_objects", sModelSaveName)
                   helper_createFolder(sFolderModel)
 
-                  sDirStanModel <- here::here(sDir, "output", sModelSaveName, glue::glue("{nSimRunSave}_{sModelSaveName}.rds"))
+                  sDirStanModel <- here::here(sDir, "output", "01_stan_objects", sModelSaveName, glue::glue("{nSimRunSave}_{sModelSaveName}.rds"))
 
                   #if (file.exists(sDirStanModel)) {
 
@@ -194,7 +205,7 @@ masterSimulation <- function() {
                   md_stan <- lCMDmodels[[j]]
 
                   lStanObj <- md_stan$sample(
-                        data = lData,
+                        data = lDataStanInput,
                         seed = 123,
                         chains = 4,
                         parallel_chains = 4,
@@ -240,10 +251,25 @@ masterSimulation <- function() {
       #   Diagnostic Preparation                                                  ####
 
       ## all true Y values
-      lYTrue_raw <- vector("list", length(nSim))
-      for (i in seq_along(nSim)) {
-            s1 <- readRDS(paste0(sDir, "input/", nSim[[i]]))
-            lYTrue_raw[[i]] <- c(s1$y_train, s1$y_test)
+      lYTrue_raw <- vector("list", nSimulation)
+      for (i in 1:nSimulation) {
+
+
+            ## get simulated data
+            if (i < 10) {
+               nSimRunSave <- paste0("00", i)
+            } else if (i >= 10 & i < 100) {
+               nSimRunSave <- paste0("0", i)
+            } else {
+               nSimRunSave <- as.character(i)
+            }
+
+            sDirInputLoad <- here::here(sDir, "input", glue::glue("{nSimRunSave}_rawdata.rds"))
+
+            lData <- readRDS(sDirInputLoad)
+            lDataStanInput <- lData$model_data
+
+            lYTrue_raw[[i]] <- c(lDataStanInput$y_train, lDataStanInput$y_test)
       }
 
 
@@ -256,29 +282,51 @@ masterSimulation <- function() {
       for (i in seq_along(sModelName)) {
             # for (i in seq_along(sModelName[1:2])) {
             # i <- 1
-            print(sModelName[[i]])
+            sModel <- sModelName[[i]]
 
-            sDirOutput <- paste0(sDir, "output/")
-            sFileName <- dir(paste0(sDirOutput, tolower(gsub(" ", "_", sModelName[[i]]))))
+            sModelSaveName <- tolower(gsub(" ", "_", sModel))
 
-            comb_fit_model <- lapply(paste0(sDirOutput, tolower(gsub(" ", "_", sModelName[[i]])), "/", sFileName), readRDS)
+            ## check if model output folder exist and create if necessary
+            sFolderModel <- here::here(sDir, "output", "01_stan_objects", sModelSaveName)
+            vAllSims <- sort(list.files(sFolderModel, full.names = TRUE))
 
-            nSimRegex <- as.numeric(unlist(stringr::str_extract_all(sFileName, "\\(?[0-9]+\\)?")))
-            lYTrue_sort <- lYTrue_raw[nSimRegex]
-            lYTrue_sort <- lapply(lYTrue_sort, function(x, nSplit) {list("train" = x[1:nSplit], "test" = x[(nSplit+1): length(x)])},
-                                  nSplit = nTrain)
-            lYTrue_sort <- purrr::transpose(lYTrue_sort)
+            for (j in seq_along(vAllSims)) {
 
-            lCombined[[i]] <- moc_data_prep_model(lStanObj = comb_fit_model, lYTrue = lYTrue_sort,
-                                                  nGroupSize = nGroupSize, vLag = vLag, vP = vP,
-                                                  .sPolyMatrix = "almon", .bEndpoint = FALSE, bolTrue = bolTrue)
+               stanObj <- readRDS(vAllSims[[j]])
+
+               list_of_draws <- rstan::extract(stanObj)
+               vPars <- names(list_of_draws)
+
+               # TODO: 23.7.2022 get raw data and summary done so that i can get the results
+
+               ## raw data per chain and beta coef calc
+
+
+               ## summary data overall including beta coef
+
+
+            }
+
+            # ## load all simulation files
+            # comb_fit_model <- lapply(sort(list.files(sFolderModel, full.names = TRUE)), readRDS)
+            #
+            # # nSimRegex <- as.numeric(unlist(stringr::str_extract_all(sFileName, "\\(?[0-9]+\\)?")))
+            # lYTrue_sort <- lYTrue_raw
+            # lYTrue_sort <- lapply(lYTrue_sort, function(x, nSplit) {list("train" = x[1:nSplit], "test" = x[(nSplit+1): length(x)])},
+            #                       nSplit = nTrain)
+            # lYTrue_sort <- purrr::transpose(lYTrue_sort)
+            #
+            # ## create raw output for each simulation and model in parquet format
+            # lCombined[[i]] <- moc_data_prep_model(lStanObj = comb_fit_model, lYTrue = lYTrue_sort,
+            #                                       nGroupSize = nGroupSize, vLag = nLag, vP = nP,
+            #                                       .sPolyMatrix = "beta", .bEndpoint = FALSE, bolTrue = bolTrue)
       }
 
       lCombined <- purrr::compact(lCombined)
 
       ## getting Beta Coef from Theta
       dfTheta <-
-            lCombined[[4]]$theta %>%
+            lCombined[[2]]$theta %>%
             dplyr::filter(chain == "chain:1") %>%
             dplyr::select(run, parameter, value) %>%
             tidyr::pivot_wider(names_from = parameter, values_from = value) %>%
@@ -289,14 +337,14 @@ masterSimulation <- function() {
       vIndGroup <- c(0, cumsum(nGroupSize))
 
       ## Lag Matrix
-      mQ <- prep_model_lag_matrix(vP, vLag, .bEndpoint = FALSE)
+      # mQ <- prep_model_lag_matrix(vP, vLag, .bEndpoint = FALSE)
 
       maTheta <- as.matrix(dfTheta)
       lBeta <- vector("list", length(nGroupSize))
       lWeigthing <- vector("list", length(nGroupSize))
       for (i in 1:(length(vIndGroup) - 1)) {
-            sWPrep <- maTheta[, (vIndGroup[[i]] + 1):vIndGroup[[i + 1]]] %*% mQ
-            lWeigthing[[i]] <- sWPrep / rowSums(sWPrep)
+            sWPrep <- maTheta[, (vIndGroup[[i]] + 1):vIndGroup[[i + 1]]] # %*% mQ
+            lWeigthing[[i]] <- sWPrep # / rowSums(sWPrep)
             lBeta[[i]] <- rowSums(sWPrep)
       }
 
@@ -326,6 +374,8 @@ masterSimulation <- function() {
       #   ____________________________________________________________________________
       #   Weighting Plot                                                          ####
 
+      ## can be missleading since the theta parameters are divided by beta coeff (which may be close to zero)
+
       tblThetaPlot <-
             purrr::map2(lWeigthing, 1:length(lWeigthing),
                         function(x, y) {
@@ -341,8 +391,8 @@ masterSimulation <- function() {
             tidyr::pivot_longer(-c(1, 2), names_to = "key", values_to = "value")
 
 
-      lGPlot <- vector("list", 9)
-      for (i in 1:9) {
+      lGPlot <- vector("list", 50)
+      for (i in 1:50) {
             lGPlot[[i]] <-
                   tblThetaPlot %>%
                   dplyr::filter(theta == i) %>%
@@ -468,7 +518,7 @@ masterSimulation <- function() {
       ## all true Y values
       fSims <- dir(dirDGP)
       lYTrue_raw <- vector("list", length(fSims))
-      for (i in seq_along(nSim)) {
+      for (i in seq_along(nSimulation)) {
             sFile <- dir(paste0(dirDGP, "/", fSims[[i]], "/raw_input"))
             s1 <- readRDS(paste0(dirDGP, "/", fSims[[i]], "/raw_input/", sFile))
             lYTrue_raw[[i]] <- data.frame(simulation = i,

@@ -222,7 +222,7 @@ dgp_pred_all_weighted <- function(nY, lX, nLag, nT1, nT2, .sPoly = "almon") {
 dgp_create_full <- function(nY, nK, vBeta, nFreq = 3, nLag = 6,
                             nMu = 0.5, nRho = 0.5,
                             nVar = 1, nWithin = 0.5, nBetween = 0.2,
-                            nT1 = 0.0005, nT2 = -0.00007, .sPoly = "almon",
+                            nT1 = 0.0005, nT2 = -0.00007, .sPoly = "beta",
                             .sSeed, .bRandom = FALSE) {
 
 

@@ -79,7 +79,7 @@ moc_diagnose_extract <- function(lStanObj, sMatch = "theta\\[", sExtract = "Rhat
 moc_extract_theta_chains <- function(stanObj) {
 
    ## create
-   arStan <- as.array(stanObj, pars = c("theta"))
+   arStan <- as.array(stanObj, pars = "theta")
    lTheta <- lapply(seq_along(dimnames(arStan)[[3]]),
                     function(i) {
                        x <- arStan[, ,i]
@@ -89,6 +89,39 @@ moc_extract_theta_chains <- function(stanObj) {
                           as.data.frame() %>%
                           tidyr::pivot_longer(names_to = "chain", values_to = "value", cols = -1)
                   })
+   names(lTheta) <- dimnames(arStan)[[3]]
+
+   lTheta %>%
+      purrr::map2(., names(lTheta), function(x, y) {
+         colnames(x)[3] <- y
+         x
+      }) %>%
+      purrr::reduce(., dplyr::left_join, by = c("run", "chain"))
+}
+
+
+#' Title
+#'
+#' @param stanObj
+#' @param sPars
+#'
+#' @return
+#' @export
+#'
+#' @examples
+moc_extract_chains <- function(stanObj, sPars = "theta") {
+
+   ## create
+   arStan <- as.array(stanObj, pars = sPars)
+   lTheta <- lapply(seq_along(dimnames(arStan)[[3]]),
+                    function(i) {
+                       x <- arStan[, ,i]
+                       x <- cbind(1:nrow(x), x)
+                       colnames(x)[1] <- "run"
+                       x %>%
+                          as.data.frame() %>%
+                          tidyr::pivot_longer(names_to = "chain", values_to = "value", cols = -1)
+                    })
    names(lTheta) <- dimnames(arStan)[[3]]
 
    lTheta %>%
@@ -121,16 +154,23 @@ moc_create_beta_coef <- function(dfTheta, nGroupSize,
    vIndGroup <- c(0, cumsum(nGroupSize))
 
    ## Lag Matrix
+   bolMQ <- TRUE
    if (.sPolyMatrix == "almon") {
       mQ <- prep_model_lag_matrix(vP, vLag, .bEndpoint)
-   } else if(.sPolyMatrix == "legendre") {
+   } else if (.sPolyMatrix == "legendre") {
       mQ <- prep_model_lag_matrix_legendre(vP, 0, 1, vLag)
+   } else {
+      bolMQ <- FALSE
    }
 
    maTheta <- as.matrix(dfTheta[, -c(1, 2)])
    lBeta <- vector("list", length(nGroupSize))
    for (i in 1:(length(vIndGroup) - 1)) {
-      lBeta[[i]] <- rowSums(maTheta[, (vIndGroup[[i]] + 1):vIndGroup[[i + 1]]] %*% mQ)
+      if (bolMQ) {
+         lBeta[[i]] <- rowSums(maTheta[, (vIndGroup[[i]] + 1):vIndGroup[[i + 1]]] %*% mQ)
+      } else {
+         lBeta[[i]] <- rowSums(maTheta[, (vIndGroup[[i]] + 1):vIndGroup[[i + 1]]])
+      }
    }
 
    maBeta <- do.call("cbind", lBeta)
@@ -248,12 +288,12 @@ moc_data_prep_model <- function(lStanObj, lYTrue,
                                 nWarmUp = 2000,
                                 bolTrue) {
 
-   lTheta <- lBeta <- lConfusion <- vector("list", length(lStanObj))
+   lTheta <- lBeta <- lConfusionTheta <- lConfusionBeta <- vector("list", length(lStanObj))
    for (i in seq_along(lStanObj)) {
-      print(i)
       lTheta[[i]] <- moc_extract_theta_chains(lStanObj[[i]])
       lBeta[[i]] <- moc_create_beta_coef(lTheta[[i]], nGroupSize, vLag, vP = vP, .sPolyMatrix, .bEndpoint)
-      lConfusion[[i]] <- moc_create_confusion_matrix(lBeta[[i]][, -c(1, 2)], bolTrue)
+      lConfusionTheta[[i]] <- moc_create_confusion_matrix(lTheta[[i]][, -c(1, 2)], sort(rep(bolTrue, 6), decreasing = T))
+      lConfusionBeta[[i]] <- moc_create_confusion_matrix(lBeta[[i]][, -c(1, 2)], bolTrue)
    }
 
    foo_sim_bind <-
@@ -267,7 +307,8 @@ moc_data_prep_model <- function(lStanObj, lYTrue,
       tibble::as_tibble()
 
    ## prep output
-   tblConf <- lConfusion %>% foo_sim_bind()
+   tblConfBeta <- lConfusionBeta %>% foo_sim_bind()
+   tblConfTheta <- lConfusionTheta %>% foo_sim_bind()
 
    tblTheta <-
       lTheta %>%
@@ -302,7 +343,8 @@ moc_data_prep_model <- function(lStanObj, lYTrue,
    list(
       "theta" = tblTheta,
       "beta" =  tblBeta,
-      "confusion" = tblConf,
+      "confusion_beta" = tblConfBeta,
+      "confusion_theta" = tblConfTheta,
       "rhat" = tblRhat,
       "yrep" = lYrep,
       "ypred" = lYPred
