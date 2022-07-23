@@ -78,5 +78,4 @@ generated quantities {
   real y_pred[nY_test] = normal_rng(x_test * theta, sigma);
   real log_lik = normal_lpdf(y_test | x_test * theta, sigma);
 
-
 }
