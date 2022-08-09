@@ -133,6 +133,40 @@ moc_extract_chains <- function(stanObj, sPars = "theta") {
 }
 
 
+
+#' Title
+#'
+#' @param stanObj
+#' @param sPars
+#'
+#' @return
+#' @export
+#'
+#' @examples
+moc_prepare_raw_data <- function(stanObj, sPars = "theta") {
+
+   ## create
+   arStan <- as.array(stanObj, pars = sPars)
+   tblOut <- lapply(seq_along(dimnames(arStan)[[3]]),
+                    function(i) {
+                       x <- arStan[, ,i]
+                       x <- cbind(1:nrow(x), x)
+                       colnames(x)[1] <- "run"
+                       colnames(x)[-1] <- gsub("chain:", "", colnames(x)[-1])
+                       x %>%
+                          as.data.frame() %>%
+                          tidyr::pivot_longer(names_to = "chain", values_to = "value", cols = -1) %>%
+                          dplyr::mutate(parameter = sPars, key = i)
+                    }) %>%
+               dplyr::bind_rows(.) %>%
+               dplyr::select(run, chain, parameter, key, value)
+
+   ## return
+   tblOut
+
+}
+
+
 #' Title
 #'
 #' @param dfTheta
@@ -163,7 +197,8 @@ moc_create_beta_coef <- function(dfTheta, nGroupSize,
       bolMQ <- FALSE
    }
 
-   maTheta <- as.matrix(dfTheta[, -c(1, 2)])
+   # maTheta <- as.matrix(dfTheta[, -c(1, 2)])
+   maTheta <- dfTheta
    lBeta <- vector("list", length(nGroupSize))
    for (i in 1:(length(vIndGroup) - 1)) {
       if (bolMQ) {
@@ -179,6 +214,41 @@ moc_create_beta_coef <- function(dfTheta, nGroupSize,
    colnames(dfBeta)[-c(1, 2)] <- paste0("beta_", seq_along(nGroupSize))
    dfBeta
 }
+
+#' Title
+#'
+#' @param dfTheta
+#' @param nGroupSize
+#' @param vLag
+#' @param vP
+#' @param .sPolyMatrix
+#' @param .bEndpoint
+#'
+#' @return
+#' @export
+#'
+#' @examples
+moc_create_beta_per_chain <- function(tblTheta, nGroupSize) {
+
+   ## create mapping table
+   dfMapping <- data.frame(key = 1:sum(nGroupSize), group = rep(1:length(nGroupSize), nGroupSize))
+   tblPrep <- dplyr::left_join(tblTheta, dfMapping, by = "key")
+
+
+   tblPrep %>%
+      dplyr::group_by(run, chain, group) %>%
+      dplyr::mutate(value = sum(value)) %>%
+      dplyr::ungroup() %>%
+      dplyr::mutate(parameter = "beta") %>%
+      dplyr::select(run, chain, parameter, key = group, value) %>%
+      dplyr::distinct(., .keep_all = TRUE)
+
+
+}
+
+
+
+
 
 #' Title
 #'
@@ -218,7 +288,6 @@ moc_create_beta_coef_parquet <- function(dfTheta, nGroupSize,
    # colnames(dfBeta) <- seq_along(nGroupSize)
    maBeta
 }
-
 
 
 #' Title

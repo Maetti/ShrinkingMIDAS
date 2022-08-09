@@ -121,57 +121,80 @@ masterModelChecking <- function() {
 
 
       ## TODO: 02.08.2022
-      ## check distribution of y_rep
-      i <- 1
 
-      ## true y
-      tblYTrue <-
-         tblYTrueRaw %>%
+      ## overall statistic
+      # lOverallStat <- vector("list", length = nSimulation)
+      #
+      # lOverallStat[[i]] <- data.frame("simulation" = i,
+      #                               "mean" = mean(tblYRep$value),
+      #                               "median" = median(tblYRep$value),
+      #                               "sd" = sd(tblYRep$value),
+      #                               "min" = min(tblYRep$value),
+      #                               "max" = max(tblYRep$value))
+
+      ## TODO: 9.8.2022 plots
+      # tblMean <- tblYperSeries %>% dplyr::filter(stat == "mean")
+      # plot(density(tblMean$value))
+
+      ## 9.8.2022 create and plot for all simulation and models
+      ## - Boxplots and true value for mean, median, max, min, sd
+      lOverallStat <- vector("list", length = nSimulation)
+      for (i in 1:nSimulation) {
+
+         ## load data per simulation
+         ## true y
+         tblYTrue <-
+            tblYTrueRaw %>%
             dplyr::filter(simulation == i)
 
-      ## posterior y_rep
-      tblYRep <-
-         arrRawOut %>%
+         ## posterior y_rep
+         tblYRep <-
+            arrRawOut %>%
             dplyr::filter(model == "horseshoe_group_vector",
                           parameter == "y_rep",
                           simulation == i) %>%
             dplyr::collect()
 
-      ## overall statistic
-      lOverallStat <- vector("list", length = nSimulation)
-      lOverallStat[[i]] <- data.frame("simulation" = i,
-                                    "mean" = mean(tblYRep$value),
-                                    "median" = median(tblYRep$value),
-                                    "sd" = sd(tblYRep$value),
-                                    "min" = min(tblYRep$value),
-                                    "max" = max(tblYRep$value))
-
-       ## statistic per timeseries
-      tblTrueStat <-
-         tblYTrue %>%
+         ## Compute true statistics
+         tblTrueStat <-
+            tblYTrue %>%
             dplyr::summarise(mean = mean(value),
                              median = median(value),
                              sd = sd(value),
                              max = max(value),
                              min = min(value))
 
-      tblTrueStat <- dplyr::tibble("key" = colnames(tblTrueStat), "true" = as.matrix(tblTrueStat)[1, ])
+         tblTrueStat <- dplyr::tibble("key" = colnames(tblTrueStat), "true" = as.matrix(tblTrueStat)[1, ])
 
-      tblYperSeries <-
-         tblYRep %>%
-             dplyr::group_by(run) %>%
-                dplyr::summarise(mean = mean(value),
-                                 median = median(value),
-                                 sd = sd(value),
-                                 max = max(value),
-                                 min = min(value)) %>%
-             dplyr::ungroup() %>%
-             tidyr::pivot_longer(names_to = "stat", values_to = "value", -1) %>%
-             dplyr::left_join(., tblTrueStat, by = c("stat" = "key")) %>%
-             dplyr::group_by(key) %>%
-             dplyr::mutate(
-                p_value = sum(value <= true) / n()
-             )
+         ## Compute replicated statistics and combine with true model stat
+         lOverallStat[[i]] <-
+            tblYRep %>%
+            dplyr::group_by(run) %>%
+            dplyr::summarise(mean = mean(value),
+                             median = median(value),
+                             sd = sd(value),
+                             max = max(value),
+                             min = min(value)) %>%
+            dplyr::ungroup() %>%
+            tidyr::pivot_longer(names_to = "stat", values_to = "value", -1) %>%
+            dplyr::left_join(., tblTrueStat, by = c("stat" = "key")) %>%
+            dplyr::group_by(stat) %>%
+            dplyr::mutate(
+               p_value = sum(value <= true) / n()
+            ) %>%
+            dplyr::ungroup() %>%
+            dplyr::mutate(simulation = i) %>%
+            dplyr::select(simulation, dplyr::everything())
+
+      }
+
+      tblOverall <- dplyr::bind_rows(lOverallStat)
+
+      ## plotting
+
+
+
+
 
       tblYTrue <- tblYTrue %>% dplyr::rename(true = value)
 
