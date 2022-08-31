@@ -215,6 +215,107 @@ md_check_beta_distribution <- function(tblInput, tblBetaTrue,
 }
 
 
+
+#' Title
+#'
+#' @param tblInput
+#' @param tblBetaTrue
+#' @param bolTrueOnly
+#' @param sWrap
+#'
+#' @return
+#' @export
+#'
+#' @examples
+md_check_beta_distribution_per_coef <- function(tblInput, tblBetaTrue, bolTrueOnly = TRUE) {
+
+   # bolTrueOnly <- match.arg(bolTrueOnly, choices = c(TRUE, FALSE))
+   # sWrap <- match.arg(sWrap, choices = c("simulation", "model"))
+
+
+   if (bolTrueOnly) {
+      tblBTrue <-
+         tblBetaTrue %>%
+         dplyr::filter(bolTrue)
+
+      sSelectBeta <- tblBTrue$key
+      vTrueValue <- tblBTrue$beta_true
+
+   } else {
+      sSelectBeta <- tblBetaTrue$key
+      vTrueValue <- tblBetaTrue$beta_true
+   }
+
+
+   tbl1 <-
+      tblInput %>%
+         dplyr::filter(key %in% sSelectBeta) %>%
+         foo_simulation_as_factor()
+
+   sModel <- unique(tblInput$model)
+
+   lPlot <- vector("list", length(sModel))
+
+   dfTrueValue <- data.frame(key = 1:length(vTrueValue), "value" = vTrueValue)
+
+   for (i in seq_along(sModel)) {
+
+      sTitle <- gsub("_", " ", stringr::str_to_title(sModel[[i]]))
+
+      lPlot[[i]] <-
+         tbl1 %>%
+            dplyr::filter(model == sModel[[i]]) %>%
+            ggplot2::ggplot(mapping = ggplot2::aes(x = value, color = simulation)) +
+            ggplot2::geom_density() +
+            ggplot2::geom_vline(data = dfTrueValue, mapping = ggplot2::aes(xintercept = vTrueValue), color = "grey", size = 0.5) +
+            ggplot2::ggtitle(sTitle) +
+            ggplot2::facet_wrap(~key) +
+            ggplot2::theme_minimal()
+   }
+
+   lPlot
+
+}
+
+
+#' Title
+#'
+#' @param tblInput
+#' @param sStat
+#'
+#' @return
+#' @export
+#'
+#' @examples
+md_check_boxplot_tp_fp_mcc <- function(tblInput, sStat = "mcc") {
+
+   sStat <- checkmate::matchArg(sStat, choices = c("fn", "fp", "tn", "tp", "tpr", "tnr", "fnr", "fpr", "mcc"))
+
+   tblPlot <- tblInput[, c("model", sStat)]
+   colnames(tblPlot) <- c("model", "value")
+
+   tblPlot <-
+      tblPlot %>%
+         dplyr::mutate(model = stringr::str_to_title(gsub("_", " ", model)))
+
+   sTitle <- switch (sStat,
+      "fn" = "False Negative",
+      "fp" = "False Positive",
+      "tn" = "True Negative",
+      "tp" = "True Positive",
+      "fnr" = "False Negative Rate",
+      "fpr" = "False Positive Rate",
+      "tnr" = "True Negative Rate",
+      "tpr" = "True Positive Rate",
+      "mcc" = "Mathews Correlation Coefficient"
+   )
+
+   ggplot2::ggplot(data = tblPlot, ggplot2::aes(x = model, y = value)) +
+      ggplot2::geom_violin() +
+      ggplot2::ggtitle(sTitle) +
+      ggplot2::xlab("Models")
+
+}
 #' Title
 #'
 #' @param tblConf
