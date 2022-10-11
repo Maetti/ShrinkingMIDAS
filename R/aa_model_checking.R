@@ -311,18 +311,18 @@ theme_custom_thesis <- function(base_size = 11, base_family = "Lucida Grande") {
 
    ggplot2::theme_bw() +
    ggplot2::theme(
-      text = element_text(# family = base_family,
+      text = ggplot2::element_text(# family = base_family,
                           face = "plain",
                           size = base_size,
                           hjust = .5, vjust = .5, angle = 0, lineheight = 1.1,
-                          margin = margin(), debug = FALSE ),
-      plot.title = element_text(size = rel(1.5), hjust = 0,
+                          margin = ggplot2::margin(), debug = FALSE ),
+      plot.title = ggplot2::element_text(size = ggplot2::rel(1.5), hjust = 0,
                                 vjust = 0.5,
-                                margin = margin(b = half_line * 1.2),
+                                margin = ggplot2::margin(b = half_line * 1.2),
                                 # face = "bold"
                                 ),
-      axis.text = element_text(size = rel(1)),
-      axis.title = element_text(size = rel(1.2))
+      axis.text = ggplot2::element_text(size = ggplot2::rel(1)),
+      axis.title = ggplot2::element_text(size = ggplot2::rel(1.2))
    )
 
 }

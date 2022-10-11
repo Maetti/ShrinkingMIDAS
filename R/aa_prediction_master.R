@@ -90,4 +90,9 @@ masterPosteriorChecking <- function() {
                                                   "output", "02_raw_extracted"),
                                        partitioning = c("model", "simulation"))
 
+
+      arrRawOut %>%
+         dplyr::filter(model == "group_lasso_hierarchical", simulation == 1) %>%
+         dplyr::collect()
+
 }

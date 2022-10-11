@@ -102,35 +102,71 @@ masterPosteriorChecking <- function() {
       vMDcompare <- list.files(here::here("inst", "simulation", "output", "02_raw_extracted"))
       lSeriesModel <- vector("list", length = length(vMDcompare))
 
+      ## iterate over models in order to fit data into memory
 
-      tblBeta <-
-         arrRawOut %>%
-               dplyr::filter(parameter == "beta") %>%  #model == "horseshoe_group_vector") %>%
+      ## 11.10.2022
+      lMSE <- lConf <- vector("list", length = length(vMDcompare))
+      for (i in seq_along(vMDcompare)) {
+
+         tblBeta <-
+            arrRawOut %>%
+               dplyr::filter(parameter == "beta" & model == vMDcompare[[i]]) %>%
                dplyr::collect()
 
 
-      tblConf <-
-            tblBeta %>%
-                  dplyr::group_by(model, simulation) %>%
-                  tidyr::nest() %>%
-                  dplyr::mutate(data = purrr::map(data, function(x, bolTrue) {
-                        x %>%
-                              tidyr::pivot_wider(names_from = "key", values_from = "value") %>%
-                              dplyr::select(-run, -chain, -parameter) %>%
-                              as.matrix() %>%
-                              md_check_beta_create_confusion_matrix_foo(., bolTrue)
-                  }, bolTrue)) %>%
-                  tidyr::unnest(cols = c(data)) %>%
-                  dplyr::ungroup()
+         ## MSE
+         lMSE[[i]] <- md_check_beta_mse(tblBeta, tblBetaTrue)
 
-      tblConf %>%
-         tidyr::pivot_longer(names_to = "")
+         ## TP/FP/TN/FN/MCC
+         lConf[[i]] <-
+            tblBeta %>%
+               dplyr::group_by(model, simulation) %>%
+               tidyr::nest() %>%
+               dplyr::mutate(data = purrr::map(data, function(x, bolTrue) {
+                  x %>%
+                     tidyr::pivot_wider(names_from = "key", values_from = "value") %>%
+                     dplyr::select(-run, -chain, -parameter) %>%
+                     as.matrix() %>%
+                     md_check_beta_create_confusion_matrix_foo(., bolTrue)
+               }, bolTrue)) %>%
+               tidyr::unnest(cols = c(data)) %>%
+               dplyr::ungroup()
+
+         rm(tblBeta)
+      }
+
+      tblMSE <- dplyr::bind_rows(lMSE)
+      tblConf <- dplyr::bind_rows(lConf)
+
+      # tblBeta <-
+      #    arrRawOut %>%
+      #          dplyr::filter(parameter == "beta") %>%  #model == "horseshoe_group_vector") %>%
+      #          dplyr::collect()
+      #
+      #
+      # tblConf <-
+      #       tblBeta %>%
+      #             dplyr::group_by(model, simulation) %>%
+      #             tidyr::nest() %>%
+      #             dplyr::mutate(data = purrr::map(data, function(x, bolTrue) {
+      #                   x %>%
+      #                         tidyr::pivot_wider(names_from = "key", values_from = "value") %>%
+      #                         dplyr::select(-run, -chain, -parameter) %>%
+      #                         as.matrix() %>%
+      #                         md_check_beta_create_confusion_matrix_foo(., bolTrue)
+      #             }, bolTrue)) %>%
+      #             tidyr::unnest(cols = c(data)) %>%
+      #             dplyr::ungroup()
+      #
+      # tblConf %>%
+      #    tidyr::pivot_longer(names_to = "")
 
 
       ## old function test
       md_check_beta_mse(tblBeta, tblBetaTrue)
 
       md_check_beta_tpfp_table(tblBeta, tblBetaTrue)
+
       md_check_beta_true_false_mcc(tblConf)
 
 
@@ -150,15 +186,20 @@ masterPosteriorChecking <- function() {
    #   Plots                                                                   ####
 
       ## MSE
-      tblMSE <- md_check_beta_mse(tblBeta, tblBetaTrue)
+      # tblMSE <- md_check_beta_mse(tblBeta, tblBetaTrue)
 
-      tblMSE %>%
-         tidyr::pivot_longer(names_to = "key", values_to = "value", -c(1, 2)) %>%
-         foo_simulation_as_factor() %>%
-         dplyr::filter(key %in% c("mse_var", "mse_bias")) %>%
-            ggplot2::ggplot(., ggplot2::aes(x = simulation, y = value, fill = key)) +
-               ggplot2::geom_bar(position="stack", stat="identity") +
-               ggplot2::facet_wrap(~model, nrow = 3)
+      x <- tblMSE
+      for (i in 1:9) {
+         x <- rbind(x, tblMSE)
+      }
+
+      x <-
+      x %>%
+         dplyr::arrange(model)
+      x$simulation <- rep(1:100, 3)
+
+      # x %>%
+      gpMSE <- tblMSE %>% md_check_posterior_mse_beta_plot()
 
       ## MCC
       tblMCC <- md_check_beta_true_false_mcc(tblConf)
@@ -166,14 +207,16 @@ masterPosteriorChecking <- function() {
       tblMCC %>%
          foo_simulation_as_factor() %>%
             ggplot2::ggplot(., ggplot2::aes(x = simulation, y = mcc)) +
-               ggplot2::geom_bar(position="stack", stat="identity") +
+               ggplot2::geom_bar(position = "stack", stat = "identity") +
                ggplot2::facet_wrap(~model, nrow = 3)
 
+
+      md_check_posterior_mcc_plot(tblMCC, sStat = "tpr")
 
       ##
       md_check_boxplot_tp_fp_mcc(tblMCC, sStat = "mcc")
       md_check_boxplot_tp_fp_mcc(tblMCC, sStat = "tpr")
-      md_check_boxplot_tp_fp_mcc(tblMCC, sStat = "fnr")
+      md_check_boxplot_tp_fp_mcc(tblMCC, sStat = "fpr")
 
 
       ## TPR (sensitivity) and TNR (specificity)

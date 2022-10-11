@@ -316,6 +316,68 @@ md_check_boxplot_tp_fp_mcc <- function(tblInput, sStat = "mcc") {
       ggplot2::xlab("Models")
 
 }
+
+
+
+#' Title
+#'
+#' @param tblInput
+#'
+#' @return
+#' @export
+#'
+#' @examples
+md_check_posterior_mse_beta_plot <- function(tblInput) {
+
+   tblInput %>%
+      dplyr::mutate(model = stringr::str_to_title(gsub("_", " ", model))) %>%
+      tidyr::pivot_longer(names_to = "key", values_to = "value", -c(1, 2)) %>%
+      foo_simulation_as_factor() %>%
+      dplyr::filter(key %in% c("mse_var", "mse_bias")) %>%
+      dplyr::mutate(key = dplyr::case_when(
+         key == "mse_var" ~ "Variance",
+         key == "mse_bias" ~ "Bias"
+      )) %>%
+         ggplot2::ggplot(., ggplot2::aes(x = simulation, y = value, fill = key)) +
+         ggplot2::geom_bar(position = "stack", stat = "identity") +
+         ggplot2::scale_fill_manual(values = c("Variance" = "#67a9cf", "Bias" = "#ef8a62"),
+                                    name = "") +
+         ggplot2::ylab(label = "") +
+         ggplot2::xlab(label = "Simulation") +
+         ggplot2::facet_wrap(~model, nrow = 3) +
+         theme_custom_thesis(base_size = 12)
+
+
+}
+
+
+#' Title
+#'
+#' @param tblInput
+#'
+#' @return
+#' @export
+#'
+#' @examples
+md_check_posterior_mcc_plot <- function(tblInput, sStat = c("mcc")) {
+
+   sStat <- match.arg(sStat, choices = c("mcc", "tpr", "tnr", "fnr", "fpr",
+                                           "fn", "fp", "tn", "tp", "total_pos", "total_neg"))
+
+   tblPlot <- tblInput[, c("model", "simulation", sStat)]
+   colnames(tblPlot)[[3]] <- "key"
+
+   tblPlot %>%
+      dplyr::mutate(model = stringr::str_to_title(gsub("_", " ", model))) %>%
+      ggplot2::ggplot(., ggplot2::aes(x = simulation, y = key)) +
+         ggplot2::geom_bar(position = "stack", stat = "identity", fill = "#67a9cf") +
+         ggplot2::facet_wrap(~model, nrow = 3) +
+         ggplot2::ylab(label = "") +
+         theme_custom_thesis(base_size = 12)
+
+
+}
+
 #' Title
 #'
 #' @param tblConf
