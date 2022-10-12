@@ -350,6 +350,34 @@ md_check_posterior_mse_beta_plot <- function(tblInput) {
 
 }
 
+#' Title
+#'
+#' @param tblInput
+#'
+#' @return
+#' @export
+#'
+#' @examples
+md_check_posterior_heatmap_plot <- function(tblInput) {
+
+
+   tblInput %>%
+      dplyr::mutate(beta = factor(beta, levels = sort(unique(beta), decreasing = TRUE))) %>%
+      foo_simulation_as_factor() %>%
+         ggplot2::ggplot(ggplot2::aes(simulation, beta, fill = included)) +
+         ggplot2::geom_tile(color = "lightgrey",
+                            lwd = .5,
+                            linetype = 1) +
+         ggplot2::scale_fill_manual(values = c("TRUE" = "#67a9cf", "FALSE" = "white"),
+                                    name = "") +
+         ggplot2::coord_fixed() +
+         ggplot2::scale_x_discrete(breaks = c(1, seq(0, max(tblInput$simulation), by = 5))[-2]) +
+         # ggplot2::facet_wrap(~model, nrow = 3) +
+         theme_custom_thesis() +
+         ggplot2::theme(legend.position = "none")
+
+
+}
 
 #' Title
 #'
