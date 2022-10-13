@@ -313,11 +313,37 @@ md_check_boxplot_tp_fp_mcc <- function(tblInput, sStat = "mcc") {
    ggplot2::ggplot(data = tblPlot, ggplot2::aes(x = model, y = value)) +
       ggplot2::geom_violin() +
       ggplot2::ggtitle(sTitle) +
-      ggplot2::xlab("Models")
+      ggplot2::ylab(label = "") +
+      ggplot2::xlab(label = "") +
+      theme_custom_thesis()
 
 }
 
+#' Title
+#'
+#' @param tblInput
+#'
+#' @return
+#' @export
+#'
+#' @examples
+md_check_posterior_mse_boxplot <- function(tblInput) {
 
+   colnames(tblInput)[3:5] <- c("MSE", "Variance", "Bias")
+
+   tblInput %>%
+      dplyr::mutate(model = stringr::str_to_title(gsub("_", " ", model))) %>%
+      tidyr::pivot_longer(names_to = "key", values_to = "value", -c(1, 2)) %>%
+      dplyr::mutate(key = factor(key, levels = c("MSE", "Variance", "Bias"))) %>%
+         ggplot2::ggplot(ggplot2::aes(x = model, y = value, fill = key)) +
+         ggplot2::geom_boxplot() +
+         ggplot2::scale_fill_manual(values = c("MSE" = "#88cf67", "Variance" = "#67a9cf", "Bias" = "#ef8a62"),
+                                    name = "") +
+         ggplot2::xlab(label = "") +
+         ggplot2::ylab(label = "") +
+         theme_custom_thesis()
+
+}
 
 #' Title
 #'

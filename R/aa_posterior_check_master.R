@@ -159,6 +159,8 @@ masterPosteriorChecking <- function() {
       tblConf <- dplyr::bind_rows(lConf)
       tblInclu <- dplyr::bind_rows(lInclu)
 
+      tblMCC <- md_check_beta_true_false_mcc(tblConf)
+
 
       # tblBeta <-
       #    arrRawOut %>%
@@ -232,6 +234,14 @@ masterPosteriorChecking <- function() {
                 to = "/home/matthias/Schreibtisch/SoSe 21/magister arbeit/paper/plot/04_mse", overwrite = TRUE)
 
 
+      gpMSEBoxplot <- tblMSE %>% md_check_posterior_mse_boxplot()
+
+      sMSEBoxPath <- here::here("inst/simulation/output/04_plots/02_posterior_beta/01_mse/beta_mse_boxplot.pdf")
+      ggplot2::ggsave(sMSEBoxPath, plot = gpMSEBoxplot, width = 9, height = 6)
+      file.copy(from = sMSEBoxPath,
+                to = "/home/matthias/Schreibtisch/SoSe 21/magister arbeit/paper/plot/04_mse", overwrite = TRUE)
+
+
       ## MCC
       tblMCC <- md_check_beta_true_false_mcc(tblConf)
 
@@ -256,7 +266,7 @@ masterPosteriorChecking <- function() {
          sViolinePath <- here::here("inst/simulation/output/04_plots/02_posterior_beta/02_confusion_violine",
                                     paste0(vVioline[[i]], "_violine.pdf"))
 
-         gpVioline <- md_check_boxplot_tp_fp_mcc(tblMCC, sStat = "mcc")
+         gpVioline <- md_check_boxplot_tp_fp_mcc(tblMCC, sStat = vVioline[[i]])
 
          ggplot2::ggsave(sViolinePath, plot = gpVioline, width = 9, height = 6)
          file.copy(from = sViolinePath,
