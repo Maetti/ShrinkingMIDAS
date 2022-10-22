@@ -15,7 +15,7 @@ data {
   matrix[nY_train, nZ] x_train;
   matrix[nY_test, nZ] x_test;
   vector[nG] gSize;
-  int gInd[nZ]; // need to have it as int because of indexing in for loop
+  int gInd[nZ];
   vector[2] pr_sigma;
 }
 
@@ -26,22 +26,14 @@ parameters {
 
   // shrinkage parameters
   real<lower=0> tau; // global
-  vector[nG] delta; // group
-  vector[nZ] lambda; // local
-  
-  // real<lower=0> delta[nG]; // group
-  // real<lower=0> lambda[nZ]; // local
+  real<lower=0> lambda; // global
+
 }
 
 transformed parameters {
   real<lower=0> sigma;
-  vector[nZ] tr_Sigma;
 
   sigma = sqrt(sigma2);
-
-  for (i in 1:nZ) {
-    tr_Sigma[i] = sigma2 * lambda[i] * delta[gInd[i]];
-  };
 
 }
 
@@ -53,15 +45,10 @@ model {
 
   // global
   tau ~ cauchy(0, 1);
-
-  // group
-  delta ~ cauchy(0, 1);
-
-  // local
-  lambda ~ cauchy(0, 1);
+  lambda ~ cauchy(0, tau);
 
   // coefficient
-  theta ~ normal(0, tr_Sigma);
+  theta ~ normal(0, sigma * lambda);
 
   // model 
   y_train ~ normal(x_train * theta, sigma);
@@ -78,5 +65,5 @@ generated quantities {
   real y_pred[nY_test] = normal_rng(x_test * theta, sigma);
   real log_lik = normal_lpdf(y_test | x_test * theta, sigma);
 
-
 }
+
