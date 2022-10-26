@@ -4,6 +4,7 @@ masterModelChecking <- function() {
       #   Set Inputs                                                              ####
 
       library(dplyr)
+      library(ggplot2)
 
       ## set logging file
       logger::log_appender(logger::appender_tee(here::here("inst", "simulation", "logging", "model_check",
@@ -11,7 +12,7 @@ masterModelChecking <- function() {
       logger::log_info("Setting input variables")
 
       ## simulations
-      nSimulation <- 10
+      nSimulation <- 15
       vSeed <- 1001:(1001 + nSimulation)
 
       bForceNewData <- FALSE
@@ -81,7 +82,8 @@ masterModelChecking <- function() {
 
       logger::log_info("Stan models creation done: {length(sModelName)} models")
 
-
+      lCMDmodels <- lCMDmodels[-which(names(lCMDmodels) == "Horseshoe Plus Wo Group")]
+      sModelName <- sModelName[!(sModelName == "Horseshoe Plus Wo Group")]
 
       #   ____________________________________________________________________________
       #   Diagnostic Preparation                                                  ####
@@ -344,7 +346,7 @@ masterModelChecking <- function() {
          dplyr::mutate(model = dplyr::case_when(
             model == "group_lasso_hierarchical" ~ "Group Lasso",
             model == "horseshoe_group_plus" ~ "Horseshoe Plus",
-            model == "horseshoe_group_vector" ~ "Horseshoe"
+            model == "horseshoe_group" ~ "Horseshoe"
          )) %>%
          dplyr::mutate(simulation = as.factor(simulation))
 
@@ -365,6 +367,9 @@ masterModelChecking <- function() {
          moc_yrep_intervall_cover(., nIntervall = 0.90,
                                   sTitle = "Intervall check for 90% intervall", sYlab = "Percentage") +
          theme_custom_thesis()
+
+
+      tblECDF %>% moc_yrep_ecdf_per_y()
 
 
       dfIntervalSave <-
@@ -392,6 +397,16 @@ masterModelChecking <- function() {
                 "/home/matthias/Schreibtisch/SoSe 21/magister arbeit/paper/plot/", recursive=TRUE)
 
 
+
+      ##  ............................................................................
+      ##  Boxplot of empirical CDF                                                ####
+
+      gpBoxCDF <- moc_yrep_ecdf_per_y(tblStat = tblECDF, sTitle = "", sYlab = "", sXlab = "Simulation")
+      ggsave("/home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/04_plots/01_yrep_check/04_cdf_boxplot/cdf_boxplot.pdf",
+             plot = gpBoxCDF, width = 9, height = 6)
+
+      file.copy("/home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/04_plots/01_yrep_check/04_cdf_boxplot/cdf_boxplot.pdf",
+                "/home/matthias/Schreibtisch/SoSe 21/magister arbeit/paper/plot/02_interval", recursive=TRUE)
 
       ##  ............................................................................
       ##  Best/Worst Simulations per Model                                        ####

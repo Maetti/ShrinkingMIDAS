@@ -128,7 +128,7 @@ moc_yrep_stat_violin_facet <- function(tblStat, sStat, sTitle = "Mean",
 #' @export
 #'
 #' @examples
-moc_yrep_ecdf_per_y <- function(tblStat, sStat, sTitle = "F(X)",
+moc_yrep_ecdf_per_y <- function(tblStat, sTitle = "F(X)",
                                 sXlab = "Simulation", sYlab = "F(x)") {
 
    ggplot2::ggplot(data = tblStat, ggplot2::aes(x = factor(simulation), y = ecdf)) +
@@ -136,9 +136,9 @@ moc_yrep_ecdf_per_y <- function(tblStat, sStat, sTitle = "F(X)",
       # ggplot2::geom_jitter(position = position_jitter(seed = 1, width = 0.2)) +
       ggplot2::ggtitle(sTitle) +
       ggplot2::xlab(sXlab) + ggplot2::ylab(sYlab) +
-      ggplot2::labs(color = sLegend) +
+      # ggplot2::labs(color = sLegend) +
+      theme_custom_thesis() +
       ggplot2::facet_wrap(~model, nrow = 3)
-
 }
 
 
@@ -164,7 +164,8 @@ moc_yrep_intervall_cover <- function(tblInput, nIntervall = 0.9,
       dplyr::group_by(model, simulation) %>%
       dplyr::summarise("outOfIntervall" = 1 - sum(intervall) / n()) %>%
       dplyr::mutate(withinRange = dplyr::case_when(
-         outOfIntervall <= (1 - nIntervall) ~ TRUE,
+         # outOfIntervall <= (1 - nIntervall) ~ TRUE,
+         outOfIntervall <= nIntervall ~ TRUE,
          TRUE ~ FALSE
       )) %>%
       dplyr::mutate(withinRange = factor(withinRange, levels = c("TRUE", "FALSE")))
@@ -305,6 +306,15 @@ my_thesis_scale_colour <- function (...) {
 # }
 
 
+#' Title
+#'
+#' @param base_size
+#' @param base_family
+#'
+#' @return
+#' @export
+#'
+#' @examples
 theme_custom_thesis <- function(base_size = 11, base_family = "Lucida Grande") {
 
    half_line <- base_size / 2

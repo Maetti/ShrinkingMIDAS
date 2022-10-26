@@ -19,7 +19,7 @@ masterSimulation <- function() {
       logger::log_info("Setting input variables")
 
       ## simulations
-      nSimulation <- 10
+      nSimulation <- 15
       vSeed <- 1001:(1001 + nSimulation)
 
       bForceNewData <- FALSE
@@ -87,6 +87,8 @@ masterSimulation <- function() {
 
             if (!file.exists(sDirSave) || bForceNewData) {
 
+               logger::log_info("Create data for simulation: {nSimRunSave}")
+
                lRawData <- dgp_create_full(nY = nY, vBeta = vBeta,
                                      nK = nK, nFreq = nFreq, nLag = nLag,
                                      nMu = nMu, nRho = nRho,
@@ -117,7 +119,7 @@ masterSimulation <- function() {
                # helper_createFolder(sDirInput)
 
                ## !!OUTCOMMENT!!
-               ## saveRDS(lDataSave, file = sDirSave)
+               saveRDS(lDataSave, file = sDirSave)
             }
 
             # saveRDS(sDataSave,
@@ -148,6 +150,8 @@ masterSimulation <- function() {
 
       logger::log_info("Stan models creation done: {length(sModelName)} models")
 
+      lCMDmodels <- lCMDmodels[-which(names(lCMDmodels) == "Horseshoe Plus Wo Group")]
+      sModelName <- sModelName[!(sModelName == "Horseshoe Plus Wo Group")]
       #   ____________________________________________________________________________
       #   Fit Models                                                              ####
 
@@ -201,7 +205,7 @@ masterSimulation <- function() {
 
                   } else {
 
-                     logger::log_info("Estimate model...")
+                     logger::log_info("Estimte Model...")
                      ## estimate and time model
                      start_time_sampling <- Sys.time()
 

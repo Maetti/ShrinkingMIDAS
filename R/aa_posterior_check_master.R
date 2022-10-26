@@ -4,6 +4,7 @@ masterPosteriorChecking <- function() {
       #   Set Inputs                                                              ####
 
       library(dplyr)
+      library(ggplot2)
 
       ## set logging file
       logger::log_appender(logger::appender_tee(here::here("inst", "simulation", "logging", "model_check",
@@ -11,7 +12,7 @@ masterPosteriorChecking <- function() {
       logger::log_info("Setting input variables")
 
       ## simulations
-      nSimulation <- 10
+      nSimulation <- 15
       vSeed <- 1001:(1001 + nSimulation)
 
       bForceNewData <- FALSE
@@ -81,7 +82,8 @@ masterPosteriorChecking <- function() {
 
       logger::log_info("Stan models creation done: {length(sModelName)} models")
 
-
+      lCMDmodels <- lCMDmodels[-which(names(lCMDmodels) == "Horseshoe Plus Wo Group")]
+      sModelName <- sModelName[!(sModelName == "Horseshoe Plus Wo Group")]
 
       #   ____________________________________________________________________________
       #   Prepare Posterior Beta                                                  ####
