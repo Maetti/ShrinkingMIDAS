@@ -19,7 +19,7 @@ masterSimulation <- function() {
       logger::log_info("Setting input variables")
 
       ## simulations
-      nSimulation <- 15
+      nSimulation <- 25
       vSeed <- 1001:(1001 + nSimulation)
 
       bForceNewData <- FALSE
@@ -65,7 +65,7 @@ masterSimulation <- function() {
       # sDir <- here::here("inst/data/simulation")
 
       nSim <- here::here(sDir, "input")
-      nSim <- nSim[1:10]
+      # nSim <- nSim[1:10]
 
       #   ____________________________________________________________________________
       #   Creating Data                                                           ####
