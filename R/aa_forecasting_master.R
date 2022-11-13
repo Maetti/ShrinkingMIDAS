@@ -194,7 +194,7 @@ masterPosteriorChecking <- function() {
                   dplyr::ungroup()
 
 
-
+      } ## end of for loop
 
 
 }
