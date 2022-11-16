@@ -5,6 +5,7 @@ masterPosteriorChecking <- function() {
 
       library(dplyr)
       library(ggplot2)
+      library(midasr)
 
       ## set logging file
       logger::log_appender(logger::appender_tee(here::here("inst", "simulation", "logging", "model_check",
@@ -129,10 +130,15 @@ masterPosteriorChecking <- function() {
       #   ____________________________________________________________________________
       #   Prediction                                                              ####
 
+      lResults <- vector("list", length = nSimulation)
+
       for (i in 1:nSimulation) {
 
+         logger::log_info("Simulation: {i}")
 
             ## get simulated data
+            logger::log_info("Loading simulation data...")
+
             nSimRunSave <- helper_create_number_name(i)
 
             sDirInputLoad <- here::here(sDir, "input", glue::glue("{nSimRunSave}_rawdata.rds"))
@@ -140,12 +146,19 @@ masterPosteriorChecking <- function() {
             lData <- readRDS(sDirInputLoad)
 
             y_train <- lData$model_data$y_train
+            x_train <- lData$x_raw[1:(6 + 3*nTrain), ]
+
+            x_test <- lData$x_raw[(nTrain + 1):nY, ]
             y_test <- lData$model_data$y_test
 
-            x_train <- lData$x_raw[1:(6 + 3*nTrain), ]
-            x_test <- lData$x_raw[(nTrain + 1):nY, ]
 
-            ## MIDAS WITH ALMON LAG
+
+
+            ### . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ..
+            ### MIDAS WITH ALMON POLYNOMIAL                                             ####
+
+
+            logger::log_info("MIDAS with Almon Polynomial")
 
             # It is possible to re-estimate the NLS problem with the different algorithm using as starting
             # values the final solution of the previous algorithm. For example it is known, that the default
@@ -156,31 +169,100 @@ masterPosteriorChecking <- function() {
             # use them it is necessary to define the gradient function of the restriction. For example for the
             # nealmon restriction the gradient function is defined in the following way:
 
-            midasr::mls(x_train[, 1], 0:5, 3, midasr::nealmon)
+            ## prepare data
+            y_train2 <- as.matrix(c(NA, y_train, NA))
+            sFormula <- as.formula(paste0("y_train2 ~ ",
+                                          paste0("mls(x_", 1:50, ", 0:5, 3, nealmon)", collapse = " + "), " - 1"))
+            lStart <- lapply(1:50, function(x) {c(1, -0.5)})
+            names(lStart) <- paste0("x_", 1:50)
 
-            midasr::fmls(x_train[, 1], k = 5, m = 3, midasr::nealmon)
+            for (j in 1:50) {
+               assign(x = paste0("x_", j), x_train[, j])
+               assign(x = paste0("x_test_", j), x_test[, j])
+            }
 
-            head(midasr::mls(x_train[, 1], 0:5, 3, midasr::nealmon), n = 10)
+            ## estimate model
+            md_midas <- midasr::midas_r(formula = sFormula, start = lStart)
 
-            mX1 <- midasr::mls(x_train[, 1], 0:5, 3, midasr::nealmon)[2:201, ]
-            mX2 <- lData$x_align[[1]][1:200, ]
+            ## check design matrix
+            checkY <- md_midas$model[, 1]
+            checkYTrue <- lData$model_data$y_train
 
-            all(mX1 == mX2)
+            if (all(checkY == checkYTrue)) {
+               logger::log_success("y predict as expected")
+            } else {
+               logger::log_error("y predict not as expected")
+            }
 
-            eq_r <- midasr::midas_r(y_train ~ midasr::mls(x_train, 0:5, 3, midasr::nealmon), start = list(x_train = c(1, -0.5)))
+            ## check design matrix
+            checkDesign <- unname(md_midas$model[, -1])
+            checkXTrue <- lData$model_data$x_train
 
-            ## U-MIDAS
+            if (all(checkDesign == checkXTrue, na.rm = TRUE)) {
+               logger::log_success("design matrix as expected")
+            } else {
+               logger::log_error("design matrix not as expected")
+            }
+
+            ## prediction
+            pred_midas <- lData$model_data$x_test %*% md_midas$midas_coefficients
+            colnames(pred_midas) <- "midas"
 
 
+            ### . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ..
+            ### UMIDAS                                                                  ####
 
-            ## FACTOR MIDAS
+            logger::log_info("U-MIDAS")
+
+            dfTrainUmidas <- as.data.frame(cbind(lData$model_data$y_train, lData$model_data$x_train))
+            colnames(dfTrainUmidas) <- c("y", paste0("x", 1:300))
+
+            md_umidas <- lm(y ~ . - 1, data = dfTrainUmidas)
+            md_umidas$coefficients[is.na(md_umidas$coefficients)] <- 0
+
+            pred_umidas <- lData$model_data$x_test %*% md_umidas$coefficients
+
+            dfTestUmidas <- as.data.frame(lData$model_data$x_test)
+            colnames(dfTestUmidas) <- paste0("x", 1:300)
+            pred_umidas2 <- predict(md_umidas, dfTestUmidas)
+
+            if (all(pred_umidas2 == pred_umidas)) {
+               logger::log_success("predicting u-midas")
+            } else {
+               logger::log_error("predicting u-midas strange")
+            }
+
+            colnames(pred_umidas) <- "u_midas"
 
 
+            ### . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ..
+            ### FACTOR MIDAS                                                            ####
 
-            ## SPARSE GROUP LASSO WITH U-MIDAS
+            logger::log_info("Factor MIDAS")
+
+            pred_factor_midas <- factor_midas(lData)
+            pred_factor_midas <- as.matrix(pred_factor_midas)
+            colnames(pred_factor_midas) <- "factor_midas"
 
 
-            ## BAYESIAN SHRINKAGE MODELS
+            ### . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ..
+            ### SPARSE GROUP LASSO WITH U-MIDAS                                         ####
+
+            logger::log_info("Sparse Group Lasso with U-MIDAS")
+
+            nGroup <- sort(rep(1:50, 6))
+            md_sgl = SGL::SGL(data = list(y = lData$model_data$y_train, x = lData$model_data$x_train),
+                           index = nGroup, standardize = TRUE,
+                           type = "linear")
+
+            pred_sgl <- SGL::predictSGL(x = md_sgl, newX = lData$model_data$x_test, lam = 8)
+
+            colnames(pred_sgl) <- "sgl"
+
+            ### . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ..
+            ### BAYESIAN SHRINKAGE MODELS                                               ####
+
+            logger::log_info("Bayesian Models")
 
             tblBayesPred <-
                   arrRawOut %>%
@@ -188,10 +270,58 @@ masterPosteriorChecking <- function() {
                   dplyr::select(simulation, model, key, value) %>%
                   dplyr::collect()
 
-            tblBayesPred %>%
+            tblBayesRes <-
+               tblBayesPred %>%
                   dplyr::group_by(simulation, model, key) %>%
-                  dplyr::summarise(median = median(value, na.rm = TRUE)) %>%
+                  dplyr::summarise(value = median(value, na.rm = TRUE)) %>%
                   dplyr::ungroup()
+
+
+         #   ____________________________________________________________________________
+         #   Combining Results                                                       ####
+
+            logger::log_info("Combining Results")
+
+            dfResults <- as.data.frame(cbind(pred_midas, pred_umidas, pred_factor_midas, pred_sgl))
+            dfResults$key <- 1:nrow(dfResults)
+            dfResults$simulation <- i
+
+            dfResults <-
+               dfResults %>%
+               dplyr::select(simulation, key, dplyr::everything()) %>%
+               tidyr::pivot_longer(names_to = "model", values_to = "value", -c(1, 2))
+
+
+            tblResOut <-
+               dplyr::bind_rows(tblBayesRes, dfResults) %>%
+               dplyr::arrange(model, key)
+
+            lResults[[i]] <- tblResOut
+
+
+
+            # ## PLOT TESTING
+            # dfTrue <- as.data.frame(y_test)
+            # colnames(dfTrue) <- "value"
+            # dfTrue$simulation <- i
+            # dfTrue$key <- 1:nrow(dfTrue)
+            # dfTrue$model <- "y_test"
+            #
+            # tblPlot <- dplyr::bind_rows(tblResOut, dfTrue) %>% dplyr::arrange(model, key)
+            #
+            # tblPlot %>%
+            #    ggplot2::ggplot(aes(x = key, y = value, color = model)) +
+            #    ggplot2::geom_line() +
+            #    ggplot2::geom_point(data = dfTrue, aes(x = key, y = value))
+            #
+            #
+            # tblPlot %>%
+            #    ggplot2::ggplot(aes(x = key, y = value, color = model)) +
+            #    ggplot2::geom_line() +
+            #    ggplot2::facet_wrap(~model) +
+            #    ggplot2::annotate(geom = 'point', x = dfTrue$key, y = dfTrue$value) +
+            #    ggplot2::annotate(geom = 'line', x = dfTrue$key, y = dfTrue$value)
+
 
 
       } ## end of for loop
