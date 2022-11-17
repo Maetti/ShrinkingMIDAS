@@ -299,32 +299,135 @@ masterPosteriorChecking <- function() {
             lResults[[i]] <- tblResOut
 
 
+      } ## end of for loop
 
-            # ## PLOT TESTING
-            # dfTrue <- as.data.frame(y_test)
-            # colnames(dfTrue) <- "value"
-            # dfTrue$simulation <- i
-            # dfTrue$key <- 1:nrow(dfTrue)
-            # dfTrue$model <- "y_test"
-            #
-            # tblPlot <- dplyr::bind_rows(tblResOut, dfTrue) %>% dplyr::arrange(model, key)
-            #
+
+      tblResults <- dplyr::bind_rows(lResults)
+
+
+      ## true y
+      lTrueY <- vector("list", length = nSimulation)
+      for (i in 1:nSimulation) {
+
+         logger::log_info("Simulation: {i}")
+
+         ## get simulated data
+         logger::log_info("Loading simulation data...")
+
+         nSimRunSave <- helper_create_number_name(i)
+
+         sDirInputLoad <- here::here(sDir, "input", glue::glue("{nSimRunSave}_rawdata.rds"))
+
+         lData <- readRDS(sDirInputLoad)
+
+         y_test <- lData$model_data$y_test
+         dfTrue <- as.data.frame(y_test)
+         colnames(dfTrue) <- "value"
+         dfTrue$simulation <- i
+         dfTrue$key <- 1:nrow(dfTrue)
+         dfTrue$model <- "y_test"
+         lTrueY[[i]] <- dfTrue
+      }
+
+      tblTrueY <- dplyr::bind_rows(lTrueY)
+
+
+      tblResults <- dplyr::bind_rows(tblResults, tblTrueY) %>% dplyr::arrange(simulation, model, key)
+      # ## PLOT TESTING
+
+      lPlot <- vector("list", length = nSimulation)
+      for (i in seq_along(lPlot)) {
+            nSimPlot <- i
+            tblPlot <- tblResults %>% dplyr::filter(simulation == nSimPlot, model != "u_midas")
+            dfTrue <- tblTrueY %>% dplyr::filter(simulation == nSimPlot)
+
             # tblPlot %>%
             #    ggplot2::ggplot(aes(x = key, y = value, color = model)) +
             #    ggplot2::geom_line() +
             #    ggplot2::geom_point(data = dfTrue, aes(x = key, y = value))
-            #
-            #
-            # tblPlot %>%
-            #    ggplot2::ggplot(aes(x = key, y = value, color = model)) +
-            #    ggplot2::geom_line() +
-            #    ggplot2::facet_wrap(~model) +
-            #    ggplot2::annotate(geom = 'point', x = dfTrue$key, y = dfTrue$value) +
-            #    ggplot2::annotate(geom = 'line', x = dfTrue$key, y = dfTrue$value)
+
+            lPlot[[i]] <-
+            tblPlot %>%
+               ggplot2::ggplot(aes(x = key, y = value, color = model)) +
+               ggplot2::geom_line() +
+               ggplot2::facet_wrap(~model) +
+               ggplot2::annotate(geom = 'point', x = dfTrue$key, y = dfTrue$value) +
+               ggplot2::annotate(geom = 'line', x = dfTrue$key, y = dfTrue$value) +
+               ggplot2::ggtitle(label = paste0("Simulation: ", i))
+      }
 
 
 
-      } ## end of for loop
+   #   ____________________________________________________________________________
+   #   Calculate RMSE                                                          ####
+
+      tblTrueY <- tblTrueY %>% dplyr::rename(y_true = value)
+      tblRMSEPrep <- dplyr::left_join(tblResults, tblTrueY[, c("y_true", "simulation", "key")], by = c("simulation", "key"))
+      nTest <- lData$model_data$nY_test
+
+      tblRMSE <-
+         tblRMSEPrep %>%
+            dplyr::group_by(simulation, model) %>%
+            dplyr::summarise(
+               mspe = sqrt(sum((value - y_true)^2) / nTest)
+            )
+
+
+      tblRMSE %>%
+         dplyr::filter(model != "u_midas") %>%
+         ggplot2::ggplot(aes(x = simulation, y = mspe, color = model)) +
+         ggplot2::geom_line()
+
+      tblRMSE %>%
+         dplyr::filter(model != "u_midas") %>%
+         ggplot2::ggplot(aes(x = model, y = mspe)) +
+         ggplot2::geom_boxplot()
+
+
+   #   ____________________________________________________________________________
+   #   Calculate RMSFE                                                         ####
+
+      tblMidas <-
+         tblResults %>%
+         dplyr::filter(model == "midas") %>%
+         dplyr::rename(midas = value) %>%
+         dplyr::select(-model)
+
+      tblRMSFEPrep <-
+         dplyr::left_join(tblResults, tblTrueY[, c("y_true", "simulation", "key")], by = c("simulation", "key")) %>%
+         dplyr::left_join(., tblMidas, by = c("simulation", "key"))
+
+
+      tblRMSFE <-
+         tblRMSFEPrep %>%s
+            dplyr::group_by(simulation, model) %>%
+            dplyr::summarise(
+               sum_model = sum((value - y_true)^2),
+               sum_midas = sum((midas - y_true)^2),
+               rmsfe = sqrt(sum_model / sum_midas)
+            ) %>%
+         dplyr::ungroup()
+
+      tblRMSFE %>%
+         dplyr::filter(model != "u_midas") %>%
+         ggplot2::ggplot(aes(x = simulation, y = rmsfe, color = model)) +
+         ggplot2::geom_line()
+
+      tblRMSFE %>%
+         dplyr::filter(model != "u_midas") %>%
+         ggplot2::ggplot(aes(x = model, y = rmsfe)) +
+         ggplot2::geom_boxplot()
+
+
+      tblRMSFE %>%
+         dplyr::group_by(model) %>%
+         dplyr::summarise(
+            min_rmsfe = min(rmsfe),
+            max_rmsfe = max(rmsfe),
+            mean_rmsfe = mean(rmsfe),
+            median = median(rmsfe)
+         )
+
 
 
 }

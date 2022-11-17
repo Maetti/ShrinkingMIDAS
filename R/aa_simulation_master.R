@@ -19,7 +19,7 @@ masterSimulation <- function() {
       logger::log_info("Setting input variables")
 
       ## simulations
-      nSimulation <- 25
+      nSimulation <- 32
       vSeed <- 1001:(1001 + nSimulation)
 
       bForceNewData <- FALSE
