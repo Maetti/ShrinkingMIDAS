@@ -1,0 +1,263 @@
+INFO [2022-10-26 14:52:31] Setting input variables
+INFO [2022-10-26 14:52:31] Creating Stan models
+INFO [2022-10-26 14:52:31] Stan models creation done: 4 models
+INFO [2022-10-26 14:52:46] ----- group_lasso_hierarchical ------
+INFO [2022-10-26 14:52:46] Simulation: 1/10
+INFO [2022-10-26 14:52:53] Simulation: 2/10
+INFO [2022-10-26 14:53:00] Simulation: 3/10
+INFO [2022-10-26 14:53:07] Simulation: 4/10
+INFO [2022-10-26 14:53:13] Simulation: 5/10
+INFO [2022-10-26 14:53:19] Simulation: 6/10
+INFO [2022-10-26 14:53:25] Simulation: 7/10
+INFO [2022-10-26 14:53:32] Simulation: 8/10
+INFO [2022-10-26 14:53:39] Simulation: 9/10
+INFO [2022-10-26 14:53:45] Simulation: 10/10
+INFO [2022-10-26 14:53:51] ----- horseshoe_group ------
+INFO [2022-10-26 14:53:51] Simulation: 1/10
+INFO [2022-10-26 14:53:57] Simulation: 2/10
+INFO [2022-10-26 14:54:01] Simulation: 3/10
+INFO [2022-10-26 14:54:06] Simulation: 4/10
+INFO [2022-10-26 14:54:12] Simulation: 5/10
+INFO [2022-10-26 14:54:19] Simulation: 6/10
+INFO [2022-10-26 14:54:25] Simulation: 7/10
+INFO [2022-10-26 14:54:31] Simulation: 8/10
+INFO [2022-10-26 14:54:37] Simulation: 9/10
+INFO [2022-10-26 14:54:43] Simulation: 10/10
+INFO [2022-10-26 14:54:49] ----- horseshoe_group_plus ------
+INFO [2022-10-26 14:54:49] Simulation: 1/10
+INFO [2022-10-26 14:54:56] Simulation: 2/10
+INFO [2022-10-26 14:55:04] Simulation: 3/10
+INFO [2022-10-26 14:55:11] Simulation: 4/10
+INFO [2022-10-26 14:55:18] Simulation: 5/10
+INFO [2022-10-26 14:55:25] Simulation: 6/10
+INFO [2022-10-26 14:55:32] Simulation: 7/10
+INFO [2022-10-26 14:55:39] Simulation: 8/10
+INFO [2022-10-26 14:55:47] Simulation: 9/10
+INFO [2022-10-26 14:55:53] Simulation: 10/10
+INFO [2022-10-26 14:57:05] ----- group_lasso_hierarchical ------
+INFO [2022-10-26 14:57:11] Simulation: 1/10
+INFO [2022-10-26 14:57:18] Simulation: 2/10
+INFO [2022-10-26 14:57:25] Simulation: 3/10
+INFO [2022-10-26 14:57:32] Simulation: 4/10
+INFO [2022-10-26 14:57:38] ----- group_lasso_hierarchical ------
+INFO [2022-10-26 14:57:38] Simulation: 1/10
+INFO [2022-10-26 14:57:44] Simulation: 2/10
+INFO [2022-10-26 14:57:51] Simulation: 3/10
+INFO [2022-10-26 14:57:57] Simulation: 4/10
+INFO [2022-10-26 14:58:03] Simulation: 5/10
+INFO [2022-10-26 14:58:08] Simulation: 6/10
+INFO [2022-10-26 14:58:13] Simulation: 7/10
+INFO [2022-10-26 14:58:18] Simulation: 8/10
+INFO [2022-10-26 14:58:23] Simulation: 9/10
+INFO [2022-10-26 14:58:27] Simulation: 10/10
+INFO [2022-10-26 14:58:31] ----- horseshoe_group ------
+INFO [2022-10-26 14:58:31] Simulation: 1/10
+INFO [2022-10-26 14:58:34] Simulation: 2/10
+INFO [2022-10-26 14:58:37] Simulation: 3/10
+INFO [2022-10-26 14:58:41] Simulation: 4/10
+INFO [2022-10-26 14:58:44] Simulation: 5/10
+INFO [2022-10-26 14:58:48] Simulation: 6/10
+INFO [2022-10-26 14:58:51] Simulation: 7/10
+INFO [2022-10-26 14:58:58] Simulation: 8/10
+INFO [2022-10-26 14:59:06] Simulation: 9/10
+INFO [2022-10-26 14:59:11] Simulation: 10/10
+INFO [2022-10-26 14:59:17] ----- horseshoe_group_plus ------
+INFO [2022-10-26 14:59:17] Simulation: 1/10
+INFO [2022-10-26 14:59:24] Simulation: 2/10
+INFO [2022-10-26 14:59:33] Simulation: 3/10
+INFO [2022-10-26 14:59:40] Simulation: 4/10
+INFO [2022-10-26 14:59:47] Simulation: 5/10
+INFO [2022-10-26 14:59:54] Simulation: 6/10
+INFO [2022-10-26 15:00:04] Simulation: 7/10
+INFO [2022-10-26 15:00:13] Simulation: 8/10
+INFO [2022-10-26 15:00:21] Simulation: 9/10
+INFO [2022-10-26 15:00:27] Simulation: 10/10
+INFO [2022-10-26 18:59:50] Setting input variables
+INFO [2022-10-26 18:59:50] Creating Stan models
+INFO [2022-10-26 18:59:50] Stan models creation done: 4 models
+INFO [2022-10-26 19:00:02] Setting input variables
+INFO [2022-10-26 19:00:02] Creating Stan models
+INFO [2022-10-26 19:00:02] Stan models creation done: 4 models
+INFO [2022-10-26 19:00:59] ----- group_lasso_hierarchical ------
+INFO [2022-10-26 19:00:59] Simulation: 1/10
+INFO [2022-10-26 19:01:03] Simulation: 2/10
+INFO [2022-10-26 19:01:07] Simulation: 3/10
+INFO [2022-10-26 19:01:10] Simulation: 4/10
+INFO [2022-10-26 19:01:14] Simulation: 5/10
+INFO [2022-10-26 19:01:17] Simulation: 6/10
+INFO [2022-10-26 19:01:20] Simulation: 7/10
+INFO [2022-10-26 19:01:24] Simulation: 8/10
+INFO [2022-10-26 19:01:27] Simulation: 9/10
+INFO [2022-10-26 19:01:31] Simulation: 10/10
+INFO [2022-10-26 19:01:34] ----- horseshoe_group ------
+INFO [2022-10-26 19:01:34] Simulation: 1/10
+INFO [2022-10-26 19:01:37] Simulation: 2/10
+INFO [2022-10-26 19:01:41] Simulation: 3/10
+INFO [2022-10-26 19:01:45] Simulation: 4/10
+INFO [2022-10-26 19:01:48] Simulation: 5/10
+INFO [2022-10-26 19:01:52] Simulation: 6/10
+INFO [2022-10-26 19:01:55] Simulation: 7/10
+INFO [2022-10-26 19:01:59] Simulation: 8/10
+INFO [2022-10-26 19:02:02] Simulation: 9/10
+INFO [2022-10-26 19:02:06] Simulation: 10/10
+INFO [2022-10-26 19:02:08] ----- horseshoe_group_plus ------
+INFO [2022-10-26 19:02:08] Simulation: 1/10
+INFO [2022-10-26 19:02:12] Simulation: 2/10
+INFO [2022-10-26 19:02:16] Simulation: 3/10
+INFO [2022-10-26 19:02:20] Simulation: 4/10
+INFO [2022-10-26 19:02:23] Simulation: 5/10
+INFO [2022-10-26 19:02:28] Simulation: 6/10
+INFO [2022-10-26 19:02:31] Simulation: 7/10
+INFO [2022-10-26 19:02:35] Simulation: 8/10
+INFO [2022-10-26 19:02:39] Simulation: 9/10
+INFO [2022-10-26 19:02:43] Simulation: 10/10
+INFO [2022-10-26 19:06:47] Setting input variables
+INFO [2022-10-26 19:06:47] Creating Stan models
+INFO [2022-10-26 19:06:47] Stan models creation done: 4 models
+INFO [2022-10-26 19:07:02] ----- group_lasso_hierarchical ------
+INFO [2022-10-26 19:07:02] Simulation: 1/15
+INFO [2022-10-26 19:07:05] Simulation: 2/15
+INFO [2022-10-26 19:07:09] Simulation: 3/15
+INFO [2022-10-26 19:07:12] Simulation: 4/15
+INFO [2022-10-26 19:07:15] Simulation: 5/15
+INFO [2022-10-26 19:07:18] Simulation: 6/15
+INFO [2022-10-26 19:07:22] Simulation: 7/15
+INFO [2022-10-26 19:07:25] Simulation: 8/15
+INFO [2022-10-26 19:07:28] Simulation: 9/15
+INFO [2022-10-26 19:07:31] Simulation: 10/15
+INFO [2022-10-26 19:07:34] Simulation: 11/15
+INFO [2022-10-26 19:07:38] Simulation: 12/15
+INFO [2022-10-26 19:07:41] Simulation: 13/15
+INFO [2022-10-26 19:07:44] Simulation: 14/15
+INFO [2022-10-26 19:07:47] Simulation: 15/15
+INFO [2022-10-26 19:07:51] ----- horseshoe_group ------
+INFO [2022-10-26 19:07:51] Simulation: 1/15
+INFO [2022-10-26 19:07:54] Simulation: 2/15
+INFO [2022-10-26 19:07:57] Simulation: 3/15
+INFO [2022-10-26 19:08:00] Simulation: 4/15
+INFO [2022-10-26 19:08:04] Simulation: 5/15
+INFO [2022-10-26 19:08:07] Simulation: 6/15
+INFO [2022-10-26 19:08:10] Simulation: 7/15
+INFO [2022-10-26 19:08:13] Simulation: 8/15
+INFO [2022-10-26 19:08:16] Simulation: 9/15
+INFO [2022-10-26 19:08:19] Simulation: 10/15
+INFO [2022-10-26 19:08:22] Simulation: 11/15
+INFO [2022-10-26 19:08:25] Simulation: 12/15
+INFO [2022-10-26 19:08:28] Simulation: 13/15
+INFO [2022-10-26 19:08:31] Simulation: 14/15
+INFO [2022-10-26 19:08:34] Simulation: 15/15
+INFO [2022-10-26 19:08:37] ----- horseshoe_group_plus ------
+INFO [2022-10-26 19:08:37] Simulation: 1/15
+INFO [2022-10-26 19:08:41] Simulation: 2/15
+INFO [2022-10-26 19:08:45] Simulation: 3/15
+INFO [2022-10-26 19:08:48] Simulation: 4/15
+INFO [2022-10-26 19:08:52] Simulation: 5/15
+INFO [2022-10-26 19:08:56] Simulation: 6/15
+INFO [2022-10-26 19:08:59] Simulation: 7/15
+INFO [2022-10-26 19:09:03] Simulation: 8/15
+INFO [2022-10-26 19:09:06] Simulation: 9/15
+INFO [2022-10-26 19:09:11] Simulation: 10/15
+INFO [2022-10-26 19:09:17] Simulation: 11/15
+INFO [2022-10-26 19:09:21] Simulation: 12/15
+INFO [2022-10-26 19:09:25] Simulation: 13/15
+INFO [2022-10-26 19:09:29] Simulation: 14/15
+INFO [2022-10-26 19:09:33] Simulation: 15/15
+INFO [2022-10-26 20:17:50] ----- group_lasso_hierarchical ------
+INFO [2022-10-26 20:17:50] Simulation: 1/15
+INFO [2022-10-26 20:17:54] Simulation: 2/15
+INFO [2022-10-26 20:17:57] Simulation: 3/15
+INFO [2022-10-26 20:18:01] Simulation: 4/15
+INFO [2022-10-26 20:18:05] Simulation: 5/15
+INFO [2022-10-26 20:18:08] Simulation: 6/15
+INFO [2022-10-26 20:18:12] Simulation: 7/15
+INFO [2022-10-26 20:18:16] Simulation: 8/15
+INFO [2022-10-26 20:18:20] Simulation: 9/15
+INFO [2022-10-26 20:18:24] Simulation: 10/15
+INFO [2022-10-26 20:18:28] Simulation: 11/15
+INFO [2022-10-26 20:18:32] Simulation: 12/15
+INFO [2022-10-26 20:18:36] Simulation: 13/15
+INFO [2022-10-26 20:18:39] Simulation: 14/15
+INFO [2022-10-26 20:18:43] Simulation: 15/15
+INFO [2022-10-26 20:18:47] ----- horseshoe_group ------
+INFO [2022-10-26 20:18:47] Simulation: 1/15
+INFO [2022-10-26 20:18:50] Simulation: 2/15
+INFO [2022-10-26 20:18:54] Simulation: 3/15
+INFO [2022-10-26 20:18:57] Simulation: 4/15
+INFO [2022-10-26 20:19:01] Simulation: 5/15
+INFO [2022-10-26 20:19:04] Simulation: 6/15
+INFO [2022-10-26 20:19:08] Simulation: 7/15
+INFO [2022-10-26 20:19:11] Simulation: 8/15
+INFO [2022-10-26 20:19:15] Simulation: 9/15
+INFO [2022-10-26 20:19:18] Simulation: 10/15
+INFO [2022-10-26 20:19:22] Simulation: 11/15
+INFO [2022-10-26 20:19:25] Simulation: 12/15
+INFO [2022-10-26 20:19:29] Simulation: 13/15
+INFO [2022-10-26 20:19:32] Simulation: 14/15
+INFO [2022-10-26 20:19:36] Simulation: 15/15
+INFO [2022-10-26 20:19:39] ----- horseshoe_group_plus ------
+INFO [2022-10-26 20:19:39] Simulation: 1/15
+INFO [2022-10-26 20:19:43] Simulation: 2/15
+INFO [2022-10-26 20:19:47] Simulation: 3/15
+INFO [2022-10-26 20:19:51] Simulation: 4/15
+INFO [2022-10-26 20:19:55] Simulation: 5/15
+INFO [2022-10-26 20:19:59] Simulation: 6/15
+INFO [2022-10-26 20:20:03] Simulation: 7/15
+INFO [2022-10-26 20:20:07] Simulation: 8/15
+INFO [2022-10-26 20:20:12] Simulation: 9/15
+INFO [2022-10-26 20:20:16] Simulation: 10/15
+INFO [2022-10-26 20:20:20] Simulation: 11/15
+INFO [2022-10-26 20:20:24] Simulation: 12/15
+INFO [2022-10-26 20:20:29] Simulation: 13/15
+INFO [2022-10-26 20:20:33] Simulation: 14/15
+INFO [2022-10-26 20:20:37] Simulation: 15/15
+INFO [2022-10-26 20:50:53] ----- group_lasso_hierarchical ------
+INFO [2022-10-26 20:50:53] Simulation: 1/15
+INFO [2022-10-26 20:50:57] Simulation: 2/15
+INFO [2022-10-26 20:51:00] Simulation: 3/15
+INFO [2022-10-26 20:51:04] Simulation: 4/15
+INFO [2022-10-26 20:51:08] Simulation: 5/15
+INFO [2022-10-26 20:51:11] Simulation: 6/15
+INFO [2022-10-26 20:51:15] Simulation: 7/15
+INFO [2022-10-26 20:51:18] Simulation: 8/15
+INFO [2022-10-26 20:51:22] Simulation: 9/15
+INFO [2022-10-26 20:51:25] Simulation: 10/15
+INFO [2022-10-26 20:51:28] Simulation: 11/15
+INFO [2022-10-26 20:51:32] Simulation: 12/15
+INFO [2022-10-26 20:51:35] Simulation: 13/15
+INFO [2022-10-26 20:51:39] Simulation: 14/15
+INFO [2022-10-26 20:51:42] Simulation: 15/15
+INFO [2022-10-26 20:51:45] ----- horseshoe_group ------
+INFO [2022-10-26 20:51:45] Simulation: 1/15
+INFO [2022-10-26 20:51:49] Simulation: 2/15
+INFO [2022-10-26 20:51:52] Simulation: 3/15
+INFO [2022-10-26 20:51:55] Simulation: 4/15
+INFO [2022-10-26 20:51:58] Simulation: 5/15
+INFO [2022-10-26 20:52:02] Simulation: 6/15
+INFO [2022-10-26 20:52:05] Simulation: 7/15
+INFO [2022-10-26 20:52:08] Simulation: 8/15
+INFO [2022-10-26 20:52:11] Simulation: 9/15
+INFO [2022-10-26 20:52:14] Simulation: 10/15
+INFO [2022-10-26 20:52:18] Simulation: 11/15
+INFO [2022-10-26 20:52:21] Simulation: 12/15
+INFO [2022-10-26 20:52:24] Simulation: 13/15
+INFO [2022-10-26 20:52:28] Simulation: 14/15
+INFO [2022-10-26 20:52:32] Simulation: 15/15
+INFO [2022-10-26 20:52:36] ----- horseshoe_group_plus ------
+INFO [2022-10-26 20:52:36] Simulation: 1/15
+INFO [2022-10-26 20:52:40] Simulation: 2/15
+INFO [2022-10-26 20:52:45] Simulation: 3/15
+INFO [2022-10-26 20:52:50] Simulation: 4/15
+INFO [2022-10-26 20:52:55] Simulation: 5/15
+INFO [2022-10-26 20:52:59] Simulation: 6/15
+INFO [2022-10-26 20:53:04] Simulation: 7/15
+INFO [2022-10-26 20:53:08] Simulation: 8/15
+INFO [2022-10-26 20:53:12] Simulation: 9/15
+INFO [2022-10-26 20:53:17] Simulation: 10/15
+INFO [2022-10-26 20:53:21] Simulation: 11/15
+INFO [2022-10-26 20:53:25] Simulation: 12/15
+INFO [2022-10-26 20:53:29] Simulation: 13/15
+INFO [2022-10-26 20:53:34] Simulation: 14/15
+INFO [2022-10-26 20:53:38] Simulation: 15/15
+INFO [2022-10-26 21:05:23] Setting input variables
+INFO [2022-10-26 21:05:23] Creating Stan models
+INFO [2022-10-26 21:05:23] Stan models creation done: 4 models

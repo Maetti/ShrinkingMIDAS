@@ -1,0 +1,196 @@
+---
+title: "z_test_cmdstanr_model_speed"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{z_test_cmdstanr_model_speed}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ShrinkingMidas)
+```
+
+```{r setup}
+## general setup
+sDir <- here::here("inst", "test_simulation")
+
+## simulations
+nSimulation <- 10
+vSeed <- 1001:(1001 + nSimulation)
+
+
+## specifiy general amount
+nY <- 250
+nTrain <- 200
+
+## predictor variable setup
+vBeta <- c(1.2, -0.5, 3, 1.1, 0.5, -2.5, -1.5, 0.8, 3.5, rep(0, 41))
+nK = length(vBeta) ## amount of predictors
+nFreq = 3
+nLag = 6
+nP = 3
+
+## data generating process variables
+nMu = 0.1
+nRho = 0.5
+nVar = 1
+nWithin = 0.5
+nBetween = 0
+
+## data generation for response
+.sPoly = "beta"
+nT1 = 1
+nT2 = 3
+
+
+bolTrue <- vBeta != 0
+vTrueValue <- vBeta[bolTrue]
+nG <- length(vBeta)
+nGroupSize <- rep(nLag, nG) # group Index
+```
+
+
+
+```{r generate some fake data}
+lDGP <- dgp_create_full(nY = nY, vBeta = vBeta,
+                        nK = nK, nFreq = nFreq, nLag = nLag,
+                        nMu = nMu, nRho = nRho,
+                        nVar = nVar, nWithin = nWithin, nBetween = nBetween,
+                        nT1 = nT1, nT2 = nT2,
+                        .sSeed = vSeed[[1]])
+
+saveRDS(lDGP, file = here::here("inst", "test_simulation", "input_data", "input.rds"))
+```
+
+
+```{r prepare input}
+dfX <- do.call("cbind", lDGP$x_align)
+lModelInput <- create_model_input(maY = lDGP[["y"]], dfDataX = dfX,
+                                  nTrain = nTrain, nG = nG,
+                                  nGroupSize = nGroupSize)
+```
+
+
+
+```{r create models}
+lCMDmodels <- vector("list", 4)
+dirStan <- here::here("inst/stan")
+sStanFiles <- c("horseshoe_group.stan", "horseshoe_group_vector.stan", 
+                "horseshoe_group_wo.stan")
+
+for (i in seq_along(sStanFiles)) {
+      sStanModel <- glue::glue("{dirStan}/{sStanFiles[i]}")
+      lCMDmodels[[i]] <- cmdstanr::cmdstan_model(stan_file = sStanModel)
+}
+
+sModelName <- stringr::str_to_title(gsub("_", " ", stringr::str_extract(sStanFiles, "[^\\.]+")))
+
+names(lCMDmodels) <- sModelName
+```
+
+
+```{r}
+#   ____________________________________________________________________________
+#   Fit Models                                                              ####
+
+start_time <- Sys.time()
+lTimes <- vector("list", length(sModelName))
+
+logger::log_info("----------------- Start Simulation Test -----------------")
+
+lData <- lModelInput
+
+for (j in seq_along(lCMDmodels)) {
+      sModel <- names(lCMDmodels)[[j]]
+      logger::log_info("{sModel}")
+
+      sDirStanModel <- paste0(sDir, "/output/variational/",
+                              tolower(gsub(" ", "_", sModel)), "/",
+                              tolower(gsub(" ", "_", sModel)), ".rds")
+
+      sModelFolder <- paste0(sDir, "/output/variational/", tolower(gsub(" ", "_", sModel)))
+      
+      if (!dir.exists(sModelFolder)) {
+        logger::log_info("Create folder")
+        dir.create(sModelFolder)
+      }
+      
+
+      start_time_sampling <- Sys.time()
+
+
+      md_stan <- lCMDmodels[[j]]
+
+      foo_init <- function() {
+        lapply(1:4, function(i) {
+          list(
+            delta = runif(n = nG, min = 0.1, 2),
+            delta_helper = runif(n = nG, 0.01, 2)
+          )
+        })
+      }
+      sInit <- foo_init()
+      
+      lStanObj <- md_stan$sample(
+            data = lData,
+            seed = 1234,
+            chains = 4,
+            parallel_chains = 4,
+            iter_sampling = 4000, iter_warmup = 4000,
+            save_warmup = FALSE,
+            adapt_delta = 0.99, max_treedepth = 10, 
+            step_size = 0.001
+      )
+      
+      # lStanObj <- md_stan$variational(
+      #       data = lData,
+      #       seed = 123, iter = 20000, grad_samples = 100, elbo_samples = 500
+      # )
+
+      stanfit <- rstan::read_stan_csv(lStanObj$output_files())
+      saveRDS(stanfit, sDirStanModel)
+
+      rm(lStanObj)
+      rm(stanfit)
+
+      end_time_sampling <- Sys.time()
+
+      lTimes[[j]] <- end_time_sampling - start_time_sampling
+
+      #}
+
+      # lStanObj$save_object(file = paste0(here::here("inst/data/simulation_output/"),
+      #                                    tolower(gsub(" ", "_", sModel)), "/",
+      #                                    tolower(gsub(" ", "_", sModel)), "_", i, ".rds"))
+
+
+}
+rm(lData)
+Sys.sleep(5)
+```
+
+
+## load estimated data
+
+```{r}
+lOutput <- readRDS("/home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/test_simulation/output/horseshoe_group_vector/horseshoe_group_vector.rds")
+
+list_of_draws <- rstan::extract(lOutput)
+print(names(list_of_draws))
+
+matrix_of_draws <- as.matrix(lOutput)
+
+
+inits <- rstan::get_inits(lOutput)
+
+sSummary <- rstan::summary(lOutput)
+```
+

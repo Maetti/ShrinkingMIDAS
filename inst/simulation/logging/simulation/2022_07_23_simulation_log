@@ -1,0 +1,13 @@
+INFO [2022-07-23 11:13:28] Setting input variables
+INFO [2022-07-23 11:13:54] Creating Stan models
+INFO [2022-07-23 11:13:54] Stan models creation done: 3 models
+INFO [2022-07-23 15:36:03] Setting input variables
+INFO [2022-07-23 15:36:08] Creating Stan models
+INFO [2022-07-23 15:36:08] Stan models creation done: 3 models
+INFO [2022-07-23 18:56:03] Setting input variables
+INFO [2022-07-23 18:56:07] Creating Stan models
+INFO [2022-07-23 18:56:07] Stan models creation done: 3 models
+INFO [2022-07-23 18:56:19] Done with input data generation
+INFO [2022-07-23 18:56:19] Creating Stan models
+INFO [2022-07-23 18:56:19] Stan models creation done: 3 models
+INFO [2022-07-23 18:56:22] Setting input variables

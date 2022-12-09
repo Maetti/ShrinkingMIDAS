@@ -1,0 +1,1405 @@
+INFO [2022-11-28 15:59:30] Setting input variables
+INFO [2022-11-28 15:59:30] Creating Stan models
+INFO [2022-11-28 15:59:30] Stan models creation done: 4 models
+INFO [2022-11-28 15:59:30] Creating Stan models
+INFO [2022-11-28 15:59:30] Stan models creation done: 4 models
+INFO [2022-11-28 15:59:50] Simulation: 1
+INFO [2022-11-28 15:59:50] Loading simulation data...
+INFO [2022-11-28 15:59:50] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:00:49] y predict as expected
+SUCCESS [2022-11-28 16:00:49] design matrix as expected
+INFO [2022-11-28 16:00:49] U-MIDAS
+SUCCESS [2022-11-28 16:00:49] predicting u-midas
+INFO [2022-11-28 16:00:49] Factor MIDAS
+INFO [2022-11-28 16:00:49] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:00:51] Bayesian Models
+INFO [2022-11-28 16:00:59] Combining Results
+INFO [2022-11-28 16:00:59] Simulation: 2
+INFO [2022-11-28 16:00:59] Loading simulation data...
+INFO [2022-11-28 16:00:59] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:01:59] y predict as expected
+SUCCESS [2022-11-28 16:01:59] design matrix as expected
+INFO [2022-11-28 16:01:59] U-MIDAS
+SUCCESS [2022-11-28 16:02:00] predicting u-midas
+INFO [2022-11-28 16:02:00] Factor MIDAS
+INFO [2022-11-28 16:02:00] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:02:01] Bayesian Models
+INFO [2022-11-28 16:02:09] Combining Results
+INFO [2022-11-28 16:02:09] Simulation: 3
+INFO [2022-11-28 16:02:09] Loading simulation data...
+INFO [2022-11-28 16:02:09] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:03:12] y predict as expected
+SUCCESS [2022-11-28 16:03:12] design matrix as expected
+INFO [2022-11-28 16:03:12] U-MIDAS
+SUCCESS [2022-11-28 16:03:12] predicting u-midas
+INFO [2022-11-28 16:03:12] Factor MIDAS
+INFO [2022-11-28 16:03:12] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:03:13] Bayesian Models
+INFO [2022-11-28 16:03:21] Combining Results
+INFO [2022-11-28 16:03:21] Simulation: 4
+INFO [2022-11-28 16:03:21] Loading simulation data...
+INFO [2022-11-28 16:03:21] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:04:24] y predict as expected
+SUCCESS [2022-11-28 16:04:24] design matrix as expected
+INFO [2022-11-28 16:04:24] U-MIDAS
+SUCCESS [2022-11-28 16:04:24] predicting u-midas
+INFO [2022-11-28 16:04:24] Factor MIDAS
+INFO [2022-11-28 16:04:24] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:04:26] Bayesian Models
+INFO [2022-11-28 16:04:34] Combining Results
+INFO [2022-11-28 16:04:34] Simulation: 5
+INFO [2022-11-28 16:04:34] Loading simulation data...
+INFO [2022-11-28 16:04:34] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:05:43] y predict as expected
+SUCCESS [2022-11-28 16:05:43] design matrix as expected
+INFO [2022-11-28 16:05:43] U-MIDAS
+SUCCESS [2022-11-28 16:05:43] predicting u-midas
+INFO [2022-11-28 16:05:43] Factor MIDAS
+INFO [2022-11-28 16:05:43] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:05:45] Bayesian Models
+INFO [2022-11-28 16:05:52] Combining Results
+INFO [2022-11-28 16:05:52] Simulation: 6
+INFO [2022-11-28 16:05:52] Loading simulation data...
+INFO [2022-11-28 16:05:52] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:06:54] y predict as expected
+SUCCESS [2022-11-28 16:06:54] design matrix as expected
+INFO [2022-11-28 16:06:54] U-MIDAS
+SUCCESS [2022-11-28 16:06:54] predicting u-midas
+INFO [2022-11-28 16:06:54] Factor MIDAS
+INFO [2022-11-28 16:06:54] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:06:56] Bayesian Models
+INFO [2022-11-28 16:07:03] Combining Results
+INFO [2022-11-28 16:07:03] Simulation: 7
+INFO [2022-11-28 16:07:03] Loading simulation data...
+INFO [2022-11-28 16:07:03] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:08:06] y predict as expected
+SUCCESS [2022-11-28 16:08:06] design matrix as expected
+INFO [2022-11-28 16:08:06] U-MIDAS
+SUCCESS [2022-11-28 16:08:06] predicting u-midas
+INFO [2022-11-28 16:08:06] Factor MIDAS
+INFO [2022-11-28 16:08:06] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:08:08] Bayesian Models
+INFO [2022-11-28 16:08:15] Combining Results
+INFO [2022-11-28 16:08:15] Simulation: 8
+INFO [2022-11-28 16:08:15] Loading simulation data...
+INFO [2022-11-28 16:08:15] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:09:18] y predict as expected
+SUCCESS [2022-11-28 16:09:18] design matrix as expected
+INFO [2022-11-28 16:09:18] U-MIDAS
+SUCCESS [2022-11-28 16:09:18] predicting u-midas
+INFO [2022-11-28 16:09:18] Factor MIDAS
+INFO [2022-11-28 16:09:18] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:09:20] Bayesian Models
+INFO [2022-11-28 16:09:27] Combining Results
+INFO [2022-11-28 16:09:27] Simulation: 9
+INFO [2022-11-28 16:09:27] Loading simulation data...
+INFO [2022-11-28 16:09:27] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:10:30] y predict as expected
+SUCCESS [2022-11-28 16:10:30] design matrix as expected
+INFO [2022-11-28 16:10:30] U-MIDAS
+SUCCESS [2022-11-28 16:10:30] predicting u-midas
+INFO [2022-11-28 16:10:30] Factor MIDAS
+INFO [2022-11-28 16:10:30] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:10:32] Bayesian Models
+INFO [2022-11-28 16:10:39] Combining Results
+INFO [2022-11-28 16:10:39] Simulation: 10
+INFO [2022-11-28 16:10:39] Loading simulation data...
+INFO [2022-11-28 16:10:39] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:11:42] y predict as expected
+SUCCESS [2022-11-28 16:11:42] design matrix as expected
+INFO [2022-11-28 16:11:42] U-MIDAS
+SUCCESS [2022-11-28 16:11:42] predicting u-midas
+INFO [2022-11-28 16:11:42] Factor MIDAS
+INFO [2022-11-28 16:11:42] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:11:44] Bayesian Models
+INFO [2022-11-28 16:11:51] Combining Results
+INFO [2022-11-28 16:11:51] Simulation: 11
+INFO [2022-11-28 16:11:51] Loading simulation data...
+INFO [2022-11-28 16:11:51] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:12:54] y predict as expected
+SUCCESS [2022-11-28 16:12:54] design matrix as expected
+INFO [2022-11-28 16:12:54] U-MIDAS
+SUCCESS [2022-11-28 16:12:54] predicting u-midas
+INFO [2022-11-28 16:12:54] Factor MIDAS
+INFO [2022-11-28 16:12:54] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:12:56] Bayesian Models
+INFO [2022-11-28 16:13:03] Combining Results
+INFO [2022-11-28 16:13:03] Simulation: 12
+INFO [2022-11-28 16:13:03] Loading simulation data...
+INFO [2022-11-28 16:13:03] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:14:06] y predict as expected
+SUCCESS [2022-11-28 16:14:06] design matrix as expected
+INFO [2022-11-28 16:14:06] U-MIDAS
+SUCCESS [2022-11-28 16:14:06] predicting u-midas
+INFO [2022-11-28 16:14:06] Factor MIDAS
+INFO [2022-11-28 16:14:06] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:14:08] Bayesian Models
+INFO [2022-11-28 16:14:15] Combining Results
+INFO [2022-11-28 16:14:15] Simulation: 13
+INFO [2022-11-28 16:14:15] Loading simulation data...
+INFO [2022-11-28 16:14:15] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:15:18] y predict as expected
+SUCCESS [2022-11-28 16:15:18] design matrix as expected
+INFO [2022-11-28 16:15:18] U-MIDAS
+SUCCESS [2022-11-28 16:15:18] predicting u-midas
+INFO [2022-11-28 16:15:18] Factor MIDAS
+INFO [2022-11-28 16:15:18] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:15:20] Bayesian Models
+INFO [2022-11-28 16:15:27] Combining Results
+INFO [2022-11-28 16:15:27] Simulation: 14
+INFO [2022-11-28 16:15:27] Loading simulation data...
+INFO [2022-11-28 16:15:27] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:16:30] y predict as expected
+SUCCESS [2022-11-28 16:16:30] design matrix as expected
+INFO [2022-11-28 16:16:30] U-MIDAS
+SUCCESS [2022-11-28 16:16:30] predicting u-midas
+INFO [2022-11-28 16:16:30] Factor MIDAS
+INFO [2022-11-28 16:16:30] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:16:32] Bayesian Models
+INFO [2022-11-28 16:16:40] Combining Results
+INFO [2022-11-28 16:16:40] Simulation: 15
+INFO [2022-11-28 16:16:40] Loading simulation data...
+INFO [2022-11-28 16:16:40] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:17:42] y predict as expected
+SUCCESS [2022-11-28 16:17:42] design matrix as expected
+INFO [2022-11-28 16:17:42] U-MIDAS
+SUCCESS [2022-11-28 16:17:42] predicting u-midas
+INFO [2022-11-28 16:17:42] Factor MIDAS
+INFO [2022-11-28 16:17:42] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:17:44] Bayesian Models
+INFO [2022-11-28 16:17:52] Combining Results
+INFO [2022-11-28 16:17:52] Simulation: 16
+INFO [2022-11-28 16:17:52] Loading simulation data...
+INFO [2022-11-28 16:17:52] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:18:55] y predict as expected
+SUCCESS [2022-11-28 16:18:55] design matrix as expected
+INFO [2022-11-28 16:18:55] U-MIDAS
+SUCCESS [2022-11-28 16:18:55] predicting u-midas
+INFO [2022-11-28 16:18:55] Factor MIDAS
+INFO [2022-11-28 16:18:55] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:18:57] Bayesian Models
+INFO [2022-11-28 16:19:04] Combining Results
+INFO [2022-11-28 16:19:04] Simulation: 17
+INFO [2022-11-28 16:19:04] Loading simulation data...
+INFO [2022-11-28 16:19:04] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:20:07] y predict as expected
+SUCCESS [2022-11-28 16:20:07] design matrix as expected
+INFO [2022-11-28 16:20:07] U-MIDAS
+SUCCESS [2022-11-28 16:20:08] predicting u-midas
+INFO [2022-11-28 16:20:08] Factor MIDAS
+INFO [2022-11-28 16:20:08] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:20:10] Bayesian Models
+INFO [2022-11-28 16:20:17] Combining Results
+INFO [2022-11-28 16:20:17] Simulation: 18
+INFO [2022-11-28 16:20:17] Loading simulation data...
+INFO [2022-11-28 16:20:17] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:21:19] y predict as expected
+SUCCESS [2022-11-28 16:21:19] design matrix as expected
+INFO [2022-11-28 16:21:19] U-MIDAS
+SUCCESS [2022-11-28 16:21:20] predicting u-midas
+INFO [2022-11-28 16:21:20] Factor MIDAS
+INFO [2022-11-28 16:21:20] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:21:21] Bayesian Models
+INFO [2022-11-28 16:21:29] Combining Results
+INFO [2022-11-28 16:21:29] Simulation: 19
+INFO [2022-11-28 16:21:29] Loading simulation data...
+INFO [2022-11-28 16:21:30] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:22:36] y predict as expected
+SUCCESS [2022-11-28 16:22:36] design matrix as expected
+INFO [2022-11-28 16:22:36] U-MIDAS
+SUCCESS [2022-11-28 16:22:36] predicting u-midas
+INFO [2022-11-28 16:22:36] Factor MIDAS
+INFO [2022-11-28 16:22:36] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:22:38] Bayesian Models
+INFO [2022-11-28 16:22:45] Combining Results
+INFO [2022-11-28 16:22:45] Simulation: 20
+INFO [2022-11-28 16:22:45] Loading simulation data...
+INFO [2022-11-28 16:22:45] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:23:52] y predict as expected
+SUCCESS [2022-11-28 16:23:53] design matrix as expected
+INFO [2022-11-28 16:23:53] U-MIDAS
+SUCCESS [2022-11-28 16:23:53] predicting u-midas
+INFO [2022-11-28 16:23:53] Factor MIDAS
+INFO [2022-11-28 16:23:53] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:23:55] Bayesian Models
+INFO [2022-11-28 16:24:02] Combining Results
+INFO [2022-11-28 16:24:02] Simulation: 21
+INFO [2022-11-28 16:24:02] Loading simulation data...
+INFO [2022-11-28 16:24:02] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:25:06] y predict as expected
+SUCCESS [2022-11-28 16:25:06] design matrix as expected
+INFO [2022-11-28 16:25:06] U-MIDAS
+SUCCESS [2022-11-28 16:25:06] predicting u-midas
+INFO [2022-11-28 16:25:06] Factor MIDAS
+INFO [2022-11-28 16:25:06] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:25:08] Bayesian Models
+INFO [2022-11-28 16:25:15] Combining Results
+INFO [2022-11-28 16:25:15] Simulation: 22
+INFO [2022-11-28 16:25:15] Loading simulation data...
+INFO [2022-11-28 16:25:15] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:26:18] y predict as expected
+SUCCESS [2022-11-28 16:26:18] design matrix as expected
+INFO [2022-11-28 16:26:18] U-MIDAS
+SUCCESS [2022-11-28 16:26:18] predicting u-midas
+INFO [2022-11-28 16:26:18] Factor MIDAS
+INFO [2022-11-28 16:26:18] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:26:20] Bayesian Models
+INFO [2022-11-28 16:26:27] Combining Results
+INFO [2022-11-28 16:26:27] Simulation: 23
+INFO [2022-11-28 16:26:27] Loading simulation data...
+INFO [2022-11-28 16:26:27] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:27:31] y predict as expected
+SUCCESS [2022-11-28 16:27:31] design matrix as expected
+INFO [2022-11-28 16:27:31] U-MIDAS
+SUCCESS [2022-11-28 16:27:31] predicting u-midas
+INFO [2022-11-28 16:27:31] Factor MIDAS
+INFO [2022-11-28 16:27:31] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:27:33] Bayesian Models
+INFO [2022-11-28 16:27:40] Combining Results
+INFO [2022-11-28 16:27:40] Simulation: 24
+INFO [2022-11-28 16:27:40] Loading simulation data...
+INFO [2022-11-28 16:27:40] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:28:43] y predict as expected
+SUCCESS [2022-11-28 16:28:43] design matrix as expected
+INFO [2022-11-28 16:28:43] U-MIDAS
+SUCCESS [2022-11-28 16:28:43] predicting u-midas
+INFO [2022-11-28 16:28:43] Factor MIDAS
+INFO [2022-11-28 16:28:43] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:28:45] Bayesian Models
+INFO [2022-11-28 16:28:52] Combining Results
+INFO [2022-11-28 16:28:52] Simulation: 25
+INFO [2022-11-28 16:28:52] Loading simulation data...
+INFO [2022-11-28 16:28:52] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:29:55] y predict as expected
+SUCCESS [2022-11-28 16:29:55] design matrix as expected
+INFO [2022-11-28 16:29:55] U-MIDAS
+SUCCESS [2022-11-28 16:29:55] predicting u-midas
+INFO [2022-11-28 16:29:55] Factor MIDAS
+INFO [2022-11-28 16:29:55] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:29:57] Bayesian Models
+INFO [2022-11-28 16:30:04] Combining Results
+INFO [2022-11-28 16:30:04] Simulation: 26
+INFO [2022-11-28 16:30:04] Loading simulation data...
+INFO [2022-11-28 16:30:04] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:31:08] y predict as expected
+SUCCESS [2022-11-28 16:31:08] design matrix as expected
+INFO [2022-11-28 16:31:08] U-MIDAS
+SUCCESS [2022-11-28 16:31:08] predicting u-midas
+INFO [2022-11-28 16:31:08] Factor MIDAS
+INFO [2022-11-28 16:31:08] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:31:10] Bayesian Models
+INFO [2022-11-28 16:31:17] Combining Results
+INFO [2022-11-28 16:31:17] Simulation: 27
+INFO [2022-11-28 16:31:17] Loading simulation data...
+INFO [2022-11-28 16:31:17] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:32:20] y predict as expected
+SUCCESS [2022-11-28 16:32:20] design matrix as expected
+INFO [2022-11-28 16:32:20] U-MIDAS
+SUCCESS [2022-11-28 16:32:21] predicting u-midas
+INFO [2022-11-28 16:32:21] Factor MIDAS
+INFO [2022-11-28 16:32:21] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:32:22] Bayesian Models
+INFO [2022-11-28 16:32:30] Combining Results
+INFO [2022-11-28 16:32:30] Simulation: 28
+INFO [2022-11-28 16:32:30] Loading simulation data...
+INFO [2022-11-28 16:32:30] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:33:34] y predict as expected
+SUCCESS [2022-11-28 16:33:34] design matrix as expected
+INFO [2022-11-28 16:33:34] U-MIDAS
+SUCCESS [2022-11-28 16:33:34] predicting u-midas
+INFO [2022-11-28 16:33:34] Factor MIDAS
+INFO [2022-11-28 16:33:34] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:33:36] Bayesian Models
+INFO [2022-11-28 16:33:43] Combining Results
+INFO [2022-11-28 16:33:43] Simulation: 29
+INFO [2022-11-28 16:33:43] Loading simulation data...
+INFO [2022-11-28 16:33:43] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:34:46] y predict as expected
+SUCCESS [2022-11-28 16:34:46] design matrix as expected
+INFO [2022-11-28 16:34:46] U-MIDAS
+SUCCESS [2022-11-28 16:34:46] predicting u-midas
+INFO [2022-11-28 16:34:46] Factor MIDAS
+INFO [2022-11-28 16:34:47] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:34:48] Bayesian Models
+INFO [2022-11-28 16:34:56] Combining Results
+INFO [2022-11-28 16:34:56] Simulation: 30
+INFO [2022-11-28 16:34:56] Loading simulation data...
+INFO [2022-11-28 16:34:56] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:35:59] y predict as expected
+SUCCESS [2022-11-28 16:35:59] design matrix as expected
+INFO [2022-11-28 16:35:59] U-MIDAS
+SUCCESS [2022-11-28 16:36:00] predicting u-midas
+INFO [2022-11-28 16:36:00] Factor MIDAS
+INFO [2022-11-28 16:36:00] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:36:02] Bayesian Models
+INFO [2022-11-28 16:36:09] Combining Results
+INFO [2022-11-28 16:36:09] Simulation: 31
+INFO [2022-11-28 16:36:09] Loading simulation data...
+INFO [2022-11-28 16:36:09] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:37:13] y predict as expected
+SUCCESS [2022-11-28 16:37:13] design matrix as expected
+INFO [2022-11-28 16:37:13] U-MIDAS
+SUCCESS [2022-11-28 16:37:13] predicting u-midas
+INFO [2022-11-28 16:37:13] Factor MIDAS
+INFO [2022-11-28 16:37:13] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:37:15] Bayesian Models
+INFO [2022-11-28 16:37:22] Combining Results
+INFO [2022-11-28 16:37:22] Simulation: 32
+INFO [2022-11-28 16:37:22] Loading simulation data...
+INFO [2022-11-28 16:37:22] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:38:26] y predict as expected
+SUCCESS [2022-11-28 16:38:26] design matrix as expected
+INFO [2022-11-28 16:38:26] U-MIDAS
+SUCCESS [2022-11-28 16:38:26] predicting u-midas
+INFO [2022-11-28 16:38:26] Factor MIDAS
+INFO [2022-11-28 16:38:26] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:38:27] Bayesian Models
+INFO [2022-11-28 16:38:35] Combining Results
+INFO [2022-11-28 16:38:35] Simulation: 33
+INFO [2022-11-28 16:38:35] Loading simulation data...
+INFO [2022-11-28 16:38:35] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:39:39] y predict as expected
+SUCCESS [2022-11-28 16:39:39] design matrix as expected
+INFO [2022-11-28 16:39:39] U-MIDAS
+SUCCESS [2022-11-28 16:39:39] predicting u-midas
+INFO [2022-11-28 16:39:39] Factor MIDAS
+INFO [2022-11-28 16:39:39] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:39:41] Bayesian Models
+INFO [2022-11-28 16:39:48] Combining Results
+INFO [2022-11-28 16:39:48] Simulation: 34
+INFO [2022-11-28 16:39:48] Loading simulation data...
+INFO [2022-11-28 16:39:48] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:40:57] y predict as expected
+SUCCESS [2022-11-28 16:40:57] design matrix as expected
+INFO [2022-11-28 16:40:57] U-MIDAS
+SUCCESS [2022-11-28 16:40:57] predicting u-midas
+INFO [2022-11-28 16:40:57] Factor MIDAS
+INFO [2022-11-28 16:40:58] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:40:59] Bayesian Models
+INFO [2022-11-28 16:41:06] Combining Results
+INFO [2022-11-28 16:41:06] Simulation: 35
+INFO [2022-11-28 16:41:06] Loading simulation data...
+INFO [2022-11-28 16:41:07] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:42:10] y predict as expected
+SUCCESS [2022-11-28 16:42:10] design matrix as expected
+INFO [2022-11-28 16:42:10] U-MIDAS
+SUCCESS [2022-11-28 16:42:10] predicting u-midas
+INFO [2022-11-28 16:42:10] Factor MIDAS
+INFO [2022-11-28 16:42:10] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:42:12] Bayesian Models
+INFO [2022-11-28 16:42:19] Combining Results
+INFO [2022-11-28 16:42:19] Simulation: 36
+INFO [2022-11-28 16:42:19] Loading simulation data...
+INFO [2022-11-28 16:42:19] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:43:23] y predict as expected
+SUCCESS [2022-11-28 16:43:23] design matrix as expected
+INFO [2022-11-28 16:43:23] U-MIDAS
+SUCCESS [2022-11-28 16:43:23] predicting u-midas
+INFO [2022-11-28 16:43:23] Factor MIDAS
+INFO [2022-11-28 16:43:23] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:43:25] Bayesian Models
+INFO [2022-11-28 16:43:32] Combining Results
+INFO [2022-11-28 16:43:32] Simulation: 37
+INFO [2022-11-28 16:43:32] Loading simulation data...
+INFO [2022-11-28 16:43:32] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:44:36] y predict as expected
+SUCCESS [2022-11-28 16:44:36] design matrix as expected
+INFO [2022-11-28 16:44:36] U-MIDAS
+SUCCESS [2022-11-28 16:44:36] predicting u-midas
+INFO [2022-11-28 16:44:36] Factor MIDAS
+INFO [2022-11-28 16:44:36] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:44:38] Bayesian Models
+INFO [2022-11-28 16:44:45] Combining Results
+INFO [2022-11-28 16:44:45] Simulation: 38
+INFO [2022-11-28 16:44:45] Loading simulation data...
+INFO [2022-11-28 16:44:45] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:45:48] y predict as expected
+SUCCESS [2022-11-28 16:45:48] design matrix as expected
+INFO [2022-11-28 16:45:48] U-MIDAS
+SUCCESS [2022-11-28 16:45:48] predicting u-midas
+INFO [2022-11-28 16:45:48] Factor MIDAS
+INFO [2022-11-28 16:45:48] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:45:50] Bayesian Models
+INFO [2022-11-28 16:45:57] Combining Results
+INFO [2022-11-28 16:45:57] Simulation: 39
+INFO [2022-11-28 16:45:57] Loading simulation data...
+INFO [2022-11-28 16:45:57] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:47:01] y predict as expected
+SUCCESS [2022-11-28 16:47:01] design matrix as expected
+INFO [2022-11-28 16:47:01] U-MIDAS
+SUCCESS [2022-11-28 16:47:01] predicting u-midas
+INFO [2022-11-28 16:47:01] Factor MIDAS
+INFO [2022-11-28 16:47:02] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:47:03] Bayesian Models
+INFO [2022-11-28 16:47:11] Combining Results
+INFO [2022-11-28 16:47:11] Simulation: 40
+INFO [2022-11-28 16:47:11] Loading simulation data...
+INFO [2022-11-28 16:47:11] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:48:14] y predict as expected
+SUCCESS [2022-11-28 16:48:14] design matrix as expected
+INFO [2022-11-28 16:48:14] U-MIDAS
+SUCCESS [2022-11-28 16:48:14] predicting u-midas
+INFO [2022-11-28 16:48:14] Factor MIDAS
+INFO [2022-11-28 16:48:14] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:48:16] Bayesian Models
+INFO [2022-11-28 16:48:23] Combining Results
+INFO [2022-11-28 16:48:23] Simulation: 41
+INFO [2022-11-28 16:48:23] Loading simulation data...
+INFO [2022-11-28 16:48:23] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:49:26] y predict as expected
+SUCCESS [2022-11-28 16:49:26] design matrix as expected
+INFO [2022-11-28 16:49:26] U-MIDAS
+SUCCESS [2022-11-28 16:49:26] predicting u-midas
+INFO [2022-11-28 16:49:26] Factor MIDAS
+INFO [2022-11-28 16:49:27] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:49:29] Bayesian Models
+INFO [2022-11-28 16:49:36] Combining Results
+INFO [2022-11-28 16:49:36] Simulation: 42
+INFO [2022-11-28 16:49:36] Loading simulation data...
+INFO [2022-11-28 16:49:36] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:50:40] y predict as expected
+SUCCESS [2022-11-28 16:50:40] design matrix as expected
+INFO [2022-11-28 16:50:40] U-MIDAS
+SUCCESS [2022-11-28 16:50:40] predicting u-midas
+INFO [2022-11-28 16:50:40] Factor MIDAS
+INFO [2022-11-28 16:50:40] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:50:42] Bayesian Models
+INFO [2022-11-28 16:50:48] Combining Results
+INFO [2022-11-28 16:50:48] Simulation: 43
+INFO [2022-11-28 16:50:48] Loading simulation data...
+INFO [2022-11-28 16:50:49] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:51:52] y predict as expected
+SUCCESS [2022-11-28 16:51:52] design matrix as expected
+INFO [2022-11-28 16:51:52] U-MIDAS
+SUCCESS [2022-11-28 16:51:52] predicting u-midas
+INFO [2022-11-28 16:51:52] Factor MIDAS
+INFO [2022-11-28 16:51:52] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:51:53] Bayesian Models
+INFO [2022-11-28 16:52:00] Combining Results
+INFO [2022-11-28 16:52:00] Simulation: 44
+INFO [2022-11-28 16:52:00] Loading simulation data...
+INFO [2022-11-28 16:52:00] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:53:04] y predict as expected
+SUCCESS [2022-11-28 16:53:04] design matrix as expected
+INFO [2022-11-28 16:53:04] U-MIDAS
+SUCCESS [2022-11-28 16:53:04] predicting u-midas
+INFO [2022-11-28 16:53:04] Factor MIDAS
+INFO [2022-11-28 16:53:05] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:53:07] Bayesian Models
+INFO [2022-11-28 16:53:14] Combining Results
+INFO [2022-11-28 16:53:14] Simulation: 45
+INFO [2022-11-28 16:53:14] Loading simulation data...
+INFO [2022-11-28 16:53:14] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:54:19] y predict as expected
+SUCCESS [2022-11-28 16:54:19] design matrix as expected
+INFO [2022-11-28 16:54:19] U-MIDAS
+SUCCESS [2022-11-28 16:54:19] predicting u-midas
+INFO [2022-11-28 16:54:19] Factor MIDAS
+INFO [2022-11-28 16:54:19] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:54:21] Bayesian Models
+INFO [2022-11-28 16:54:28] Combining Results
+INFO [2022-11-28 16:54:28] Simulation: 46
+INFO [2022-11-28 16:54:28] Loading simulation data...
+INFO [2022-11-28 16:54:28] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:55:33] y predict as expected
+SUCCESS [2022-11-28 16:55:33] design matrix as expected
+INFO [2022-11-28 16:55:33] U-MIDAS
+SUCCESS [2022-11-28 16:55:33] predicting u-midas
+INFO [2022-11-28 16:55:33] Factor MIDAS
+INFO [2022-11-28 16:55:34] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:55:35] Bayesian Models
+INFO [2022-11-28 16:55:42] Combining Results
+INFO [2022-11-28 16:55:42] Simulation: 47
+INFO [2022-11-28 16:55:42] Loading simulation data...
+INFO [2022-11-28 16:55:42] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:56:46] y predict as expected
+SUCCESS [2022-11-28 16:56:46] design matrix as expected
+INFO [2022-11-28 16:56:46] U-MIDAS
+SUCCESS [2022-11-28 16:56:46] predicting u-midas
+INFO [2022-11-28 16:56:46] Factor MIDAS
+INFO [2022-11-28 16:56:46] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:56:48] Bayesian Models
+INFO [2022-11-28 16:56:55] Combining Results
+INFO [2022-11-28 16:56:55] Simulation: 48
+INFO [2022-11-28 16:56:55] Loading simulation data...
+INFO [2022-11-28 16:56:55] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:58:01] y predict as expected
+SUCCESS [2022-11-28 16:58:01] design matrix as expected
+INFO [2022-11-28 16:58:01] U-MIDAS
+SUCCESS [2022-11-28 16:58:02] predicting u-midas
+INFO [2022-11-28 16:58:02] Factor MIDAS
+INFO [2022-11-28 16:58:02] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:58:04] Bayesian Models
+INFO [2022-11-28 16:58:11] Combining Results
+INFO [2022-11-28 16:58:11] Simulation: 49
+INFO [2022-11-28 16:58:11] Loading simulation data...
+INFO [2022-11-28 16:58:11] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 16:59:15] y predict as expected
+SUCCESS [2022-11-28 16:59:15] design matrix as expected
+INFO [2022-11-28 16:59:15] U-MIDAS
+SUCCESS [2022-11-28 16:59:15] predicting u-midas
+INFO [2022-11-28 16:59:15] Factor MIDAS
+INFO [2022-11-28 16:59:15] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 16:59:17] Bayesian Models
+INFO [2022-11-28 16:59:24] Combining Results
+INFO [2022-11-28 16:59:24] Simulation: 50
+INFO [2022-11-28 16:59:24] Loading simulation data...
+INFO [2022-11-28 16:59:24] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:00:29] y predict as expected
+SUCCESS [2022-11-28 17:00:29] design matrix as expected
+INFO [2022-11-28 17:00:29] U-MIDAS
+SUCCESS [2022-11-28 17:00:29] predicting u-midas
+INFO [2022-11-28 17:00:29] Factor MIDAS
+INFO [2022-11-28 17:00:29] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:00:31] Bayesian Models
+INFO [2022-11-28 17:00:37] Combining Results
+INFO [2022-11-28 17:00:37] Simulation: 51
+INFO [2022-11-28 17:00:37] Loading simulation data...
+INFO [2022-11-28 17:00:38] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:01:42] y predict as expected
+SUCCESS [2022-11-28 17:01:42] design matrix as expected
+INFO [2022-11-28 17:01:42] U-MIDAS
+SUCCESS [2022-11-28 17:01:42] predicting u-midas
+INFO [2022-11-28 17:01:42] Factor MIDAS
+INFO [2022-11-28 17:01:42] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:01:44] Bayesian Models
+INFO [2022-11-28 17:01:51] Combining Results
+INFO [2022-11-28 17:01:51] Simulation: 52
+INFO [2022-11-28 17:01:51] Loading simulation data...
+INFO [2022-11-28 17:01:51] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:02:56] y predict as expected
+SUCCESS [2022-11-28 17:02:56] design matrix as expected
+INFO [2022-11-28 17:02:56] U-MIDAS
+SUCCESS [2022-11-28 17:02:56] predicting u-midas
+INFO [2022-11-28 17:02:56] Factor MIDAS
+INFO [2022-11-28 17:02:57] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:02:58] Bayesian Models
+INFO [2022-11-28 17:03:06] Combining Results
+INFO [2022-11-28 17:03:06] Simulation: 53
+INFO [2022-11-28 17:03:06] Loading simulation data...
+INFO [2022-11-28 17:03:06] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:04:10] y predict as expected
+SUCCESS [2022-11-28 17:04:10] design matrix as expected
+INFO [2022-11-28 17:04:10] U-MIDAS
+SUCCESS [2022-11-28 17:04:10] predicting u-midas
+INFO [2022-11-28 17:04:10] Factor MIDAS
+INFO [2022-11-28 17:04:10] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:04:12] Bayesian Models
+INFO [2022-11-28 17:04:19] Combining Results
+INFO [2022-11-28 17:04:19] Simulation: 54
+INFO [2022-11-28 17:04:19] Loading simulation data...
+INFO [2022-11-28 17:04:19] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:05:23] y predict as expected
+SUCCESS [2022-11-28 17:05:23] design matrix as expected
+INFO [2022-11-28 17:05:23] U-MIDAS
+SUCCESS [2022-11-28 17:05:23] predicting u-midas
+INFO [2022-11-28 17:05:23] Factor MIDAS
+INFO [2022-11-28 17:05:23] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:05:25] Bayesian Models
+INFO [2022-11-28 17:05:32] Combining Results
+INFO [2022-11-28 17:05:32] Simulation: 55
+INFO [2022-11-28 17:05:32] Loading simulation data...
+INFO [2022-11-28 17:05:32] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:06:36] y predict as expected
+SUCCESS [2022-11-28 17:06:36] design matrix as expected
+INFO [2022-11-28 17:06:36] U-MIDAS
+SUCCESS [2022-11-28 17:06:36] predicting u-midas
+INFO [2022-11-28 17:06:36] Factor MIDAS
+INFO [2022-11-28 17:06:36] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:06:38] Bayesian Models
+INFO [2022-11-28 17:06:44] Combining Results
+INFO [2022-11-28 17:06:44] Simulation: 56
+INFO [2022-11-28 17:06:44] Loading simulation data...
+INFO [2022-11-28 17:06:44] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:07:48] y predict as expected
+SUCCESS [2022-11-28 17:07:48] design matrix as expected
+INFO [2022-11-28 17:07:48] U-MIDAS
+SUCCESS [2022-11-28 17:07:48] predicting u-midas
+INFO [2022-11-28 17:07:48] Factor MIDAS
+INFO [2022-11-28 17:07:49] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:07:51] Bayesian Models
+INFO [2022-11-28 17:07:58] Combining Results
+INFO [2022-11-28 17:07:58] Simulation: 57
+INFO [2022-11-28 17:07:58] Loading simulation data...
+INFO [2022-11-28 17:07:58] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:09:02] y predict as expected
+SUCCESS [2022-11-28 17:09:02] design matrix as expected
+INFO [2022-11-28 17:09:02] U-MIDAS
+SUCCESS [2022-11-28 17:09:02] predicting u-midas
+INFO [2022-11-28 17:09:02] Factor MIDAS
+INFO [2022-11-28 17:09:02] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:09:04] Bayesian Models
+INFO [2022-11-28 17:09:11] Combining Results
+INFO [2022-11-28 17:09:11] Simulation: 58
+INFO [2022-11-28 17:09:11] Loading simulation data...
+INFO [2022-11-28 17:09:11] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:10:16] y predict as expected
+SUCCESS [2022-11-28 17:10:16] design matrix as expected
+INFO [2022-11-28 17:10:16] U-MIDAS
+SUCCESS [2022-11-28 17:10:16] predicting u-midas
+INFO [2022-11-28 17:10:16] Factor MIDAS
+INFO [2022-11-28 17:10:16] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:10:18] Bayesian Models
+INFO [2022-11-28 17:10:25] Combining Results
+INFO [2022-11-28 17:10:25] Simulation: 59
+INFO [2022-11-28 17:10:25] Loading simulation data...
+INFO [2022-11-28 17:10:25] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:11:30] y predict as expected
+SUCCESS [2022-11-28 17:11:30] design matrix as expected
+INFO [2022-11-28 17:11:30] U-MIDAS
+SUCCESS [2022-11-28 17:11:30] predicting u-midas
+INFO [2022-11-28 17:11:30] Factor MIDAS
+INFO [2022-11-28 17:11:31] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:11:33] Bayesian Models
+INFO [2022-11-28 17:11:40] Combining Results
+INFO [2022-11-28 17:11:40] Simulation: 60
+INFO [2022-11-28 17:11:40] Loading simulation data...
+INFO [2022-11-28 17:11:40] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:12:43] y predict as expected
+SUCCESS [2022-11-28 17:12:43] design matrix as expected
+INFO [2022-11-28 17:12:43] U-MIDAS
+SUCCESS [2022-11-28 17:12:43] predicting u-midas
+INFO [2022-11-28 17:12:43] Factor MIDAS
+INFO [2022-11-28 17:12:44] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:12:45] Bayesian Models
+INFO [2022-11-28 17:12:52] Combining Results
+INFO [2022-11-28 17:12:52] Simulation: 61
+INFO [2022-11-28 17:12:52] Loading simulation data...
+INFO [2022-11-28 17:12:52] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:13:58] y predict as expected
+SUCCESS [2022-11-28 17:13:58] design matrix as expected
+INFO [2022-11-28 17:13:58] U-MIDAS
+SUCCESS [2022-11-28 17:13:58] predicting u-midas
+INFO [2022-11-28 17:13:58] Factor MIDAS
+INFO [2022-11-28 17:13:58] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:14:00] Bayesian Models
+INFO [2022-11-28 17:14:07] Combining Results
+INFO [2022-11-28 17:14:07] Simulation: 62
+INFO [2022-11-28 17:14:07] Loading simulation data...
+INFO [2022-11-28 17:14:07] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:15:12] y predict as expected
+SUCCESS [2022-11-28 17:15:12] design matrix as expected
+INFO [2022-11-28 17:15:12] U-MIDAS
+SUCCESS [2022-11-28 17:15:12] predicting u-midas
+INFO [2022-11-28 17:15:12] Factor MIDAS
+INFO [2022-11-28 17:15:12] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:15:13] Bayesian Models
+INFO [2022-11-28 17:15:20] Combining Results
+INFO [2022-11-28 17:15:20] Simulation: 63
+INFO [2022-11-28 17:15:20] Loading simulation data...
+INFO [2022-11-28 17:15:20] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:16:25] y predict as expected
+SUCCESS [2022-11-28 17:16:25] design matrix as expected
+INFO [2022-11-28 17:16:25] U-MIDAS
+SUCCESS [2022-11-28 17:16:26] predicting u-midas
+INFO [2022-11-28 17:16:26] Factor MIDAS
+INFO [2022-11-28 17:16:26] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:16:28] Bayesian Models
+INFO [2022-11-28 17:16:35] Combining Results
+INFO [2022-11-28 17:16:35] Simulation: 64
+INFO [2022-11-28 17:16:35] Loading simulation data...
+INFO [2022-11-28 17:16:35] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:17:39] y predict as expected
+SUCCESS [2022-11-28 17:17:39] design matrix as expected
+INFO [2022-11-28 17:17:39] U-MIDAS
+SUCCESS [2022-11-28 17:17:39] predicting u-midas
+INFO [2022-11-28 17:17:39] Factor MIDAS
+INFO [2022-11-28 17:17:40] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:17:42] Bayesian Models
+INFO [2022-11-28 17:17:48] Combining Results
+INFO [2022-11-28 17:17:48] Simulation: 65
+INFO [2022-11-28 17:17:48] Loading simulation data...
+INFO [2022-11-28 17:17:49] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:18:53] y predict as expected
+SUCCESS [2022-11-28 17:18:53] design matrix as expected
+INFO [2022-11-28 17:18:53] U-MIDAS
+SUCCESS [2022-11-28 17:18:53] predicting u-midas
+INFO [2022-11-28 17:18:53] Factor MIDAS
+INFO [2022-11-28 17:18:53] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:18:55] Bayesian Models
+INFO [2022-11-28 17:19:02] Combining Results
+INFO [2022-11-28 17:19:02] Simulation: 66
+INFO [2022-11-28 17:19:02] Loading simulation data...
+INFO [2022-11-28 17:19:02] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:20:07] y predict as expected
+SUCCESS [2022-11-28 17:20:07] design matrix as expected
+INFO [2022-11-28 17:20:07] U-MIDAS
+SUCCESS [2022-11-28 17:20:07] predicting u-midas
+INFO [2022-11-28 17:20:07] Factor MIDAS
+INFO [2022-11-28 17:20:07] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:20:09] Bayesian Models
+INFO [2022-11-28 17:20:16] Combining Results
+INFO [2022-11-28 17:20:16] Simulation: 67
+INFO [2022-11-28 17:20:16] Loading simulation data...
+INFO [2022-11-28 17:20:16] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:21:20] y predict as expected
+SUCCESS [2022-11-28 17:21:20] design matrix as expected
+INFO [2022-11-28 17:21:20] U-MIDAS
+SUCCESS [2022-11-28 17:21:20] predicting u-midas
+INFO [2022-11-28 17:21:20] Factor MIDAS
+INFO [2022-11-28 17:21:20] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:21:22] Bayesian Models
+INFO [2022-11-28 17:21:29] Combining Results
+INFO [2022-11-28 17:21:29] Simulation: 68
+INFO [2022-11-28 17:21:29] Loading simulation data...
+INFO [2022-11-28 17:21:29] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:22:33] y predict as expected
+SUCCESS [2022-11-28 17:22:33] design matrix as expected
+INFO [2022-11-28 17:22:33] U-MIDAS
+SUCCESS [2022-11-28 17:22:33] predicting u-midas
+INFO [2022-11-28 17:22:33] Factor MIDAS
+INFO [2022-11-28 17:22:33] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:22:35] Bayesian Models
+INFO [2022-11-28 17:22:42] Combining Results
+INFO [2022-11-28 17:22:42] Simulation: 69
+INFO [2022-11-28 17:22:42] Loading simulation data...
+INFO [2022-11-28 17:22:42] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:23:46] y predict as expected
+SUCCESS [2022-11-28 17:23:46] design matrix as expected
+INFO [2022-11-28 17:23:47] U-MIDAS
+SUCCESS [2022-11-28 17:23:47] predicting u-midas
+INFO [2022-11-28 17:23:47] Factor MIDAS
+INFO [2022-11-28 17:23:47] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:23:49] Bayesian Models
+INFO [2022-11-28 17:23:56] Combining Results
+INFO [2022-11-28 17:23:56] Simulation: 70
+INFO [2022-11-28 17:23:56] Loading simulation data...
+INFO [2022-11-28 17:23:56] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:25:00] y predict as expected
+SUCCESS [2022-11-28 17:25:00] design matrix as expected
+INFO [2022-11-28 17:25:00] U-MIDAS
+SUCCESS [2022-11-28 17:25:00] predicting u-midas
+INFO [2022-11-28 17:25:00] Factor MIDAS
+INFO [2022-11-28 17:25:00] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:25:02] Bayesian Models
+INFO [2022-11-28 17:25:09] Combining Results
+INFO [2022-11-28 17:25:09] Simulation: 71
+INFO [2022-11-28 17:25:09] Loading simulation data...
+INFO [2022-11-28 17:25:09] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:26:13] y predict as expected
+SUCCESS [2022-11-28 17:26:13] design matrix as expected
+INFO [2022-11-28 17:26:13] U-MIDAS
+SUCCESS [2022-11-28 17:26:13] predicting u-midas
+INFO [2022-11-28 17:26:13] Factor MIDAS
+INFO [2022-11-28 17:26:13] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:26:15] Bayesian Models
+INFO [2022-11-28 17:26:22] Combining Results
+INFO [2022-11-28 17:26:22] Simulation: 72
+INFO [2022-11-28 17:26:22] Loading simulation data...
+INFO [2022-11-28 17:26:22] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:27:26] y predict as expected
+SUCCESS [2022-11-28 17:27:26] design matrix as expected
+INFO [2022-11-28 17:27:26] U-MIDAS
+SUCCESS [2022-11-28 17:27:26] predicting u-midas
+INFO [2022-11-28 17:27:26] Factor MIDAS
+INFO [2022-11-28 17:27:26] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:27:28] Bayesian Models
+INFO [2022-11-28 17:27:35] Combining Results
+INFO [2022-11-28 17:27:35] Simulation: 73
+INFO [2022-11-28 17:27:35] Loading simulation data...
+INFO [2022-11-28 17:27:35] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:28:40] y predict as expected
+SUCCESS [2022-11-28 17:28:40] design matrix as expected
+INFO [2022-11-28 17:28:40] U-MIDAS
+SUCCESS [2022-11-28 17:28:40] predicting u-midas
+INFO [2022-11-28 17:28:40] Factor MIDAS
+INFO [2022-11-28 17:28:41] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:28:43] Bayesian Models
+INFO [2022-11-28 17:28:50] Combining Results
+INFO [2022-11-28 17:28:50] Simulation: 74
+INFO [2022-11-28 17:28:50] Loading simulation data...
+INFO [2022-11-28 17:28:50] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:29:54] y predict as expected
+SUCCESS [2022-11-28 17:29:54] design matrix as expected
+INFO [2022-11-28 17:29:54] U-MIDAS
+SUCCESS [2022-11-28 17:29:54] predicting u-midas
+INFO [2022-11-28 17:29:54] Factor MIDAS
+INFO [2022-11-28 17:29:54] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:29:56] Bayesian Models
+INFO [2022-11-28 17:30:03] Combining Results
+INFO [2022-11-28 17:30:03] Simulation: 75
+INFO [2022-11-28 17:30:03] Loading simulation data...
+INFO [2022-11-28 17:30:03] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:31:10] y predict as expected
+SUCCESS [2022-11-28 17:31:11] design matrix as expected
+INFO [2022-11-28 17:31:11] U-MIDAS
+SUCCESS [2022-11-28 17:31:11] predicting u-midas
+INFO [2022-11-28 17:31:11] Factor MIDAS
+INFO [2022-11-28 17:31:11] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:31:14] Bayesian Models
+INFO [2022-11-28 17:31:20] Combining Results
+INFO [2022-11-28 17:31:20] Simulation: 76
+INFO [2022-11-28 17:31:20] Loading simulation data...
+INFO [2022-11-28 17:31:20] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:32:25] y predict as expected
+SUCCESS [2022-11-28 17:32:25] design matrix as expected
+INFO [2022-11-28 17:32:25] U-MIDAS
+SUCCESS [2022-11-28 17:32:25] predicting u-midas
+INFO [2022-11-28 17:32:25] Factor MIDAS
+INFO [2022-11-28 17:32:25] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:32:27] Bayesian Models
+INFO [2022-11-28 17:32:34] Combining Results
+INFO [2022-11-28 17:32:34] Simulation: 77
+INFO [2022-11-28 17:32:34] Loading simulation data...
+INFO [2022-11-28 17:32:34] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:33:38] y predict as expected
+SUCCESS [2022-11-28 17:33:38] design matrix as expected
+INFO [2022-11-28 17:33:38] U-MIDAS
+SUCCESS [2022-11-28 17:33:38] predicting u-midas
+INFO [2022-11-28 17:33:38] Factor MIDAS
+INFO [2022-11-28 17:33:39] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:33:41] Bayesian Models
+INFO [2022-11-28 17:33:47] Combining Results
+INFO [2022-11-28 17:33:47] Simulation: 78
+INFO [2022-11-28 17:33:47] Loading simulation data...
+INFO [2022-11-28 17:33:48] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:34:53] y predict as expected
+SUCCESS [2022-11-28 17:34:53] design matrix as expected
+INFO [2022-11-28 17:34:53] U-MIDAS
+SUCCESS [2022-11-28 17:34:53] predicting u-midas
+INFO [2022-11-28 17:34:53] Factor MIDAS
+INFO [2022-11-28 17:34:53] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:34:55] Bayesian Models
+INFO [2022-11-28 17:35:02] Combining Results
+INFO [2022-11-28 17:35:02] Simulation: 79
+INFO [2022-11-28 17:35:02] Loading simulation data...
+INFO [2022-11-28 17:35:02] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:36:07] y predict as expected
+SUCCESS [2022-11-28 17:36:07] design matrix as expected
+INFO [2022-11-28 17:36:07] U-MIDAS
+SUCCESS [2022-11-28 17:36:07] predicting u-midas
+INFO [2022-11-28 17:36:07] Factor MIDAS
+INFO [2022-11-28 17:36:07] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:36:09] Bayesian Models
+INFO [2022-11-28 17:36:16] Combining Results
+INFO [2022-11-28 17:36:16] Simulation: 80
+INFO [2022-11-28 17:36:16] Loading simulation data...
+INFO [2022-11-28 17:36:16] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:37:20] y predict as expected
+SUCCESS [2022-11-28 17:37:20] design matrix as expected
+INFO [2022-11-28 17:37:20] U-MIDAS
+SUCCESS [2022-11-28 17:37:20] predicting u-midas
+INFO [2022-11-28 17:37:20] Factor MIDAS
+INFO [2022-11-28 17:37:21] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:37:22] Bayesian Models
+INFO [2022-11-28 17:37:30] Combining Results
+INFO [2022-11-28 17:37:30] Simulation: 81
+INFO [2022-11-28 17:37:30] Loading simulation data...
+INFO [2022-11-28 17:37:30] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:38:34] y predict as expected
+SUCCESS [2022-11-28 17:38:34] design matrix as expected
+INFO [2022-11-28 17:38:34] U-MIDAS
+SUCCESS [2022-11-28 17:38:34] predicting u-midas
+INFO [2022-11-28 17:38:34] Factor MIDAS
+INFO [2022-11-28 17:38:34] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:38:36] Bayesian Models
+INFO [2022-11-28 17:38:43] Combining Results
+INFO [2022-11-28 17:38:43] Simulation: 82
+INFO [2022-11-28 17:38:43] Loading simulation data...
+INFO [2022-11-28 17:38:43] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:39:47] y predict as expected
+SUCCESS [2022-11-28 17:39:47] design matrix as expected
+INFO [2022-11-28 17:39:47] U-MIDAS
+SUCCESS [2022-11-28 17:39:47] predicting u-midas
+INFO [2022-11-28 17:39:47] Factor MIDAS
+INFO [2022-11-28 17:39:48] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:39:50] Bayesian Models
+INFO [2022-11-28 17:39:57] Combining Results
+INFO [2022-11-28 17:39:57] Simulation: 83
+INFO [2022-11-28 17:39:57] Loading simulation data...
+INFO [2022-11-28 17:39:57] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:41:02] y predict as expected
+SUCCESS [2022-11-28 17:41:02] design matrix as expected
+INFO [2022-11-28 17:41:02] U-MIDAS
+SUCCESS [2022-11-28 17:41:02] predicting u-midas
+INFO [2022-11-28 17:41:02] Factor MIDAS
+INFO [2022-11-28 17:41:03] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:41:04] Bayesian Models
+INFO [2022-11-28 17:41:11] Combining Results
+INFO [2022-11-28 17:41:11] Simulation: 84
+INFO [2022-11-28 17:41:11] Loading simulation data...
+INFO [2022-11-28 17:41:11] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:42:16] y predict as expected
+SUCCESS [2022-11-28 17:42:16] design matrix as expected
+INFO [2022-11-28 17:42:16] U-MIDAS
+SUCCESS [2022-11-28 17:42:16] predicting u-midas
+INFO [2022-11-28 17:42:16] Factor MIDAS
+INFO [2022-11-28 17:42:16] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:42:18] Bayesian Models
+INFO [2022-11-28 17:42:25] Combining Results
+INFO [2022-11-28 17:42:25] Simulation: 85
+INFO [2022-11-28 17:42:25] Loading simulation data...
+INFO [2022-11-28 17:42:25] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:43:30] y predict as expected
+SUCCESS [2022-11-28 17:43:30] design matrix as expected
+INFO [2022-11-28 17:43:30] U-MIDAS
+SUCCESS [2022-11-28 17:43:30] predicting u-midas
+INFO [2022-11-28 17:43:30] Factor MIDAS
+INFO [2022-11-28 17:43:30] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:43:32] Bayesian Models
+INFO [2022-11-28 17:43:39] Combining Results
+INFO [2022-11-28 17:43:39] Simulation: 86
+INFO [2022-11-28 17:43:39] Loading simulation data...
+INFO [2022-11-28 17:43:39] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:44:44] y predict as expected
+SUCCESS [2022-11-28 17:44:44] design matrix as expected
+INFO [2022-11-28 17:44:44] U-MIDAS
+SUCCESS [2022-11-28 17:44:44] predicting u-midas
+INFO [2022-11-28 17:44:44] Factor MIDAS
+INFO [2022-11-28 17:44:44] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:44:46] Bayesian Models
+INFO [2022-11-28 17:44:53] Combining Results
+INFO [2022-11-28 17:44:53] Simulation: 87
+INFO [2022-11-28 17:44:53] Loading simulation data...
+INFO [2022-11-28 17:44:53] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:45:59] y predict as expected
+SUCCESS [2022-11-28 17:45:59] design matrix as expected
+INFO [2022-11-28 17:45:59] U-MIDAS
+SUCCESS [2022-11-28 17:45:59] predicting u-midas
+INFO [2022-11-28 17:45:59] Factor MIDAS
+INFO [2022-11-28 17:45:59] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:46:00] Bayesian Models
+INFO [2022-11-28 17:46:07] Combining Results
+INFO [2022-11-28 17:46:07] Simulation: 88
+INFO [2022-11-28 17:46:07] Loading simulation data...
+INFO [2022-11-28 17:46:07] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:47:12] y predict as expected
+SUCCESS [2022-11-28 17:47:12] design matrix as expected
+INFO [2022-11-28 17:47:12] U-MIDAS
+SUCCESS [2022-11-28 17:47:12] predicting u-midas
+INFO [2022-11-28 17:47:12] Factor MIDAS
+INFO [2022-11-28 17:47:12] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:47:14] Bayesian Models
+INFO [2022-11-28 17:47:21] Combining Results
+INFO [2022-11-28 17:47:21] Simulation: 89
+INFO [2022-11-28 17:47:21] Loading simulation data...
+INFO [2022-11-28 17:47:21] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:48:30] y predict as expected
+SUCCESS [2022-11-28 17:48:30] design matrix as expected
+INFO [2022-11-28 17:48:30] U-MIDAS
+SUCCESS [2022-11-28 17:48:30] predicting u-midas
+INFO [2022-11-28 17:48:30] Factor MIDAS
+INFO [2022-11-28 17:48:30] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:48:32] Bayesian Models
+INFO [2022-11-28 17:48:39] Combining Results
+INFO [2022-11-28 17:48:39] Simulation: 90
+INFO [2022-11-28 17:48:39] Loading simulation data...
+INFO [2022-11-28 17:48:39] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:49:43] y predict as expected
+SUCCESS [2022-11-28 17:49:43] design matrix as expected
+INFO [2022-11-28 17:49:43] U-MIDAS
+SUCCESS [2022-11-28 17:49:43] predicting u-midas
+INFO [2022-11-28 17:49:43] Factor MIDAS
+INFO [2022-11-28 17:49:43] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:49:45] Bayesian Models
+INFO [2022-11-28 17:49:52] Combining Results
+INFO [2022-11-28 17:49:52] Simulation: 91
+INFO [2022-11-28 17:49:52] Loading simulation data...
+INFO [2022-11-28 17:49:52] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:50:56] y predict as expected
+SUCCESS [2022-11-28 17:50:56] design matrix as expected
+INFO [2022-11-28 17:50:56] U-MIDAS
+SUCCESS [2022-11-28 17:50:57] predicting u-midas
+INFO [2022-11-28 17:50:57] Factor MIDAS
+INFO [2022-11-28 17:50:57] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:50:59] Bayesian Models
+INFO [2022-11-28 17:51:06] Combining Results
+INFO [2022-11-28 17:51:06] Simulation: 92
+INFO [2022-11-28 17:51:06] Loading simulation data...
+INFO [2022-11-28 17:51:06] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:52:12] y predict as expected
+SUCCESS [2022-11-28 17:52:12] design matrix as expected
+INFO [2022-11-28 17:52:12] U-MIDAS
+SUCCESS [2022-11-28 17:52:12] predicting u-midas
+INFO [2022-11-28 17:52:12] Factor MIDAS
+INFO [2022-11-28 17:52:13] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:52:14] Bayesian Models
+INFO [2022-11-28 17:52:21] Combining Results
+INFO [2022-11-28 17:52:21] Simulation: 93
+INFO [2022-11-28 17:52:21] Loading simulation data...
+INFO [2022-11-28 17:52:21] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:53:26] y predict as expected
+SUCCESS [2022-11-28 17:53:26] design matrix as expected
+INFO [2022-11-28 17:53:26] U-MIDAS
+SUCCESS [2022-11-28 17:53:26] predicting u-midas
+INFO [2022-11-28 17:53:26] Factor MIDAS
+INFO [2022-11-28 17:53:26] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:53:28] Bayesian Models
+INFO [2022-11-28 17:53:34] Combining Results
+INFO [2022-11-28 17:53:34] Simulation: 94
+INFO [2022-11-28 17:53:34] Loading simulation data...
+INFO [2022-11-28 17:53:34] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:54:40] y predict as expected
+SUCCESS [2022-11-28 17:54:40] design matrix as expected
+INFO [2022-11-28 17:54:40] U-MIDAS
+SUCCESS [2022-11-28 17:54:40] predicting u-midas
+INFO [2022-11-28 17:54:40] Factor MIDAS
+INFO [2022-11-28 17:54:40] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:54:42] Bayesian Models
+INFO [2022-11-28 17:54:49] Combining Results
+INFO [2022-11-28 17:54:49] Simulation: 95
+INFO [2022-11-28 17:54:49] Loading simulation data...
+INFO [2022-11-28 17:54:49] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:55:54] y predict as expected
+SUCCESS [2022-11-28 17:55:54] design matrix as expected
+INFO [2022-11-28 17:55:54] U-MIDAS
+SUCCESS [2022-11-28 17:55:54] predicting u-midas
+INFO [2022-11-28 17:55:54] Factor MIDAS
+INFO [2022-11-28 17:55:55] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:55:58] Bayesian Models
+INFO [2022-11-28 17:56:04] Combining Results
+INFO [2022-11-28 17:56:04] Simulation: 96
+INFO [2022-11-28 17:56:04] Loading simulation data...
+INFO [2022-11-28 17:56:04] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:57:10] y predict as expected
+SUCCESS [2022-11-28 17:57:10] design matrix as expected
+INFO [2022-11-28 17:57:10] U-MIDAS
+SUCCESS [2022-11-28 17:57:10] predicting u-midas
+INFO [2022-11-28 17:57:10] Factor MIDAS
+INFO [2022-11-28 17:57:11] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:57:12] Bayesian Models
+INFO [2022-11-28 17:57:19] Combining Results
+INFO [2022-11-28 17:57:19] Simulation: 97
+INFO [2022-11-28 17:57:19] Loading simulation data...
+INFO [2022-11-28 17:57:19] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:58:25] y predict as expected
+SUCCESS [2022-11-28 17:58:25] design matrix as expected
+INFO [2022-11-28 17:58:25] U-MIDAS
+SUCCESS [2022-11-28 17:58:25] predicting u-midas
+INFO [2022-11-28 17:58:25] Factor MIDAS
+INFO [2022-11-28 17:58:25] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:58:27] Bayesian Models
+INFO [2022-11-28 17:58:34] Combining Results
+INFO [2022-11-28 17:58:34] Simulation: 98
+INFO [2022-11-28 17:58:34] Loading simulation data...
+INFO [2022-11-28 17:58:34] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 17:59:38] y predict as expected
+SUCCESS [2022-11-28 17:59:38] design matrix as expected
+INFO [2022-11-28 17:59:38] U-MIDAS
+SUCCESS [2022-11-28 17:59:39] predicting u-midas
+INFO [2022-11-28 17:59:39] Factor MIDAS
+INFO [2022-11-28 17:59:39] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 17:59:41] Bayesian Models
+INFO [2022-11-28 17:59:48] Combining Results
+INFO [2022-11-28 17:59:48] Simulation: 99
+INFO [2022-11-28 17:59:48] Loading simulation data...
+INFO [2022-11-28 17:59:48] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 18:00:52] y predict as expected
+SUCCESS [2022-11-28 18:00:52] design matrix as expected
+INFO [2022-11-28 18:00:52] U-MIDAS
+SUCCESS [2022-11-28 18:00:52] predicting u-midas
+INFO [2022-11-28 18:00:52] Factor MIDAS
+INFO [2022-11-28 18:00:52] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 18:00:54] Bayesian Models
+INFO [2022-11-28 18:01:01] Combining Results
+INFO [2022-11-28 18:01:01] Simulation: 100
+INFO [2022-11-28 18:01:01] Loading simulation data...
+INFO [2022-11-28 18:01:01] MIDAS with Almon Polynomial
+SUCCESS [2022-11-28 18:02:05] y predict as expected
+SUCCESS [2022-11-28 18:02:05] design matrix as expected
+INFO [2022-11-28 18:02:05] U-MIDAS
+SUCCESS [2022-11-28 18:02:06] predicting u-midas
+INFO [2022-11-28 18:02:06] Factor MIDAS
+INFO [2022-11-28 18:02:06] Sparse Group Lasso with U-MIDAS
+INFO [2022-11-28 18:02:08] Bayesian Models
+INFO [2022-11-28 18:02:14] Combining Results
+INFO [2022-11-28 20:06:51] Simulation: 1
+INFO [2022-11-28 20:06:51] Loading simulation data...
+INFO [2022-11-28 20:06:51] Simulation: 2
+INFO [2022-11-28 20:06:51] Loading simulation data...
+INFO [2022-11-28 20:06:51] Simulation: 3
+INFO [2022-11-28 20:06:51] Loading simulation data...
+INFO [2022-11-28 20:06:51] Simulation: 4
+INFO [2022-11-28 20:06:51] Loading simulation data...
+INFO [2022-11-28 20:06:51] Simulation: 5
+INFO [2022-11-28 20:06:51] Loading simulation data...
+INFO [2022-11-28 20:06:51] Simulation: 6
+INFO [2022-11-28 20:06:51] Loading simulation data...
+INFO [2022-11-28 20:06:51] Simulation: 7
+INFO [2022-11-28 20:06:51] Loading simulation data...
+INFO [2022-11-28 20:06:51] Simulation: 8
+INFO [2022-11-28 20:06:51] Loading simulation data...
+INFO [2022-11-28 20:06:51] Simulation: 9
+INFO [2022-11-28 20:06:51] Loading simulation data...
+INFO [2022-11-28 20:06:51] Simulation: 10
+INFO [2022-11-28 20:06:51] Loading simulation data...
+INFO [2022-11-28 20:06:52] Simulation: 11
+INFO [2022-11-28 20:06:52] Loading simulation data...
+INFO [2022-11-28 20:06:52] Simulation: 12
+INFO [2022-11-28 20:06:52] Loading simulation data...
+INFO [2022-11-28 20:06:52] Simulation: 13
+INFO [2022-11-28 20:06:53] Loading simulation data...
+INFO [2022-11-28 20:06:53] Simulation: 14
+INFO [2022-11-28 20:06:53] Loading simulation data...
+INFO [2022-11-28 20:06:54] Simulation: 15
+INFO [2022-11-28 20:06:54] Loading simulation data...
+INFO [2022-11-28 20:06:54] Simulation: 16
+INFO [2022-11-28 20:06:54] Loading simulation data...
+INFO [2022-11-28 20:06:54] Simulation: 17
+INFO [2022-11-28 20:06:54] Loading simulation data...
+INFO [2022-11-28 20:06:54] Simulation: 18
+INFO [2022-11-28 20:06:54] Loading simulation data...
+INFO [2022-11-28 20:06:54] Simulation: 19
+INFO [2022-11-28 20:06:54] Loading simulation data...
+INFO [2022-11-28 20:06:54] Simulation: 20
+INFO [2022-11-28 20:06:54] Loading simulation data...
+INFO [2022-11-28 20:06:54] Simulation: 21
+INFO [2022-11-28 20:06:54] Loading simulation data...
+INFO [2022-11-28 20:06:54] Simulation: 22
+INFO [2022-11-28 20:06:54] Loading simulation data...
+INFO [2022-11-28 20:06:54] Simulation: 23
+INFO [2022-11-28 20:06:54] Loading simulation data...
+INFO [2022-11-28 20:06:54] Simulation: 24
+INFO [2022-11-28 20:06:54] Loading simulation data...
+INFO [2022-11-28 20:06:55] Simulation: 25
+INFO [2022-11-28 20:06:55] Loading simulation data...
+INFO [2022-11-28 20:06:55] Simulation: 26
+INFO [2022-11-28 20:06:55] Loading simulation data...
+INFO [2022-11-28 20:06:55] Simulation: 27
+INFO [2022-11-28 20:06:55] Loading simulation data...
+INFO [2022-11-28 20:06:55] Simulation: 28
+INFO [2022-11-28 20:06:55] Loading simulation data...
+INFO [2022-11-28 20:06:55] Simulation: 29
+INFO [2022-11-28 20:06:55] Loading simulation data...
+INFO [2022-11-28 20:06:55] Simulation: 30
+INFO [2022-11-28 20:06:55] Loading simulation data...
+INFO [2022-11-28 20:06:55] Simulation: 31
+INFO [2022-11-28 20:06:55] Loading simulation data...
+INFO [2022-11-28 20:06:55] Simulation: 32
+INFO [2022-11-28 20:06:55] Loading simulation data...
+INFO [2022-11-28 20:06:55] Simulation: 33
+INFO [2022-11-28 20:06:56] Loading simulation data...
+INFO [2022-11-28 20:06:56] Simulation: 34
+INFO [2022-11-28 20:06:56] Loading simulation data...
+INFO [2022-11-28 20:06:56] Simulation: 35
+INFO [2022-11-28 20:06:56] Loading simulation data...
+INFO [2022-11-28 20:06:56] Simulation: 36
+INFO [2022-11-28 20:06:56] Loading simulation data...
+INFO [2022-11-28 20:06:56] Simulation: 37
+INFO [2022-11-28 20:06:56] Loading simulation data...
+INFO [2022-11-28 20:06:56] Simulation: 38
+INFO [2022-11-28 20:06:56] Loading simulation data...
+INFO [2022-11-28 20:06:56] Simulation: 39
+INFO [2022-11-28 20:06:56] Loading simulation data...
+INFO [2022-11-28 20:06:56] Simulation: 40
+INFO [2022-11-28 20:06:56] Loading simulation data...
+INFO [2022-11-28 20:06:56] Simulation: 41
+INFO [2022-11-28 20:06:56] Loading simulation data...
+INFO [2022-11-28 20:06:56] Simulation: 42
+INFO [2022-11-28 20:06:56] Loading simulation data...
+INFO [2022-11-28 20:06:56] Simulation: 43
+INFO [2022-11-28 20:06:56] Loading simulation data...
+INFO [2022-11-28 20:06:57] Simulation: 44
+INFO [2022-11-28 20:06:57] Loading simulation data...
+INFO [2022-11-28 20:06:57] Simulation: 45
+INFO [2022-11-28 20:06:57] Loading simulation data...
+INFO [2022-11-28 20:06:57] Simulation: 46
+INFO [2022-11-28 20:06:57] Loading simulation data...
+INFO [2022-11-28 20:06:57] Simulation: 47
+INFO [2022-11-28 20:06:57] Loading simulation data...
+INFO [2022-11-28 20:06:57] Simulation: 48
+INFO [2022-11-28 20:06:57] Loading simulation data...
+INFO [2022-11-28 20:06:57] Simulation: 49
+INFO [2022-11-28 20:06:57] Loading simulation data...
+INFO [2022-11-28 20:06:57] Simulation: 50
+INFO [2022-11-28 20:06:57] Loading simulation data...
+INFO [2022-11-28 20:06:57] Simulation: 51
+INFO [2022-11-28 20:06:57] Loading simulation data...
+INFO [2022-11-28 20:06:57] Simulation: 52
+INFO [2022-11-28 20:06:57] Loading simulation data...
+INFO [2022-11-28 20:06:58] Simulation: 53
+INFO [2022-11-28 20:06:58] Loading simulation data...
+INFO [2022-11-28 20:06:58] Simulation: 54
+INFO [2022-11-28 20:06:58] Loading simulation data...
+INFO [2022-11-28 20:06:58] Simulation: 55
+INFO [2022-11-28 20:06:58] Loading simulation data...
+INFO [2022-11-28 20:06:58] Simulation: 56
+INFO [2022-11-28 20:06:58] Loading simulation data...
+INFO [2022-11-28 20:06:58] Simulation: 57
+INFO [2022-11-28 20:06:58] Loading simulation data...
+INFO [2022-11-28 20:06:58] Simulation: 58
+INFO [2022-11-28 20:06:58] Loading simulation data...
+INFO [2022-11-28 20:06:58] Simulation: 59
+INFO [2022-11-28 20:06:58] Loading simulation data...
+INFO [2022-11-28 20:06:58] Simulation: 60
+INFO [2022-11-28 20:06:58] Loading simulation data...
+INFO [2022-11-28 20:06:58] Simulation: 61
+INFO [2022-11-28 20:06:58] Loading simulation data...
+INFO [2022-11-28 20:06:58] Simulation: 62
+INFO [2022-11-28 20:06:58] Loading simulation data...
+INFO [2022-11-28 20:06:58] Simulation: 63
+INFO [2022-11-28 20:06:58] Loading simulation data...
+INFO [2022-11-28 20:06:59] Simulation: 64
+INFO [2022-11-28 20:06:59] Loading simulation data...
+INFO [2022-11-28 20:06:59] Simulation: 65
+INFO [2022-11-28 20:06:59] Loading simulation data...
+INFO [2022-11-28 20:06:59] Simulation: 66
+INFO [2022-11-28 20:06:59] Loading simulation data...
+INFO [2022-11-28 20:06:59] Simulation: 67
+INFO [2022-11-28 20:06:59] Loading simulation data...
+INFO [2022-11-28 20:06:59] Simulation: 68
+INFO [2022-11-28 20:06:59] Loading simulation data...
+INFO [2022-11-28 20:06:59] Simulation: 69
+INFO [2022-11-28 20:06:59] Loading simulation data...
+INFO [2022-11-28 20:06:59] Simulation: 70
+INFO [2022-11-28 20:06:59] Loading simulation data...
+INFO [2022-11-28 20:06:59] Simulation: 71
+INFO [2022-11-28 20:06:59] Loading simulation data...
+INFO [2022-11-28 20:06:59] Simulation: 72
+INFO [2022-11-28 20:06:59] Loading simulation data...
+INFO [2022-11-28 20:07:00] Simulation: 73
+INFO [2022-11-28 20:07:00] Loading simulation data...
+INFO [2022-11-28 20:07:00] Simulation: 74
+INFO [2022-11-28 20:07:00] Loading simulation data...
+INFO [2022-11-28 20:07:00] Simulation: 75
+INFO [2022-11-28 20:07:00] Loading simulation data...
+INFO [2022-11-28 20:07:00] Simulation: 76
+INFO [2022-11-28 20:07:00] Loading simulation data...
+INFO [2022-11-28 20:07:00] Simulation: 77
+INFO [2022-11-28 20:07:00] Loading simulation data...
+INFO [2022-11-28 20:07:00] Simulation: 78
+INFO [2022-11-28 20:07:00] Loading simulation data...
+INFO [2022-11-28 20:07:01] Simulation: 79
+INFO [2022-11-28 20:07:01] Loading simulation data...
+INFO [2022-11-28 20:07:01] Simulation: 80
+INFO [2022-11-28 20:07:01] Loading simulation data...
+INFO [2022-11-28 20:07:01] Simulation: 81
+INFO [2022-11-28 20:07:01] Loading simulation data...
+INFO [2022-11-28 20:07:01] Simulation: 82
+INFO [2022-11-28 20:07:01] Loading simulation data...
+INFO [2022-11-28 20:07:02] Simulation: 83
+INFO [2022-11-28 20:07:02] Loading simulation data...
+INFO [2022-11-28 20:07:02] Simulation: 84
+INFO [2022-11-28 20:07:02] Loading simulation data...
+INFO [2022-11-28 20:07:02] Simulation: 85
+INFO [2022-11-28 20:07:02] Loading simulation data...
+INFO [2022-11-28 20:07:02] Simulation: 86
+INFO [2022-11-28 20:07:02] Loading simulation data...
+INFO [2022-11-28 20:07:02] Simulation: 87
+INFO [2022-11-28 20:07:02] Loading simulation data...
+INFO [2022-11-28 20:07:03] Simulation: 88
+INFO [2022-11-28 20:07:03] Loading simulation data...
+INFO [2022-11-28 20:07:03] Simulation: 89
+INFO [2022-11-28 20:07:03] Loading simulation data...
+INFO [2022-11-28 20:07:03] Simulation: 90
+INFO [2022-11-28 20:07:03] Loading simulation data...
+INFO [2022-11-28 20:07:03] Simulation: 91
+INFO [2022-11-28 20:07:03] Loading simulation data...
+INFO [2022-11-28 20:07:03] Simulation: 92
+INFO [2022-11-28 20:07:03] Loading simulation data...
+INFO [2022-11-28 20:07:03] Simulation: 93
+INFO [2022-11-28 20:07:03] Loading simulation data...
+INFO [2022-11-28 20:07:04] Simulation: 94
+INFO [2022-11-28 20:07:04] Loading simulation data...
+INFO [2022-11-28 20:07:04] Simulation: 95
+INFO [2022-11-28 20:07:04] Loading simulation data...
+INFO [2022-11-28 20:07:04] Simulation: 96
+INFO [2022-11-28 20:07:04] Loading simulation data...
+INFO [2022-11-28 20:07:04] Simulation: 97
+INFO [2022-11-28 20:07:04] Loading simulation data...
+INFO [2022-11-28 20:07:04] Simulation: 98
+INFO [2022-11-28 20:07:04] Loading simulation data...
+INFO [2022-11-28 20:07:04] Simulation: 99
+INFO [2022-11-28 20:07:04] Loading simulation data...
+INFO [2022-11-28 20:07:04] Simulation: 100
+INFO [2022-11-28 20:07:04] Loading simulation data...
+INFO [2022-11-28 20:27:45] Simulation: 1
+INFO [2022-11-28 20:27:45] Simulation: 2
+INFO [2022-11-28 20:27:45] Simulation: 3
+INFO [2022-11-28 20:27:46] Simulation: 4
+INFO [2022-11-28 20:27:46] Simulation: 5
+INFO [2022-11-28 20:27:46] Simulation: 6
+INFO [2022-11-28 20:27:46] Simulation: 7
+INFO [2022-11-28 20:27:46] Simulation: 8
+INFO [2022-11-28 20:27:46] Simulation: 9
+INFO [2022-11-28 20:27:46] Simulation: 10
+INFO [2022-11-28 20:27:46] Simulation: 11
+INFO [2022-11-28 20:27:46] Simulation: 12
+INFO [2022-11-28 20:27:46] Simulation: 13
+INFO [2022-11-28 20:27:46] Simulation: 14
+INFO [2022-11-28 20:27:46] Simulation: 15
+INFO [2022-11-28 20:27:46] Simulation: 16
+INFO [2022-11-28 20:27:46] Simulation: 17
+INFO [2022-11-28 20:27:46] Simulation: 18
+INFO [2022-11-28 20:27:46] Simulation: 19
+INFO [2022-11-28 20:27:46] Simulation: 20
+INFO [2022-11-28 20:27:46] Simulation: 21
+INFO [2022-11-28 20:27:46] Simulation: 22
+INFO [2022-11-28 20:27:46] Simulation: 23
+INFO [2022-11-28 20:27:46] Simulation: 24
+INFO [2022-11-28 20:27:46] Simulation: 25
+INFO [2022-11-28 20:27:46] Simulation: 26
+INFO [2022-11-28 20:27:47] Simulation: 27
+INFO [2022-11-28 20:27:47] Simulation: 28
+INFO [2022-11-28 20:27:47] Simulation: 29
+INFO [2022-11-28 20:27:47] Simulation: 30
+INFO [2022-11-28 20:27:47] Simulation: 31
+INFO [2022-11-28 20:27:47] Simulation: 32
+INFO [2022-11-28 20:27:47] Simulation: 33
+INFO [2022-11-28 20:27:47] Simulation: 34
+INFO [2022-11-28 20:27:47] Simulation: 35
+INFO [2022-11-28 20:27:47] Simulation: 36
+INFO [2022-11-28 20:27:47] Simulation: 37
+INFO [2022-11-28 20:27:47] Simulation: 38
+INFO [2022-11-28 20:27:47] Simulation: 39
+INFO [2022-11-28 20:27:47] Simulation: 40
+INFO [2022-11-28 20:27:48] Simulation: 41
+INFO [2022-11-28 20:27:48] Simulation: 42
+INFO [2022-11-28 20:27:48] Simulation: 43
+INFO [2022-11-28 20:27:48] Simulation: 44
+INFO [2022-11-28 20:27:48] Simulation: 45
+INFO [2022-11-28 20:27:48] Simulation: 46
+INFO [2022-11-28 20:27:48] Simulation: 47
+INFO [2022-11-28 20:27:48] Simulation: 48
+INFO [2022-11-28 20:27:48] Simulation: 49
+INFO [2022-11-28 20:27:48] Simulation: 50
+INFO [2022-11-28 20:27:48] Simulation: 51
+INFO [2022-11-28 20:27:48] Simulation: 52
+INFO [2022-11-28 20:27:48] Simulation: 53
+INFO [2022-11-28 20:27:48] Simulation: 54
+INFO [2022-11-28 20:27:48] Simulation: 55
+INFO [2022-11-28 20:27:48] Simulation: 56
+INFO [2022-11-28 20:27:48] Simulation: 57
+INFO [2022-11-28 20:27:49] Simulation: 58
+INFO [2022-11-28 20:27:49] Simulation: 59
+INFO [2022-11-28 20:27:49] Simulation: 60
+INFO [2022-11-28 20:27:49] Simulation: 61
+INFO [2022-11-28 20:27:49] Simulation: 62
+INFO [2022-11-28 20:27:49] Simulation: 63
+INFO [2022-11-28 20:27:49] Simulation: 64
+INFO [2022-11-28 20:27:49] Simulation: 65
+INFO [2022-11-28 20:27:49] Simulation: 66
+INFO [2022-11-28 20:27:49] Simulation: 67
+INFO [2022-11-28 20:27:49] Simulation: 68
+INFO [2022-11-28 20:27:49] Simulation: 69
+INFO [2022-11-28 20:27:49] Simulation: 70
+INFO [2022-11-28 20:27:49] Simulation: 71
+INFO [2022-11-28 20:27:49] Simulation: 72
+INFO [2022-11-28 20:27:50] Simulation: 73
+INFO [2022-11-28 20:27:50] Simulation: 74
+INFO [2022-11-28 20:27:50] Simulation: 75
+INFO [2022-11-28 20:27:50] Simulation: 76
+INFO [2022-11-28 20:27:50] Simulation: 77
+INFO [2022-11-28 20:27:50] Simulation: 78
+INFO [2022-11-28 20:27:50] Simulation: 79
+INFO [2022-11-28 20:27:50] Simulation: 80
+INFO [2022-11-28 20:27:50] Simulation: 81
+INFO [2022-11-28 20:27:50] Simulation: 82
+INFO [2022-11-28 20:27:50] Simulation: 83
+INFO [2022-11-28 20:27:50] Simulation: 84
+INFO [2022-11-28 20:27:51] Simulation: 85
+INFO [2022-11-28 20:27:51] Simulation: 86
+INFO [2022-11-28 20:27:51] Simulation: 87
+INFO [2022-11-28 20:27:51] Simulation: 88
+INFO [2022-11-28 20:27:51] Simulation: 89
+INFO [2022-11-28 20:27:51] Simulation: 90
+INFO [2022-11-28 20:27:51] Simulation: 91
+INFO [2022-11-28 20:27:51] Simulation: 92
+INFO [2022-11-28 20:27:51] Simulation: 93
+INFO [2022-11-28 20:27:51] Simulation: 94
+INFO [2022-11-28 20:27:51] Simulation: 95
+INFO [2022-11-28 20:27:52] Simulation: 96
+INFO [2022-11-28 20:27:52] Simulation: 97
+INFO [2022-11-28 20:27:52] Simulation: 98
+INFO [2022-11-28 20:27:52] Simulation: 99
+INFO [2022-11-28 20:27:52] Simulation: 100

@@ -1,0 +1,230 @@
+INFO [2022-12-03 15:47:36] Setting input variables
+INFO [2022-12-03 15:47:54] Setting input variables
+INFO [2022-12-03 15:49:27] Setting input variables
+INFO [2022-12-03 15:56:33] Setting input variables
+INFO [2022-12-03 15:56:33] Creating Stan models
+INFO [2022-12-03 15:56:33] Stan models creation done: 4 models
+INFO [2022-12-03 16:03:30] Setting input variables
+INFO [2022-12-03 16:03:30] Creating Stan models
+INFO [2022-12-03 16:03:31] Stan models creation done: 4 models
+INFO [2022-12-03 16:03:31] Creating Stan models
+INFO [2022-12-03 16:03:31] Stan models creation done: 4 models
+INFO [2022-12-03 16:03:51] Setting input variables
+INFO [2022-12-03 16:03:52] Creating Stan models
+INFO [2022-12-03 16:04:03] Setting input variables
+INFO [2022-12-03 16:04:03] Creating Stan models
+INFO [2022-12-03 16:04:03] Stan models creation done: 4 models
+INFO [2022-12-03 16:04:03] Creating Stan models
+INFO [2022-12-03 16:04:03] Stan models creation done: 4 models
+INFO [2022-12-03 16:05:03] Simulation: 1
+INFO [2022-12-03 16:05:03] Simulation: 2
+INFO [2022-12-03 16:05:03] Simulation: 3
+INFO [2022-12-03 16:05:03] Simulation: 4
+INFO [2022-12-03 16:05:03] Simulation: 5
+INFO [2022-12-03 16:05:03] Simulation: 6
+INFO [2022-12-03 16:05:03] Simulation: 7
+INFO [2022-12-03 16:05:03] Simulation: 8
+INFO [2022-12-03 16:05:03] Simulation: 9
+INFO [2022-12-03 16:05:03] Simulation: 10
+INFO [2022-12-03 16:05:03] Simulation: 11
+INFO [2022-12-03 16:05:03] Simulation: 12
+INFO [2022-12-03 16:05:03] Simulation: 13
+INFO [2022-12-03 16:05:03] Simulation: 14
+INFO [2022-12-03 16:05:03] Simulation: 15
+INFO [2022-12-03 16:05:03] Simulation: 16
+INFO [2022-12-03 16:05:03] Simulation: 17
+INFO [2022-12-03 16:05:03] Simulation: 18
+INFO [2022-12-03 16:05:03] Simulation: 19
+INFO [2022-12-03 16:05:03] Simulation: 20
+INFO [2022-12-03 16:05:04] Simulation: 21
+INFO [2022-12-03 16:05:04] Simulation: 22
+INFO [2022-12-03 16:05:04] Simulation: 23
+INFO [2022-12-03 16:05:04] Simulation: 24
+INFO [2022-12-03 16:05:04] Simulation: 25
+INFO [2022-12-03 16:05:04] Simulation: 26
+INFO [2022-12-03 16:05:04] Simulation: 27
+INFO [2022-12-03 16:05:04] Simulation: 28
+INFO [2022-12-03 16:05:04] Simulation: 29
+INFO [2022-12-03 16:05:04] Simulation: 30
+INFO [2022-12-03 16:05:04] Simulation: 31
+INFO [2022-12-03 16:05:04] Simulation: 32
+INFO [2022-12-03 16:05:04] Simulation: 33
+INFO [2022-12-03 16:05:04] Simulation: 34
+INFO [2022-12-03 16:05:04] Simulation: 35
+INFO [2022-12-03 16:05:04] Simulation: 36
+INFO [2022-12-03 16:05:04] Simulation: 37
+INFO [2022-12-03 16:05:04] Simulation: 38
+INFO [2022-12-03 16:05:04] Simulation: 39
+INFO [2022-12-03 16:05:04] Simulation: 40
+INFO [2022-12-03 16:05:04] Simulation: 41
+INFO [2022-12-03 16:05:04] Simulation: 42
+INFO [2022-12-03 16:05:04] Simulation: 43
+INFO [2022-12-03 16:05:04] Simulation: 44
+INFO [2022-12-03 16:05:04] Simulation: 45
+INFO [2022-12-03 16:05:04] Simulation: 46
+INFO [2022-12-03 16:05:04] Simulation: 47
+INFO [2022-12-03 16:05:04] Simulation: 48
+INFO [2022-12-03 16:05:04] Simulation: 49
+INFO [2022-12-03 16:05:04] Simulation: 50
+INFO [2022-12-03 16:05:04] Simulation: 51
+INFO [2022-12-03 16:05:05] Simulation: 52
+INFO [2022-12-03 16:05:05] Simulation: 53
+INFO [2022-12-03 16:05:05] Simulation: 54
+INFO [2022-12-03 16:05:05] Simulation: 55
+INFO [2022-12-03 16:05:05] Simulation: 56
+INFO [2022-12-03 16:05:05] Simulation: 57
+INFO [2022-12-03 16:05:05] Simulation: 58
+INFO [2022-12-03 16:05:05] Simulation: 59
+INFO [2022-12-03 16:05:05] Simulation: 60
+INFO [2022-12-03 16:05:05] Simulation: 61
+INFO [2022-12-03 16:05:05] Simulation: 62
+INFO [2022-12-03 16:05:05] Simulation: 63
+INFO [2022-12-03 16:05:05] Simulation: 64
+INFO [2022-12-03 16:05:05] Simulation: 65
+INFO [2022-12-03 16:05:05] Simulation: 66
+INFO [2022-12-03 16:05:05] Simulation: 67
+INFO [2022-12-03 16:05:05] Simulation: 68
+INFO [2022-12-03 16:05:05] Simulation: 69
+INFO [2022-12-03 16:05:05] Simulation: 70
+INFO [2022-12-03 16:05:05] Simulation: 71
+INFO [2022-12-03 16:05:05] Simulation: 72
+INFO [2022-12-03 16:05:05] Simulation: 73
+INFO [2022-12-03 16:05:05] Simulation: 74
+INFO [2022-12-03 16:05:05] Simulation: 75
+INFO [2022-12-03 16:05:05] Simulation: 76
+INFO [2022-12-03 16:05:05] Simulation: 77
+INFO [2022-12-03 16:05:05] Simulation: 78
+INFO [2022-12-03 16:05:05] Simulation: 79
+INFO [2022-12-03 16:05:05] Simulation: 80
+INFO [2022-12-03 16:05:05] Simulation: 81
+INFO [2022-12-03 16:05:06] Simulation: 82
+INFO [2022-12-03 16:05:06] Simulation: 83
+INFO [2022-12-03 16:05:06] Simulation: 84
+INFO [2022-12-03 16:05:06] Simulation: 85
+INFO [2022-12-03 16:05:06] Simulation: 86
+INFO [2022-12-03 16:05:06] Simulation: 87
+INFO [2022-12-03 16:05:06] Simulation: 88
+INFO [2022-12-03 16:05:06] Simulation: 89
+INFO [2022-12-03 16:05:06] Simulation: 90
+INFO [2022-12-03 16:05:06] Simulation: 91
+INFO [2022-12-03 16:05:06] Simulation: 92
+INFO [2022-12-03 16:05:06] Simulation: 93
+INFO [2022-12-03 16:05:06] Simulation: 94
+INFO [2022-12-03 16:05:06] Simulation: 95
+INFO [2022-12-03 16:05:06] Simulation: 96
+INFO [2022-12-03 16:05:06] Simulation: 97
+INFO [2022-12-03 16:05:06] Simulation: 98
+INFO [2022-12-03 16:05:06] Simulation: 99
+INFO [2022-12-03 16:05:06] Simulation: 100
+INFO [2022-12-03 19:43:02] Simulation: 1
+INFO [2022-12-03 19:43:02] Loading simulation data...
+INFO [2022-12-03 20:00:20] Setting input variables
+INFO [2022-12-03 20:00:20] Creating Stan models
+INFO [2022-12-03 20:00:20] Stan models creation done: 4 models
+INFO [2022-12-03 20:02:12] Simulation: 1
+INFO [2022-12-03 20:02:14] Simulation: 2
+INFO [2022-12-03 20:02:23] Simulation: 3
+INFO [2022-12-03 20:02:31] Simulation: 4
+INFO [2022-12-03 22:22:37] Setting input variables
+INFO [2022-12-03 22:22:37] Creating Stan models
+INFO [2022-12-03 22:22:37] Stan models creation done: 4 models
+INFO [2022-12-03 22:22:37] Simulation: 1
+INFO [2022-12-03 22:22:45] Simulation: 2
+INFO [2022-12-03 22:22:53] Simulation: 3
+INFO [2022-12-03 22:23:01] Simulation: 4
+INFO [2022-12-03 22:23:09] Simulation: 5
+INFO [2022-12-03 22:23:17] Simulation: 6
+INFO [2022-12-03 22:23:25] Simulation: 7
+INFO [2022-12-03 22:23:33] Simulation: 8
+INFO [2022-12-03 22:23:41] Simulation: 9
+INFO [2022-12-03 22:23:48] Simulation: 10
+INFO [2022-12-03 22:23:56] Simulation: 11
+INFO [2022-12-03 22:24:03] Simulation: 12
+INFO [2022-12-03 22:24:11] Simulation: 13
+INFO [2022-12-03 22:24:19] Simulation: 14
+INFO [2022-12-03 22:24:27] Simulation: 15
+INFO [2022-12-03 22:24:35] Simulation: 16
+INFO [2022-12-03 22:24:43] Simulation: 17
+INFO [2022-12-03 22:24:50] Simulation: 18
+INFO [2022-12-03 22:24:59] Simulation: 19
+INFO [2022-12-03 22:25:06] Simulation: 20
+INFO [2022-12-03 22:25:14] Simulation: 21
+INFO [2022-12-03 22:25:22] Simulation: 22
+INFO [2022-12-03 22:25:30] Simulation: 23
+INFO [2022-12-03 22:25:38] Simulation: 24
+INFO [2022-12-03 22:25:46] Simulation: 25
+INFO [2022-12-03 22:25:54] Simulation: 26
+INFO [2022-12-03 22:26:02] Simulation: 27
+INFO [2022-12-03 22:26:10] Simulation: 28
+INFO [2022-12-03 22:26:18] Simulation: 29
+INFO [2022-12-03 22:26:26] Simulation: 30
+INFO [2022-12-03 22:26:34] Simulation: 31
+INFO [2022-12-03 22:26:42] Simulation: 32
+INFO [2022-12-03 22:26:50] Simulation: 33
+INFO [2022-12-03 22:26:58] Simulation: 34
+INFO [2022-12-03 22:27:05] Simulation: 35
+INFO [2022-12-03 22:27:13] Simulation: 36
+INFO [2022-12-03 22:27:21] Simulation: 37
+INFO [2022-12-03 22:27:28] Simulation: 38
+INFO [2022-12-03 22:27:36] Simulation: 39
+INFO [2022-12-03 22:27:43] Simulation: 40
+INFO [2022-12-03 22:27:51] Simulation: 41
+INFO [2022-12-03 22:27:59] Simulation: 42
+INFO [2022-12-03 22:28:06] Simulation: 43
+INFO [2022-12-03 22:28:14] Simulation: 44
+INFO [2022-12-03 22:28:22] Simulation: 45
+INFO [2022-12-03 22:28:29] Simulation: 46
+INFO [2022-12-03 22:28:37] Simulation: 47
+INFO [2022-12-03 22:28:44] Simulation: 48
+INFO [2022-12-03 22:28:52] Simulation: 49
+INFO [2022-12-03 22:29:00] Simulation: 50
+INFO [2022-12-03 22:29:08] Simulation: 51
+INFO [2022-12-03 22:29:16] Simulation: 52
+INFO [2022-12-03 22:29:23] Simulation: 53
+INFO [2022-12-03 22:29:31] Simulation: 54
+INFO [2022-12-03 22:29:39] Simulation: 55
+INFO [2022-12-03 22:29:46] Simulation: 56
+INFO [2022-12-03 22:29:54] Simulation: 57
+INFO [2022-12-03 22:30:01] Simulation: 58
+INFO [2022-12-03 22:30:09] Simulation: 59
+INFO [2022-12-03 22:30:16] Simulation: 60
+INFO [2022-12-03 22:30:24] Simulation: 61
+INFO [2022-12-03 22:30:31] Simulation: 62
+INFO [2022-12-03 22:30:39] Simulation: 63
+INFO [2022-12-03 22:30:46] Simulation: 64
+INFO [2022-12-03 22:30:53] Simulation: 65
+INFO [2022-12-03 22:31:01] Simulation: 66
+INFO [2022-12-03 22:31:08] Simulation: 67
+INFO [2022-12-03 22:31:16] Simulation: 68
+INFO [2022-12-03 22:31:23] Simulation: 69
+INFO [2022-12-03 22:31:31] Simulation: 70
+INFO [2022-12-03 22:31:38] Simulation: 71
+INFO [2022-12-03 22:31:46] Simulation: 72
+INFO [2022-12-03 22:31:53] Simulation: 73
+INFO [2022-12-03 22:32:01] Simulation: 74
+INFO [2022-12-03 22:32:08] Simulation: 75
+INFO [2022-12-03 22:32:16] Simulation: 76
+INFO [2022-12-03 22:32:23] Simulation: 77
+INFO [2022-12-03 22:32:31] Simulation: 78
+INFO [2022-12-03 22:32:39] Simulation: 79
+INFO [2022-12-03 22:32:46] Simulation: 80
+INFO [2022-12-03 22:32:54] Simulation: 81
+INFO [2022-12-03 22:33:02] Simulation: 82
+INFO [2022-12-03 22:33:09] Simulation: 83
+INFO [2022-12-03 22:33:16] Simulation: 84
+INFO [2022-12-03 22:33:24] Simulation: 85
+INFO [2022-12-03 22:33:32] Simulation: 86
+INFO [2022-12-03 22:33:39] Simulation: 87
+INFO [2022-12-03 22:33:47] Simulation: 88
+INFO [2022-12-03 22:33:54] Simulation: 89
+INFO [2022-12-03 22:34:02] Simulation: 90
+INFO [2022-12-03 22:34:09] Simulation: 91
+INFO [2022-12-03 22:34:17] Simulation: 92
+INFO [2022-12-03 22:34:25] Simulation: 93
+INFO [2022-12-03 22:34:32] Simulation: 94
+INFO [2022-12-03 22:34:40] Simulation: 95
+INFO [2022-12-03 22:34:48] Simulation: 96
+INFO [2022-12-03 22:34:55] Simulation: 97
+INFO [2022-12-03 22:35:03] Simulation: 98
+INFO [2022-12-03 22:35:11] Simulation: 99
+INFO [2022-12-03 22:35:19] Simulation: 100

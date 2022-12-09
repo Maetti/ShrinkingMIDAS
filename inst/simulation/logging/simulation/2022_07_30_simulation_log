@@ -1,0 +1,8 @@
+INFO [2022-07-30 21:11:33] Setting input variables
+INFO [2022-07-30 21:11:38] Done with input data generation
+INFO [2022-07-30 21:11:38] Creating Stan models
+INFO [2022-07-30 21:11:38] Stan models creation done: 3 models
+INFO [2022-07-30 21:28:36] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/001_rawdata.rds
+INFO [2022-07-30 23:16:27] Creating Stan models
+INFO [2022-07-30 23:16:27] Stan models creation done: 4 models
+INFO [2022-07-30 23:17:34] Creating Stan models

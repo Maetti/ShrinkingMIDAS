@@ -1,0 +1,117 @@
+INFO [2022-10-22 18:10:53] Setting input variables
+INFO [2022-10-22 18:10:59] Simulating input data for: 10 simulations
+INFO [2022-10-22 18:11:31] Setting input variables
+INFO [2022-10-22 18:11:33] Simulating input data for: 11 simulations
+INFO [2022-10-22 18:11:53] Done with input data generation
+INFO [2022-10-22 18:12:33] Setting input variables
+INFO [2022-10-22 18:13:05] Simulating input data for: 11 simulations
+INFO [2022-10-22 18:14:15] Simulating input data for: 11 simulations
+INFO [2022-10-22 18:14:15] Create data for simulation: 011
+INFO [2022-10-22 18:14:16] Done with input data generation
+INFO [2022-10-22 18:14:21] Creating Stan models
+INFO [2022-10-22 18:14:24] Stan models creation done: 4 models
+INFO [2022-10-22 18:14:26] Starting model fitting for each generated data
+INFO [2022-10-22 18:16:09] Starting model fitting for each generated data
+INFO [2022-10-22 18:16:11] ----------------- Run: 1/11 -----------------
+INFO [2022-10-22 18:16:11] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/001_rawdata.rds
+INFO [2022-10-22 18:16:11] Group Lasso Hierarchical (run 1)
+INFO [2022-10-22 18:16:11] File already exists - skipped to next...
+INFO [2022-10-22 18:16:11] Horseshoe Group Plus (run 1)
+INFO [2022-10-22 18:16:11] File already exists - skipped to next...
+INFO [2022-10-22 18:16:11] Horseshoe Group Vector (run 1)
+INFO [2022-10-22 18:16:11] File already exists - skipped to next...
+INFO [2022-10-22 18:16:11] Horseshoe Plus Wo Group (run 1)
+INFO [2022-10-22 18:16:11] File already exists - skipped to next...
+INFO [2022-10-22 18:16:16] ----------------- Run: 2/11 -----------------
+INFO [2022-10-22 18:16:16] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/002_rawdata.rds
+INFO [2022-10-22 18:16:16] Group Lasso Hierarchical (run 2)
+INFO [2022-10-22 18:16:16] File already exists - skipped to next...
+INFO [2022-10-22 18:16:16] Horseshoe Group Plus (run 2)
+INFO [2022-10-22 18:16:16] File already exists - skipped to next...
+INFO [2022-10-22 18:16:16] Horseshoe Group Vector (run 2)
+INFO [2022-10-22 18:16:16] File already exists - skipped to next...
+INFO [2022-10-22 18:16:16] Horseshoe Plus Wo Group (run 2)
+INFO [2022-10-22 18:17:04] ----------------- Run: 2/11 -----------------
+INFO [2022-10-22 18:17:08] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/002_rawdata.rds
+INFO [2022-10-22 18:17:23] Group Lasso Hierarchical (run 2)
+INFO [2022-10-22 18:17:23] File already exists - skipped to next...
+INFO [2022-10-22 18:17:23] Horseshoe Group Plus (run 2)
+INFO [2022-10-22 18:17:23] File already exists - skipped to next...
+INFO [2022-10-22 18:17:23] Horseshoe Group Vector (run 2)
+INFO [2022-10-22 18:17:23] File already exists - skipped to next...
+INFO [2022-10-22 18:17:23] Horseshoe Plus Wo Group (run 2)
+INFO [2022-10-22 18:17:39] Horseshoe Group Vector (run 2)
+INFO [2022-10-22 18:17:58] File already exists - skipped to next...
+INFO [2022-10-22 18:18:15] Horseshoe Group Vector (run 2)
+INFO [2022-10-22 18:18:20] File already exists - skipped to next...
+INFO [2022-10-22 18:18:45] ----------------- Run: 1/11 -----------------
+INFO [2022-10-22 18:18:45] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/001_rawdata.rds
+INFO [2022-10-22 18:18:45] Group Lasso Hierarchical (run 1)
+INFO [2022-10-22 18:18:45] File already exists - skipped to next...
+INFO [2022-10-22 18:18:45] Horseshoe Group Plus (run 1)
+INFO [2022-10-22 18:18:45] File already exists - skipped to next...
+INFO [2022-10-22 18:18:45] Horseshoe Group Vector (run 1)
+INFO [2022-10-22 18:18:45] File already exists - skipped to next...
+INFO [2022-10-22 18:18:45] Horseshoe Plus Wo Group (run 1)
+INFO [2022-10-22 18:18:45] File already exists - skipped to next...
+INFO [2022-10-22 18:18:50] ----------------- Run: 2/11 -----------------
+INFO [2022-10-22 18:18:50] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/002_rawdata.rds
+INFO [2022-10-22 18:18:50] Group Lasso Hierarchical (run 2)
+INFO [2022-10-22 18:18:50] File already exists - skipped to next...
+INFO [2022-10-22 18:18:50] Horseshoe Group Plus (run 2)
+INFO [2022-10-22 18:18:50] File already exists - skipped to next...
+INFO [2022-10-22 18:18:50] Horseshoe Group Vector (run 2)
+INFO [2022-10-22 18:18:50] File already exists - skipped to next...
+INFO [2022-10-22 18:18:50] Horseshoe Plus Wo Group (run 2)
+INFO [2022-10-22 18:20:19] ----------------- Run: 3/11 -----------------
+INFO [2022-10-22 18:20:20] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/003_rawdata.rds
+INFO [2022-10-22 18:20:21] Group Lasso Hierarchical (run 3)
+INFO [2022-10-22 18:20:21] File already exists - skipped to next...
+INFO [2022-10-22 18:20:21] Horseshoe Group Plus (run 3)
+INFO [2022-10-22 18:20:21] File already exists - skipped to next...
+INFO [2022-10-22 18:20:21] Horseshoe Group Vector (run 3)
+INFO [2022-10-22 18:20:21] File already exists - skipped to next...
+INFO [2022-10-22 18:20:21] Horseshoe Plus Wo Group (run 3)
+INFO [2022-10-22 18:20:50] Group Lasso Hierarchical (run 3)
+INFO [2022-10-22 18:20:50] File already exists - skipped to next...
+INFO [2022-10-22 18:20:53] Horseshoe Group Plus (run 3)
+INFO [2022-10-22 18:20:53] File already exists - skipped to next...
+INFO [2022-10-22 18:20:54] Horseshoe Group Vector (run 3)
+INFO [2022-10-22 18:20:54] File already exists - skipped to next...
+INFO [2022-10-22 18:20:55] Horseshoe Plus Wo Group (run 3)
+INFO [2022-10-22 18:26:05] Creating Stan models
+INFO [2022-10-22 18:26:19] Stan models creation done: 4 models
+INFO [2022-10-22 18:27:16] ----------------- Run: 2/11 -----------------
+INFO [2022-10-22 18:27:16] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/002_rawdata.rds
+INFO [2022-10-22 18:27:26] Horseshoe Plus Wo Group (run 2)
+INFO [2022-10-22 18:28:00] Horseshoe Plus Wo Group (run 2)
+INFO [2022-10-22 18:28:03] Simulation 11: Model Horseshoe Plus Wo Group 
+INFO [2022-10-22 18:30:10] Creating Stan models
+INFO [2022-10-22 18:30:25] Stan models creation done: 4 models
+INFO [2022-10-22 18:32:10] Starting model fitting for each generated data
+INFO [2022-10-22 18:36:42] Creating Stan models
+INFO [2022-10-22 18:36:42] Stan models creation done: 4 models
+INFO [2022-10-22 18:36:45] Creating Stan models
+INFO [2022-10-22 18:36:45] Stan models creation done: 4 models
+INFO [2022-10-22 18:47:55] Creating Stan models
+INFO [2022-10-22 18:47:55] Stan models creation done: 4 models
+INFO [2022-10-22 18:47:57] Creating Stan models
+INFO [2022-10-22 18:47:57] Stan models creation done: 4 models
+INFO [2022-10-22 19:03:34] Setting input variables
+INFO [2022-10-22 19:03:34] Simulating input data for: 11 simulations
+INFO [2022-10-22 19:03:34] Done with input data generation
+INFO [2022-10-22 19:03:41] Setting input variables
+INFO [2022-10-22 19:03:41] Simulating input data for: 11 simulations
+INFO [2022-10-22 19:03:41] Done with input data generation
+INFO [2022-10-22 19:03:41] Creating Stan models
+INFO [2022-10-22 19:03:41] Stan models creation done: 4 models
+INFO [2022-10-22 19:03:51] Starting model fitting for each generated data
+INFO [2022-10-22 19:03:53] ----------------- Run: 1/11 -----------------
+INFO [2022-10-22 19:03:53] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/001_rawdata.rds
+INFO [2022-10-22 19:04:14] Group Lasso Hierarchical (run 1)
+INFO [2022-10-22 19:04:14] File already exists - skipped to next...
+INFO [2022-10-22 19:04:14] Horseshoe Group Plus (run 1)
+INFO [2022-10-22 19:04:14] File already exists - skipped to next...
+INFO [2022-10-22 19:04:15] Horseshoe Group (run 1)
+INFO [2022-10-22 19:04:15] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/01_stan_objects/horseshoe_group
+INFO [2022-10-22 19:04:15] Estimte Model...

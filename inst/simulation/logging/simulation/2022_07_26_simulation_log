@@ -1,0 +1,35 @@
+INFO [2022-07-26 19:06:37] Setting input variables
+INFO [2022-07-26 19:06:41] Creating Stan models
+INFO [2022-07-26 19:06:41] Stan models creation done: 3 models
+INFO [2022-07-26 19:12:53] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical
+INFO [2022-07-26 19:12:53] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical
+INFO [2022-07-26 19:17:08] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/1
+INFO [2022-07-26 19:17:08] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/1
+INFO [2022-07-26 19:26:44] Setting input variables
+INFO [2022-07-26 19:27:01] Creating Stan models
+INFO [2022-07-26 19:27:02] Stan models creation done: 3 models
+INFO [2022-07-26 19:27:17] Extract data for: Group Lasso Hierarchical
+INFO [2022-07-26 20:39:47] Extract data for: Group Lasso Hierarchical
+INFO [2022-07-26 20:40:51] Extract data for: Horseshoe Group Plus
+INFO [2022-07-26 20:40:52] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus
+INFO [2022-07-26 20:40:54] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus
+INFO [2022-07-26 20:40:56] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/1
+INFO [2022-07-26 20:40:57] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/1
+INFO [2022-07-26 20:41:58] Extract data for: Horseshoe Group Vector
+INFO [2022-07-26 20:41:58] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_vector
+INFO [2022-07-26 20:41:58] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_vector
+INFO [2022-07-26 20:41:58] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_vector/1
+INFO [2022-07-26 20:41:58] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_vector/1
+INFO [2022-07-26 21:13:40] Setting input variables
+INFO [2022-07-26 21:13:43] Done with input data generation
+INFO [2022-07-26 21:13:43] Creating Stan models
+INFO [2022-07-26 21:13:44] Stan models creation done: 3 models
+INFO [2022-07-26 21:13:50] Done with input data generation
+INFO [2022-07-26 21:13:50] Creating Stan models
+INFO [2022-07-26 21:13:50] Stan models creation done: 3 models
+INFO [2022-07-26 21:22:11] Extract data for: Group Lasso Hierarchical
+INFO [2022-07-26 21:25:53] Extract data for: Group Lasso Hierarchical
+INFO [2022-07-26 21:26:41] Extract data for: Horseshoe Group Plus
+INFO [2022-07-26 21:27:46] Extract data for: Horseshoe Group Vector
+INFO [2022-07-26 21:43:43] Creating Stan models
+INFO [2022-07-26 21:43:48] Stan models creation done: 3 models

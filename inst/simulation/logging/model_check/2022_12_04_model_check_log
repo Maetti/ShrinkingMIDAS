@@ -1,0 +1,842 @@
+INFO [2022-12-04 00:00:43] Setting input variables
+INFO [2022-12-04 00:00:43] Creating Stan models
+INFO [2022-12-04 00:00:43] Stan models creation done: 4 models
+INFO [2022-12-04 00:08:32] Simulation: [i}/100
+INFO [2022-12-04 00:08:36] Simulation: 1/100
+INFO [2022-12-04 00:09:41] ----- simulation: 1/100 -----
+INFO [2022-12-04 00:10:34] model: group_lasso_hierarchical
+INFO [2022-12-04 00:11:26] Setting input variables
+INFO [2022-12-04 00:11:26] Creating Stan models
+INFO [2022-12-04 00:11:26] Stan models creation done: 4 models
+INFO [2022-12-04 00:11:39] ----- simulation: 1/100 -----
+INFO [2022-12-04 00:11:39] load simulated data
+INFO [2022-12-04 00:11:39] load theta...
+INFO [2022-12-04 00:11:50] load sigma...
+INFO [2022-12-04 00:11:53] model: group_lasso_hierarchical
+INFO [2022-12-04 00:12:17] model: group_lasso_hierarchical
+INFO [2022-12-04 00:12:26] model: group_lasso_hierarchical
+INFO [2022-12-04 00:12:59] model: group_lasso_hierarchical
+INFO [2022-12-04 00:13:01] model: horseshoe_group
+INFO [2022-12-04 00:13:03] model: horseshoe_group_plus
+INFO [2022-12-04 00:13:32] ----- simulation: 1/100 -----
+INFO [2022-12-04 00:13:32] load simulated data
+INFO [2022-12-04 00:13:32] load theta...
+INFO [2022-12-04 00:13:42] load sigma...
+INFO [2022-12-04 00:13:45] model: group_lasso_hierarchical
+INFO [2022-12-04 00:13:47] model: horseshoe_group
+INFO [2022-12-04 00:13:49] model: horseshoe_group_plus
+INFO [2022-12-04 00:13:51] append data
+INFO [2022-12-04 00:13:51] ----- simulation: 2/100 -----
+INFO [2022-12-04 00:13:51] load simulated data
+INFO [2022-12-04 00:13:51] load theta...
+INFO [2022-12-04 00:14:06] load sigma...
+INFO [2022-12-04 00:14:09] model: group_lasso_hierarchical
+INFO [2022-12-04 00:14:12] model: horseshoe_group
+INFO [2022-12-04 00:14:14] model: horseshoe_group_plus
+INFO [2022-12-04 00:14:16] append data
+INFO [2022-12-04 00:14:16] ----- simulation: 3/100 -----
+INFO [2022-12-04 00:14:16] load simulated data
+INFO [2022-12-04 00:14:16] load theta...
+INFO [2022-12-04 11:11:01] Setting input variables
+INFO [2022-12-04 11:11:01] Creating Stan models
+INFO [2022-12-04 11:11:01] Stan models creation done: 4 models
+INFO [2022-12-04 11:11:14] ----- simulation: 1/100 -----
+INFO [2022-12-04 11:11:14] load simulated data
+INFO [2022-12-04 11:11:14] load theta...
+INFO [2022-12-04 11:11:31] load sigma...
+INFO [2022-12-04 11:11:39] model: group_lasso_hierarchical
+INFO [2022-12-04 11:11:42] model: horseshoe_group
+INFO [2022-12-04 11:11:43] model: horseshoe_group_plus
+INFO [2022-12-04 11:11:46] append data
+INFO [2022-12-04 11:11:46] ----- simulation: 2/100 -----
+INFO [2022-12-04 11:11:46] load simulated data
+INFO [2022-12-04 11:11:46] load theta...
+INFO [2022-12-04 11:12:02] load sigma...
+INFO [2022-12-04 11:12:09] model: group_lasso_hierarchical
+INFO [2022-12-04 11:12:11] model: horseshoe_group
+INFO [2022-12-04 11:12:13] model: horseshoe_group_plus
+INFO [2022-12-04 11:12:15] append data
+INFO [2022-12-04 11:12:15] ----- simulation: 3/100 -----
+INFO [2022-12-04 11:12:15] load simulated data
+INFO [2022-12-04 11:12:15] load theta...
+INFO [2022-12-04 11:12:30] load sigma...
+INFO [2022-12-04 11:12:38] model: group_lasso_hierarchical
+INFO [2022-12-04 11:12:41] model: horseshoe_group
+INFO [2022-12-04 11:12:42] model: horseshoe_group_plus
+INFO [2022-12-04 11:12:44] append data
+INFO [2022-12-04 11:12:44] ----- simulation: 4/100 -----
+INFO [2022-12-04 11:12:44] load simulated data
+INFO [2022-12-04 11:12:44] load theta...
+INFO [2022-12-04 11:13:00] load sigma...
+INFO [2022-12-04 11:13:09] model: group_lasso_hierarchical
+INFO [2022-12-04 11:13:12] model: horseshoe_group
+INFO [2022-12-04 11:13:13] model: horseshoe_group_plus
+INFO [2022-12-04 11:13:15] append data
+INFO [2022-12-04 11:13:15] ----- simulation: 5/100 -----
+INFO [2022-12-04 11:13:15] load simulated data
+INFO [2022-12-04 11:13:15] load theta...
+INFO [2022-12-04 11:13:32] load sigma...
+INFO [2022-12-04 11:13:41] model: group_lasso_hierarchical
+INFO [2022-12-04 11:13:43] model: horseshoe_group
+INFO [2022-12-04 11:13:45] model: horseshoe_group_plus
+INFO [2022-12-04 11:13:47] append data
+INFO [2022-12-04 11:13:47] ----- simulation: 6/100 -----
+INFO [2022-12-04 11:13:47] load simulated data
+INFO [2022-12-04 11:13:47] load theta...
+INFO [2022-12-04 11:14:02] load sigma...
+INFO [2022-12-04 11:14:11] model: group_lasso_hierarchical
+INFO [2022-12-04 11:14:13] model: horseshoe_group
+INFO [2022-12-04 11:14:15] model: horseshoe_group_plus
+INFO [2022-12-04 11:14:18] append data
+INFO [2022-12-04 11:14:18] ----- simulation: 7/100 -----
+INFO [2022-12-04 11:14:18] load simulated data
+INFO [2022-12-04 11:14:18] load theta...
+INFO [2022-12-04 11:14:33] load sigma...
+INFO [2022-12-04 11:14:41] model: group_lasso_hierarchical
+INFO [2022-12-04 11:14:44] model: horseshoe_group
+INFO [2022-12-04 11:14:46] model: horseshoe_group_plus
+INFO [2022-12-04 11:14:48] append data
+INFO [2022-12-04 11:14:48] ----- simulation: 8/100 -----
+INFO [2022-12-04 11:14:48] load simulated data
+INFO [2022-12-04 11:14:48] load theta...
+INFO [2022-12-04 11:15:02] load sigma...
+INFO [2022-12-04 11:15:09] model: group_lasso_hierarchical
+INFO [2022-12-04 11:15:11] model: horseshoe_group
+INFO [2022-12-04 11:15:13] model: horseshoe_group_plus
+INFO [2022-12-04 11:15:15] append data
+INFO [2022-12-04 11:15:15] ----- simulation: 9/100 -----
+INFO [2022-12-04 11:15:15] load simulated data
+INFO [2022-12-04 11:15:15] load theta...
+INFO [2022-12-04 11:15:29] load sigma...
+INFO [2022-12-04 11:15:35] model: group_lasso_hierarchical
+INFO [2022-12-04 11:15:38] model: horseshoe_group
+INFO [2022-12-04 11:15:40] model: horseshoe_group_plus
+INFO [2022-12-04 11:15:42] append data
+INFO [2022-12-04 11:15:42] ----- simulation: 10/100 -----
+INFO [2022-12-04 11:15:42] load simulated data
+INFO [2022-12-04 11:15:42] load theta...
+INFO [2022-12-04 11:15:57] load sigma...
+INFO [2022-12-04 11:16:00] model: group_lasso_hierarchical
+INFO [2022-12-04 11:16:03] model: horseshoe_group
+INFO [2022-12-04 11:16:05] model: horseshoe_group_plus
+INFO [2022-12-04 11:16:07] append data
+INFO [2022-12-04 11:16:07] ----- simulation: 11/100 -----
+INFO [2022-12-04 11:16:07] load simulated data
+INFO [2022-12-04 11:16:07] load theta...
+INFO [2022-12-04 11:16:21] load sigma...
+INFO [2022-12-04 11:16:24] model: group_lasso_hierarchical
+INFO [2022-12-04 11:16:26] model: horseshoe_group
+INFO [2022-12-04 11:16:28] model: horseshoe_group_plus
+INFO [2022-12-04 11:16:30] append data
+INFO [2022-12-04 11:16:30] ----- simulation: 12/100 -----
+INFO [2022-12-04 11:16:30] load simulated data
+INFO [2022-12-04 11:16:31] load theta...
+INFO [2022-12-04 11:16:45] load sigma...
+INFO [2022-12-04 11:16:50] model: group_lasso_hierarchical
+INFO [2022-12-04 11:16:52] model: horseshoe_group
+INFO [2022-12-04 11:16:54] model: horseshoe_group_plus
+INFO [2022-12-04 11:16:56] append data
+INFO [2022-12-04 11:16:56] ----- simulation: 13/100 -----
+INFO [2022-12-04 11:16:56] load simulated data
+INFO [2022-12-04 11:16:56] load theta...
+INFO [2022-12-04 11:17:10] load sigma...
+INFO [2022-12-04 11:17:13] model: group_lasso_hierarchical
+INFO [2022-12-04 11:17:16] model: horseshoe_group
+INFO [2022-12-04 11:17:18] model: horseshoe_group_plus
+INFO [2022-12-04 11:17:20] append data
+INFO [2022-12-04 11:17:20] ----- simulation: 14/100 -----
+INFO [2022-12-04 11:17:20] load simulated data
+INFO [2022-12-04 11:17:20] load theta...
+INFO [2022-12-04 11:17:34] load sigma...
+INFO [2022-12-04 11:17:37] model: group_lasso_hierarchical
+INFO [2022-12-04 11:17:40] model: horseshoe_group
+INFO [2022-12-04 11:17:42] model: horseshoe_group_plus
+INFO [2022-12-04 11:17:44] append data
+INFO [2022-12-04 11:17:44] ----- simulation: 15/100 -----
+INFO [2022-12-04 11:17:44] load simulated data
+INFO [2022-12-04 11:17:44] load theta...
+INFO [2022-12-04 11:17:59] load sigma...
+INFO [2022-12-04 11:18:05] model: group_lasso_hierarchical
+INFO [2022-12-04 11:18:07] model: horseshoe_group
+INFO [2022-12-04 11:18:09] model: horseshoe_group_plus
+INFO [2022-12-04 11:18:11] append data
+INFO [2022-12-04 11:18:11] ----- simulation: 16/100 -----
+INFO [2022-12-04 11:18:11] load simulated data
+INFO [2022-12-04 11:18:11] load theta...
+INFO [2022-12-04 11:18:27] load sigma...
+INFO [2022-12-04 11:18:30] model: group_lasso_hierarchical
+INFO [2022-12-04 11:18:32] model: horseshoe_group
+INFO [2022-12-04 11:18:34] model: horseshoe_group_plus
+INFO [2022-12-04 11:18:36] append data
+INFO [2022-12-04 11:18:36] ----- simulation: 17/100 -----
+INFO [2022-12-04 11:18:36] load simulated data
+INFO [2022-12-04 11:18:36] load theta...
+INFO [2022-12-04 11:18:51] load sigma...
+INFO [2022-12-04 11:18:56] model: group_lasso_hierarchical
+INFO [2022-12-04 11:18:58] model: horseshoe_group
+INFO [2022-12-04 11:19:00] model: horseshoe_group_plus
+INFO [2022-12-04 11:19:02] append data
+INFO [2022-12-04 11:19:02] ----- simulation: 18/100 -----
+INFO [2022-12-04 11:19:02] load simulated data
+INFO [2022-12-04 11:19:02] load theta...
+INFO [2022-12-04 11:19:17] load sigma...
+INFO [2022-12-04 11:19:20] model: group_lasso_hierarchical
+INFO [2022-12-04 11:19:23] model: horseshoe_group
+INFO [2022-12-04 11:19:25] model: horseshoe_group_plus
+INFO [2022-12-04 11:19:27] append data
+INFO [2022-12-04 11:19:27] ----- simulation: 19/100 -----
+INFO [2022-12-04 11:19:27] load simulated data
+INFO [2022-12-04 11:19:27] load theta...
+INFO [2022-12-04 11:19:42] load sigma...
+INFO [2022-12-04 11:19:46] model: group_lasso_hierarchical
+INFO [2022-12-04 11:19:48] model: horseshoe_group
+INFO [2022-12-04 11:19:50] model: horseshoe_group_plus
+INFO [2022-12-04 11:19:52] append data
+INFO [2022-12-04 11:19:52] ----- simulation: 20/100 -----
+INFO [2022-12-04 11:19:52] load simulated data
+INFO [2022-12-04 11:19:52] load theta...
+INFO [2022-12-04 11:20:07] load sigma...
+INFO [2022-12-04 11:20:10] model: group_lasso_hierarchical
+INFO [2022-12-04 11:20:13] model: horseshoe_group
+INFO [2022-12-04 11:20:16] model: horseshoe_group_plus
+INFO [2022-12-04 11:20:18] append data
+INFO [2022-12-04 11:20:18] ----- simulation: 21/100 -----
+INFO [2022-12-04 11:20:18] load simulated data
+INFO [2022-12-04 11:20:18] load theta...
+INFO [2022-12-04 11:20:33] load sigma...
+INFO [2022-12-04 11:20:36] model: group_lasso_hierarchical
+INFO [2022-12-04 11:20:39] model: horseshoe_group
+INFO [2022-12-04 11:20:41] model: horseshoe_group_plus
+INFO [2022-12-04 11:20:43] append data
+INFO [2022-12-04 11:20:43] ----- simulation: 22/100 -----
+INFO [2022-12-04 11:20:43] load simulated data
+INFO [2022-12-04 11:20:43] load theta...
+INFO [2022-12-04 11:20:58] load sigma...
+INFO [2022-12-04 11:21:01] model: group_lasso_hierarchical
+INFO [2022-12-04 11:21:04] model: horseshoe_group
+INFO [2022-12-04 11:21:06] model: horseshoe_group_plus
+INFO [2022-12-04 11:21:08] append data
+INFO [2022-12-04 11:21:08] ----- simulation: 23/100 -----
+INFO [2022-12-04 11:21:08] load simulated data
+INFO [2022-12-04 11:21:08] load theta...
+INFO [2022-12-04 11:21:23] load sigma...
+INFO [2022-12-04 11:21:26] model: group_lasso_hierarchical
+INFO [2022-12-04 11:21:29] model: horseshoe_group
+INFO [2022-12-04 11:21:31] model: horseshoe_group_plus
+INFO [2022-12-04 11:21:32] append data
+INFO [2022-12-04 11:21:32] ----- simulation: 24/100 -----
+INFO [2022-12-04 11:21:32] load simulated data
+INFO [2022-12-04 11:21:32] load theta...
+INFO [2022-12-04 11:21:47] load sigma...
+INFO [2022-12-04 11:21:50] model: group_lasso_hierarchical
+INFO [2022-12-04 11:21:52] model: horseshoe_group
+INFO [2022-12-04 11:21:54] model: horseshoe_group_plus
+INFO [2022-12-04 11:21:56] append data
+INFO [2022-12-04 11:21:56] ----- simulation: 25/100 -----
+INFO [2022-12-04 11:21:56] load simulated data
+INFO [2022-12-04 11:21:56] load theta...
+INFO [2022-12-04 11:22:11] load sigma...
+INFO [2022-12-04 11:22:16] model: group_lasso_hierarchical
+INFO [2022-12-04 11:22:19] model: horseshoe_group
+INFO [2022-12-04 11:22:21] model: horseshoe_group_plus
+INFO [2022-12-04 11:22:23] append data
+INFO [2022-12-04 11:22:23] ----- simulation: 26/100 -----
+INFO [2022-12-04 11:22:23] load simulated data
+INFO [2022-12-04 11:22:23] load theta...
+INFO [2022-12-04 11:22:38] load sigma...
+INFO [2022-12-04 11:22:41] model: group_lasso_hierarchical
+INFO [2022-12-04 11:22:43] model: horseshoe_group
+INFO [2022-12-04 11:22:45] model: horseshoe_group_plus
+INFO [2022-12-04 11:22:47] append data
+INFO [2022-12-04 11:22:47] ----- simulation: 27/100 -----
+INFO [2022-12-04 11:22:47] load simulated data
+INFO [2022-12-04 11:22:47] load theta...
+INFO [2022-12-04 11:23:02] load sigma...
+INFO [2022-12-04 11:23:05] model: group_lasso_hierarchical
+INFO [2022-12-04 11:23:08] model: horseshoe_group
+INFO [2022-12-04 11:23:10] model: horseshoe_group_plus
+INFO [2022-12-04 11:23:12] append data
+INFO [2022-12-04 11:23:12] ----- simulation: 28/100 -----
+INFO [2022-12-04 11:23:12] load simulated data
+INFO [2022-12-04 11:23:12] load theta...
+INFO [2022-12-04 11:23:26] load sigma...
+INFO [2022-12-04 11:23:30] model: group_lasso_hierarchical
+INFO [2022-12-04 11:23:33] model: horseshoe_group
+INFO [2022-12-04 11:23:35] model: horseshoe_group_plus
+INFO [2022-12-04 11:23:37] append data
+INFO [2022-12-04 11:23:37] ----- simulation: 29/100 -----
+INFO [2022-12-04 11:23:37] load simulated data
+INFO [2022-12-04 11:23:37] load theta...
+INFO [2022-12-04 11:23:52] load sigma...
+INFO [2022-12-04 11:23:55] model: group_lasso_hierarchical
+INFO [2022-12-04 11:23:57] model: horseshoe_group
+INFO [2022-12-04 11:23:59] model: horseshoe_group_plus
+INFO [2022-12-04 11:24:01] append data
+INFO [2022-12-04 11:24:01] ----- simulation: 30/100 -----
+INFO [2022-12-04 11:24:01] load simulated data
+INFO [2022-12-04 11:24:01] load theta...
+INFO [2022-12-04 11:24:15] load sigma...
+INFO [2022-12-04 11:24:19] model: group_lasso_hierarchical
+INFO [2022-12-04 11:24:21] model: horseshoe_group
+INFO [2022-12-04 11:24:23] model: horseshoe_group_plus
+INFO [2022-12-04 11:24:25] append data
+INFO [2022-12-04 11:24:25] ----- simulation: 31/100 -----
+INFO [2022-12-04 11:24:25] load simulated data
+INFO [2022-12-04 11:24:25] load theta...
+INFO [2022-12-04 11:24:39] load sigma...
+INFO [2022-12-04 11:24:44] model: group_lasso_hierarchical
+INFO [2022-12-04 11:24:46] model: horseshoe_group
+INFO [2022-12-04 11:24:48] model: horseshoe_group_plus
+INFO [2022-12-04 11:24:50] append data
+INFO [2022-12-04 11:24:50] ----- simulation: 32/100 -----
+INFO [2022-12-04 11:24:50] load simulated data
+INFO [2022-12-04 11:24:50] load theta...
+INFO [2022-12-04 11:25:04] load sigma...
+INFO [2022-12-04 11:25:07] model: group_lasso_hierarchical
+INFO [2022-12-04 11:25:10] model: horseshoe_group
+INFO [2022-12-04 11:25:12] model: horseshoe_group_plus
+INFO [2022-12-04 11:25:14] append data
+INFO [2022-12-04 11:25:14] ----- simulation: 33/100 -----
+INFO [2022-12-04 11:25:14] load simulated data
+INFO [2022-12-04 11:25:14] load theta...
+INFO [2022-12-04 11:25:28] load sigma...
+INFO [2022-12-04 11:25:33] model: group_lasso_hierarchical
+INFO [2022-12-04 11:25:35] model: horseshoe_group
+INFO [2022-12-04 11:25:37] model: horseshoe_group_plus
+INFO [2022-12-04 11:25:39] append data
+INFO [2022-12-04 11:25:39] ----- simulation: 34/100 -----
+INFO [2022-12-04 11:25:39] load simulated data
+INFO [2022-12-04 11:25:39] load theta...
+INFO [2022-12-04 11:25:54] load sigma...
+INFO [2022-12-04 11:25:57] model: group_lasso_hierarchical
+INFO [2022-12-04 11:26:00] model: horseshoe_group
+INFO [2022-12-04 11:26:02] model: horseshoe_group_plus
+INFO [2022-12-04 11:26:04] append data
+INFO [2022-12-04 11:26:04] ----- simulation: 35/100 -----
+INFO [2022-12-04 11:26:04] load simulated data
+INFO [2022-12-04 11:26:04] load theta...
+INFO [2022-12-04 11:26:18] load sigma...
+INFO [2022-12-04 11:26:22] model: group_lasso_hierarchical
+INFO [2022-12-04 11:26:24] model: horseshoe_group
+INFO [2022-12-04 11:26:26] model: horseshoe_group_plus
+INFO [2022-12-04 11:26:29] append data
+INFO [2022-12-04 11:26:29] ----- simulation: 36/100 -----
+INFO [2022-12-04 11:26:29] load simulated data
+INFO [2022-12-04 11:26:29] load theta...
+INFO [2022-12-04 11:26:43] load sigma...
+INFO [2022-12-04 11:26:46] model: group_lasso_hierarchical
+INFO [2022-12-04 11:26:48] model: horseshoe_group
+INFO [2022-12-04 11:26:50] model: horseshoe_group_plus
+INFO [2022-12-04 11:26:52] append data
+INFO [2022-12-04 11:26:52] ----- simulation: 37/100 -----
+INFO [2022-12-04 11:26:52] load simulated data
+INFO [2022-12-04 11:26:52] load theta...
+INFO [2022-12-04 11:27:07] load sigma...
+INFO [2022-12-04 11:27:13] model: group_lasso_hierarchical
+INFO [2022-12-04 11:27:15] model: horseshoe_group
+INFO [2022-12-04 11:27:17] model: horseshoe_group_plus
+INFO [2022-12-04 11:27:19] append data
+INFO [2022-12-04 11:27:19] ----- simulation: 38/100 -----
+INFO [2022-12-04 11:27:19] load simulated data
+INFO [2022-12-04 11:27:19] load theta...
+INFO [2022-12-04 11:27:33] load sigma...
+INFO [2022-12-04 11:27:36] model: group_lasso_hierarchical
+INFO [2022-12-04 11:27:38] model: horseshoe_group
+INFO [2022-12-04 11:27:40] model: horseshoe_group_plus
+INFO [2022-12-04 11:27:42] append data
+INFO [2022-12-04 11:27:42] ----- simulation: 39/100 -----
+INFO [2022-12-04 11:27:42] load simulated data
+INFO [2022-12-04 11:27:42] load theta...
+INFO [2022-12-04 11:27:56] load sigma...
+INFO [2022-12-04 11:27:59] model: group_lasso_hierarchical
+INFO [2022-12-04 11:28:01] model: horseshoe_group
+INFO [2022-12-04 11:28:03] model: horseshoe_group_plus
+INFO [2022-12-04 11:28:05] append data
+INFO [2022-12-04 11:28:05] ----- simulation: 40/100 -----
+INFO [2022-12-04 11:28:05] load simulated data
+INFO [2022-12-04 11:28:05] load theta...
+INFO [2022-12-04 11:28:19] load sigma...
+INFO [2022-12-04 11:28:22] model: group_lasso_hierarchical
+INFO [2022-12-04 11:28:24] model: horseshoe_group
+INFO [2022-12-04 11:28:26] model: horseshoe_group_plus
+INFO [2022-12-04 11:28:28] append data
+INFO [2022-12-04 11:28:28] ----- simulation: 41/100 -----
+INFO [2022-12-04 11:28:28] load simulated data
+INFO [2022-12-04 11:28:28] load theta...
+INFO [2022-12-04 11:28:42] load sigma...
+INFO [2022-12-04 11:28:46] model: group_lasso_hierarchical
+INFO [2022-12-04 11:28:48] model: horseshoe_group
+INFO [2022-12-04 11:28:50] model: horseshoe_group_plus
+INFO [2022-12-04 11:28:52] append data
+INFO [2022-12-04 11:28:52] ----- simulation: 42/100 -----
+INFO [2022-12-04 11:28:52] load simulated data
+INFO [2022-12-04 11:28:52] load theta...
+INFO [2022-12-04 11:29:06] load sigma...
+INFO [2022-12-04 11:29:10] model: group_lasso_hierarchical
+INFO [2022-12-04 11:29:12] model: horseshoe_group
+INFO [2022-12-04 11:29:14] model: horseshoe_group_plus
+INFO [2022-12-04 11:29:16] append data
+INFO [2022-12-04 11:29:16] ----- simulation: 43/100 -----
+INFO [2022-12-04 11:29:16] load simulated data
+INFO [2022-12-04 11:29:16] load theta...
+INFO [2022-12-04 11:29:31] load sigma...
+INFO [2022-12-04 11:29:34] model: group_lasso_hierarchical
+INFO [2022-12-04 11:29:36] model: horseshoe_group
+INFO [2022-12-04 11:29:38] model: horseshoe_group_plus
+INFO [2022-12-04 11:29:40] append data
+INFO [2022-12-04 11:29:40] ----- simulation: 44/100 -----
+INFO [2022-12-04 11:29:40] load simulated data
+INFO [2022-12-04 11:29:40] load theta...
+INFO [2022-12-04 11:29:54] load sigma...
+INFO [2022-12-04 11:29:58] model: group_lasso_hierarchical
+INFO [2022-12-04 11:30:01] model: horseshoe_group
+INFO [2022-12-04 11:30:03] model: horseshoe_group_plus
+INFO [2022-12-04 11:30:05] append data
+INFO [2022-12-04 11:30:05] ----- simulation: 45/100 -----
+INFO [2022-12-04 11:30:05] load simulated data
+INFO [2022-12-04 11:30:05] load theta...
+INFO [2022-12-04 11:30:19] load sigma...
+INFO [2022-12-04 11:30:23] model: group_lasso_hierarchical
+INFO [2022-12-04 11:30:25] model: horseshoe_group
+INFO [2022-12-04 11:30:27] model: horseshoe_group_plus
+INFO [2022-12-04 11:30:29] append data
+INFO [2022-12-04 11:30:29] ----- simulation: 46/100 -----
+INFO [2022-12-04 11:30:29] load simulated data
+INFO [2022-12-04 11:30:29] load theta...
+INFO [2022-12-04 11:30:44] load sigma...
+INFO [2022-12-04 11:30:47] model: group_lasso_hierarchical
+INFO [2022-12-04 11:30:49] model: horseshoe_group
+INFO [2022-12-04 11:30:51] model: horseshoe_group_plus
+INFO [2022-12-04 11:30:53] append data
+INFO [2022-12-04 11:30:53] ----- simulation: 47/100 -----
+INFO [2022-12-04 11:30:53] load simulated data
+INFO [2022-12-04 11:30:53] load theta...
+INFO [2022-12-04 11:31:08] load sigma...
+INFO [2022-12-04 11:31:14] model: group_lasso_hierarchical
+INFO [2022-12-04 11:31:17] model: horseshoe_group
+INFO [2022-12-04 11:31:19] model: horseshoe_group_plus
+INFO [2022-12-04 11:31:21] append data
+INFO [2022-12-04 11:31:21] ----- simulation: 48/100 -----
+INFO [2022-12-04 11:31:21] load simulated data
+INFO [2022-12-04 11:31:21] load theta...
+INFO [2022-12-04 11:31:36] load sigma...
+INFO [2022-12-04 11:31:40] model: group_lasso_hierarchical
+INFO [2022-12-04 11:31:43] model: horseshoe_group
+INFO [2022-12-04 11:31:45] model: horseshoe_group_plus
+INFO [2022-12-04 11:31:47] append data
+INFO [2022-12-04 11:31:47] ----- simulation: 49/100 -----
+INFO [2022-12-04 11:31:47] load simulated data
+INFO [2022-12-04 11:31:47] load theta...
+INFO [2022-12-04 11:32:01] load sigma...
+INFO [2022-12-04 11:32:04] model: group_lasso_hierarchical
+INFO [2022-12-04 11:32:07] model: horseshoe_group
+INFO [2022-12-04 11:32:09] model: horseshoe_group_plus
+INFO [2022-12-04 11:32:11] append data
+INFO [2022-12-04 11:32:11] ----- simulation: 50/100 -----
+INFO [2022-12-04 11:32:11] load simulated data
+INFO [2022-12-04 11:32:11] load theta...
+INFO [2022-12-04 11:32:25] load sigma...
+INFO [2022-12-04 11:32:28] model: group_lasso_hierarchical
+INFO [2022-12-04 11:32:31] model: horseshoe_group
+INFO [2022-12-04 11:32:33] model: horseshoe_group_plus
+INFO [2022-12-04 11:32:35] append data
+INFO [2022-12-04 11:32:35] ----- simulation: 51/100 -----
+INFO [2022-12-04 11:32:35] load simulated data
+INFO [2022-12-04 11:32:35] load theta...
+INFO [2022-12-04 11:32:51] load sigma...
+INFO [2022-12-04 11:32:55] model: group_lasso_hierarchical
+INFO [2022-12-04 11:32:57] model: horseshoe_group
+INFO [2022-12-04 11:32:59] model: horseshoe_group_plus
+INFO [2022-12-04 11:33:02] append data
+INFO [2022-12-04 11:33:02] ----- simulation: 52/100 -----
+INFO [2022-12-04 11:33:02] load simulated data
+INFO [2022-12-04 11:33:02] load theta...
+INFO [2022-12-04 11:33:15] load sigma...
+INFO [2022-12-04 11:33:18] model: group_lasso_hierarchical
+INFO [2022-12-04 11:33:21] model: horseshoe_group
+INFO [2022-12-04 11:33:23] model: horseshoe_group_plus
+INFO [2022-12-04 11:33:25] append data
+INFO [2022-12-04 11:33:25] ----- simulation: 53/100 -----
+INFO [2022-12-04 11:33:25] load simulated data
+INFO [2022-12-04 11:33:25] load theta...
+INFO [2022-12-04 11:33:39] load sigma...
+INFO [2022-12-04 11:33:42] model: group_lasso_hierarchical
+INFO [2022-12-04 11:33:44] model: horseshoe_group
+INFO [2022-12-04 11:33:46] model: horseshoe_group_plus
+INFO [2022-12-04 11:33:48] append data
+INFO [2022-12-04 11:33:48] ----- simulation: 54/100 -----
+INFO [2022-12-04 11:33:48] load simulated data
+INFO [2022-12-04 11:33:48] load theta...
+INFO [2022-12-04 11:34:01] load sigma...
+INFO [2022-12-04 11:34:05] model: group_lasso_hierarchical
+INFO [2022-12-04 11:34:07] model: horseshoe_group
+INFO [2022-12-04 11:34:09] model: horseshoe_group_plus
+INFO [2022-12-04 11:34:11] append data
+INFO [2022-12-04 11:34:11] ----- simulation: 55/100 -----
+INFO [2022-12-04 11:34:11] load simulated data
+INFO [2022-12-04 11:34:11] load theta...
+INFO [2022-12-04 11:34:24] load sigma...
+INFO [2022-12-04 11:34:27] model: group_lasso_hierarchical
+INFO [2022-12-04 11:34:30] model: horseshoe_group
+INFO [2022-12-04 11:34:32] model: horseshoe_group_plus
+INFO [2022-12-04 11:34:34] append data
+INFO [2022-12-04 11:34:34] ----- simulation: 56/100 -----
+INFO [2022-12-04 11:34:34] load simulated data
+INFO [2022-12-04 11:34:34] load theta...
+INFO [2022-12-04 11:34:48] load sigma...
+INFO [2022-12-04 11:34:50] model: group_lasso_hierarchical
+INFO [2022-12-04 11:34:53] model: horseshoe_group
+INFO [2022-12-04 11:34:55] model: horseshoe_group_plus
+INFO [2022-12-04 11:34:57] append data
+INFO [2022-12-04 11:34:57] ----- simulation: 57/100 -----
+INFO [2022-12-04 11:34:57] load simulated data
+INFO [2022-12-04 11:34:57] load theta...
+INFO [2022-12-04 11:35:10] load sigma...
+INFO [2022-12-04 11:35:14] model: group_lasso_hierarchical
+INFO [2022-12-04 11:35:17] model: horseshoe_group
+INFO [2022-12-04 11:35:18] model: horseshoe_group_plus
+INFO [2022-12-04 11:35:20] append data
+INFO [2022-12-04 11:35:20] ----- simulation: 58/100 -----
+INFO [2022-12-04 11:35:20] load simulated data
+INFO [2022-12-04 11:35:20] load theta...
+INFO [2022-12-04 11:35:34] load sigma...
+INFO [2022-12-04 11:35:37] model: group_lasso_hierarchical
+INFO [2022-12-04 11:35:40] model: horseshoe_group
+INFO [2022-12-04 11:35:42] model: horseshoe_group_plus
+INFO [2022-12-04 11:35:43] append data
+INFO [2022-12-04 11:35:43] ----- simulation: 59/100 -----
+INFO [2022-12-04 11:35:43] load simulated data
+INFO [2022-12-04 11:35:43] load theta...
+INFO [2022-12-04 11:35:57] load sigma...
+INFO [2022-12-04 11:36:00] model: group_lasso_hierarchical
+INFO [2022-12-04 11:36:03] model: horseshoe_group
+INFO [2022-12-04 11:36:04] model: horseshoe_group_plus
+INFO [2022-12-04 11:36:06] append data
+INFO [2022-12-04 11:36:06] ----- simulation: 60/100 -----
+INFO [2022-12-04 11:36:06] load simulated data
+INFO [2022-12-04 11:36:06] load theta...
+INFO [2022-12-04 11:36:20] load sigma...
+INFO [2022-12-04 11:36:23] model: group_lasso_hierarchical
+INFO [2022-12-04 11:36:25] model: horseshoe_group
+INFO [2022-12-04 11:36:27] model: horseshoe_group_plus
+INFO [2022-12-04 11:36:29] append data
+INFO [2022-12-04 11:36:29] ----- simulation: 61/100 -----
+INFO [2022-12-04 11:36:29] load simulated data
+INFO [2022-12-04 11:36:29] load theta...
+INFO [2022-12-04 11:36:43] load sigma...
+INFO [2022-12-04 11:36:46] model: group_lasso_hierarchical
+INFO [2022-12-04 11:36:49] model: horseshoe_group
+INFO [2022-12-04 11:36:51] model: horseshoe_group_plus
+INFO [2022-12-04 11:36:52] append data
+INFO [2022-12-04 11:36:52] ----- simulation: 62/100 -----
+INFO [2022-12-04 11:36:52] load simulated data
+INFO [2022-12-04 11:36:53] load theta...
+INFO [2022-12-04 11:37:07] load sigma...
+INFO [2022-12-04 11:37:10] model: group_lasso_hierarchical
+INFO [2022-12-04 11:37:12] model: horseshoe_group
+INFO [2022-12-04 11:37:14] model: horseshoe_group_plus
+INFO [2022-12-04 11:37:16] append data
+INFO [2022-12-04 11:37:16] ----- simulation: 63/100 -----
+INFO [2022-12-04 11:37:16] load simulated data
+INFO [2022-12-04 11:37:16] load theta...
+INFO [2022-12-04 11:37:30] load sigma...
+INFO [2022-12-04 11:37:33] model: group_lasso_hierarchical
+INFO [2022-12-04 11:37:35] model: horseshoe_group
+INFO [2022-12-04 11:37:37] model: horseshoe_group_plus
+INFO [2022-12-04 11:37:39] append data
+INFO [2022-12-04 11:37:39] ----- simulation: 64/100 -----
+INFO [2022-12-04 11:37:39] load simulated data
+INFO [2022-12-04 11:37:39] load theta...
+INFO [2022-12-04 11:37:53] load sigma...
+INFO [2022-12-04 11:37:56] model: group_lasso_hierarchical
+INFO [2022-12-04 11:37:59] model: horseshoe_group
+INFO [2022-12-04 11:38:01] model: horseshoe_group_plus
+INFO [2022-12-04 11:38:02] append data
+INFO [2022-12-04 11:38:02] ----- simulation: 65/100 -----
+INFO [2022-12-04 11:38:02] load simulated data
+INFO [2022-12-04 11:38:02] load theta...
+INFO [2022-12-04 11:38:16] load sigma...
+INFO [2022-12-04 11:38:20] model: group_lasso_hierarchical
+INFO [2022-12-04 11:38:23] model: horseshoe_group
+INFO [2022-12-04 11:38:25] model: horseshoe_group_plus
+INFO [2022-12-04 11:38:26] append data
+INFO [2022-12-04 11:38:26] ----- simulation: 66/100 -----
+INFO [2022-12-04 11:38:26] load simulated data
+INFO [2022-12-04 11:38:27] load theta...
+INFO [2022-12-04 11:38:41] load sigma...
+INFO [2022-12-04 11:38:44] model: group_lasso_hierarchical
+INFO [2022-12-04 11:38:46] model: horseshoe_group
+INFO [2022-12-04 11:38:48] model: horseshoe_group_plus
+INFO [2022-12-04 11:38:50] append data
+INFO [2022-12-04 11:38:50] ----- simulation: 67/100 -----
+INFO [2022-12-04 11:38:50] load simulated data
+INFO [2022-12-04 11:38:50] load theta...
+INFO [2022-12-04 11:39:04] load sigma...
+INFO [2022-12-04 11:39:07] model: group_lasso_hierarchical
+INFO [2022-12-04 11:39:09] model: horseshoe_group
+INFO [2022-12-04 11:39:11] model: horseshoe_group_plus
+INFO [2022-12-04 11:39:13] append data
+INFO [2022-12-04 11:39:13] ----- simulation: 68/100 -----
+INFO [2022-12-04 11:39:13] load simulated data
+INFO [2022-12-04 11:39:13] load theta...
+INFO [2022-12-04 11:39:27] load sigma...
+INFO [2022-12-04 11:39:30] model: group_lasso_hierarchical
+INFO [2022-12-04 11:39:32] model: horseshoe_group
+INFO [2022-12-04 11:39:34] model: horseshoe_group_plus
+INFO [2022-12-04 11:39:36] append data
+INFO [2022-12-04 11:39:36] ----- simulation: 69/100 -----
+INFO [2022-12-04 11:39:36] load simulated data
+INFO [2022-12-04 11:39:36] load theta...
+INFO [2022-12-04 11:39:50] load sigma...
+INFO [2022-12-04 11:39:53] model: group_lasso_hierarchical
+INFO [2022-12-04 11:39:55] model: horseshoe_group
+INFO [2022-12-04 11:39:57] model: horseshoe_group_plus
+INFO [2022-12-04 11:39:59] append data
+INFO [2022-12-04 11:39:59] ----- simulation: 70/100 -----
+INFO [2022-12-04 11:39:59] load simulated data
+INFO [2022-12-04 11:39:59] load theta...
+INFO [2022-12-04 11:40:13] load sigma...
+INFO [2022-12-04 11:40:18] model: group_lasso_hierarchical
+INFO [2022-12-04 11:40:20] model: horseshoe_group
+INFO [2022-12-04 11:40:22] model: horseshoe_group_plus
+INFO [2022-12-04 11:40:24] append data
+INFO [2022-12-04 11:40:24] ----- simulation: 71/100 -----
+INFO [2022-12-04 11:40:24] load simulated data
+INFO [2022-12-04 11:40:24] load theta...
+INFO [2022-12-04 11:40:38] load sigma...
+INFO [2022-12-04 11:40:41] model: group_lasso_hierarchical
+INFO [2022-12-04 11:40:43] model: horseshoe_group
+INFO [2022-12-04 11:40:45] model: horseshoe_group_plus
+INFO [2022-12-04 11:40:47] append data
+INFO [2022-12-04 11:40:47] ----- simulation: 72/100 -----
+INFO [2022-12-04 11:40:47] load simulated data
+INFO [2022-12-04 11:40:47] load theta...
+INFO [2022-12-04 11:41:01] load sigma...
+INFO [2022-12-04 11:41:04] model: group_lasso_hierarchical
+INFO [2022-12-04 11:41:06] model: horseshoe_group
+INFO [2022-12-04 11:41:08] model: horseshoe_group_plus
+INFO [2022-12-04 11:41:10] append data
+INFO [2022-12-04 11:41:10] ----- simulation: 73/100 -----
+INFO [2022-12-04 11:41:10] load simulated data
+INFO [2022-12-04 11:41:10] load theta...
+INFO [2022-12-04 11:41:25] load sigma...
+INFO [2022-12-04 11:41:29] model: group_lasso_hierarchical
+INFO [2022-12-04 11:41:31] model: horseshoe_group
+INFO [2022-12-04 11:41:33] model: horseshoe_group_plus
+INFO [2022-12-04 11:41:36] append data
+INFO [2022-12-04 11:41:36] ----- simulation: 74/100 -----
+INFO [2022-12-04 11:41:36] load simulated data
+INFO [2022-12-04 11:41:36] load theta...
+INFO [2022-12-04 11:41:49] load sigma...
+INFO [2022-12-04 11:41:52] model: group_lasso_hierarchical
+INFO [2022-12-04 11:41:55] model: horseshoe_group
+INFO [2022-12-04 11:41:57] model: horseshoe_group_plus
+INFO [2022-12-04 11:41:58] append data
+INFO [2022-12-04 11:41:58] ----- simulation: 75/100 -----
+INFO [2022-12-04 11:41:58] load simulated data
+INFO [2022-12-04 11:41:58] load theta...
+INFO [2022-12-04 11:42:12] load sigma...
+INFO [2022-12-04 11:42:15] model: group_lasso_hierarchical
+INFO [2022-12-04 11:42:18] model: horseshoe_group
+INFO [2022-12-04 11:42:19] model: horseshoe_group_plus
+INFO [2022-12-04 11:42:21] append data
+INFO [2022-12-04 11:42:21] ----- simulation: 76/100 -----
+INFO [2022-12-04 11:42:21] load simulated data
+INFO [2022-12-04 11:42:21] load theta...
+INFO [2022-12-04 11:42:35] load sigma...
+INFO [2022-12-04 11:42:39] model: group_lasso_hierarchical
+INFO [2022-12-04 11:42:41] model: horseshoe_group
+INFO [2022-12-04 11:42:43] model: horseshoe_group_plus
+INFO [2022-12-04 11:42:45] append data
+INFO [2022-12-04 11:42:45] ----- simulation: 77/100 -----
+INFO [2022-12-04 11:42:45] load simulated data
+INFO [2022-12-04 11:42:45] load theta...
+INFO [2022-12-04 11:42:59] load sigma...
+INFO [2022-12-04 11:43:02] model: group_lasso_hierarchical
+INFO [2022-12-04 11:43:04] model: horseshoe_group
+INFO [2022-12-04 11:43:06] model: horseshoe_group_plus
+INFO [2022-12-04 11:43:08] append data
+INFO [2022-12-04 11:43:08] ----- simulation: 78/100 -----
+INFO [2022-12-04 11:43:08] load simulated data
+INFO [2022-12-04 11:43:08] load theta...
+INFO [2022-12-04 11:43:22] load sigma...
+INFO [2022-12-04 11:43:25] model: group_lasso_hierarchical
+INFO [2022-12-04 11:43:27] model: horseshoe_group
+INFO [2022-12-04 11:43:29] model: horseshoe_group_plus
+INFO [2022-12-04 11:43:31] append data
+INFO [2022-12-04 11:43:31] ----- simulation: 79/100 -----
+INFO [2022-12-04 11:43:31] load simulated data
+INFO [2022-12-04 11:43:31] load theta...
+INFO [2022-12-04 11:43:45] load sigma...
+INFO [2022-12-04 11:43:48] model: group_lasso_hierarchical
+INFO [2022-12-04 11:43:51] model: horseshoe_group
+INFO [2022-12-04 11:43:53] model: horseshoe_group_plus
+INFO [2022-12-04 11:43:55] append data
+INFO [2022-12-04 11:43:55] ----- simulation: 80/100 -----
+INFO [2022-12-04 11:43:55] load simulated data
+INFO [2022-12-04 11:43:55] load theta...
+INFO [2022-12-04 11:44:09] load sigma...
+INFO [2022-12-04 11:44:12] model: group_lasso_hierarchical
+INFO [2022-12-04 11:44:14] model: horseshoe_group
+INFO [2022-12-04 11:44:16] model: horseshoe_group_plus
+INFO [2022-12-04 11:44:18] append data
+INFO [2022-12-04 11:44:18] ----- simulation: 81/100 -----
+INFO [2022-12-04 11:44:18] load simulated data
+INFO [2022-12-04 11:44:18] load theta...
+INFO [2022-12-04 11:44:33] load sigma...
+INFO [2022-12-04 11:44:35] model: group_lasso_hierarchical
+INFO [2022-12-04 11:44:38] model: horseshoe_group
+INFO [2022-12-04 11:44:40] model: horseshoe_group_plus
+INFO [2022-12-04 11:44:42] append data
+INFO [2022-12-04 11:44:42] ----- simulation: 82/100 -----
+INFO [2022-12-04 11:44:42] load simulated data
+INFO [2022-12-04 11:44:42] load theta...
+INFO [2022-12-04 11:44:56] load sigma...
+INFO [2022-12-04 11:44:59] model: group_lasso_hierarchical
+INFO [2022-12-04 11:45:01] model: horseshoe_group
+INFO [2022-12-04 11:45:03] model: horseshoe_group_plus
+INFO [2022-12-04 11:45:05] append data
+INFO [2022-12-04 11:45:05] ----- simulation: 83/100 -----
+INFO [2022-12-04 11:45:05] load simulated data
+INFO [2022-12-04 11:45:05] load theta...
+INFO [2022-12-04 11:45:19] load sigma...
+INFO [2022-12-04 11:45:21] model: group_lasso_hierarchical
+INFO [2022-12-04 11:45:24] model: horseshoe_group
+INFO [2022-12-04 11:45:26] model: horseshoe_group_plus
+INFO [2022-12-04 11:45:28] append data
+INFO [2022-12-04 11:45:28] ----- simulation: 84/100 -----
+INFO [2022-12-04 11:45:28] load simulated data
+INFO [2022-12-04 11:45:28] load theta...
+INFO [2022-12-04 11:45:42] load sigma...
+INFO [2022-12-04 11:45:45] model: group_lasso_hierarchical
+INFO [2022-12-04 11:45:47] model: horseshoe_group
+INFO [2022-12-04 11:45:49] model: horseshoe_group_plus
+INFO [2022-12-04 11:45:51] append data
+INFO [2022-12-04 11:45:51] ----- simulation: 85/100 -----
+INFO [2022-12-04 11:45:51] load simulated data
+INFO [2022-12-04 11:45:51] load theta...
+INFO [2022-12-04 11:46:05] load sigma...
+INFO [2022-12-04 11:46:08] model: group_lasso_hierarchical
+INFO [2022-12-04 11:46:11] model: horseshoe_group
+INFO [2022-12-04 11:46:13] model: horseshoe_group_plus
+INFO [2022-12-04 11:46:14] append data
+INFO [2022-12-04 11:46:14] ----- simulation: 86/100 -----
+INFO [2022-12-04 11:46:14] load simulated data
+INFO [2022-12-04 11:46:14] load theta...
+INFO [2022-12-04 11:46:28] load sigma...
+INFO [2022-12-04 11:46:31] model: group_lasso_hierarchical
+INFO [2022-12-04 11:46:34] model: horseshoe_group
+INFO [2022-12-04 11:46:36] model: horseshoe_group_plus
+INFO [2022-12-04 11:46:38] append data
+INFO [2022-12-04 11:46:38] ----- simulation: 87/100 -----
+INFO [2022-12-04 11:46:38] load simulated data
+INFO [2022-12-04 11:46:38] load theta...
+INFO [2022-12-04 11:46:52] load sigma...
+INFO [2022-12-04 11:46:58] model: group_lasso_hierarchical
+INFO [2022-12-04 11:47:00] model: horseshoe_group
+INFO [2022-12-04 11:47:02] model: horseshoe_group_plus
+INFO [2022-12-04 11:47:04] append data
+INFO [2022-12-04 11:47:04] ----- simulation: 88/100 -----
+INFO [2022-12-04 11:47:04] load simulated data
+INFO [2022-12-04 11:47:04] load theta...
+INFO [2022-12-04 11:47:18] load sigma...
+INFO [2022-12-04 11:47:21] model: group_lasso_hierarchical
+INFO [2022-12-04 11:47:24] model: horseshoe_group
+INFO [2022-12-04 11:47:26] model: horseshoe_group_plus
+INFO [2022-12-04 11:47:27] append data
+INFO [2022-12-04 11:47:27] ----- simulation: 89/100 -----
+INFO [2022-12-04 11:47:27] load simulated data
+INFO [2022-12-04 11:47:28] load theta...
+INFO [2022-12-04 11:47:42] load sigma...
+INFO [2022-12-04 11:47:45] model: group_lasso_hierarchical
+INFO [2022-12-04 11:47:48] model: horseshoe_group
+INFO [2022-12-04 11:47:50] model: horseshoe_group_plus
+INFO [2022-12-04 11:47:52] append data
+INFO [2022-12-04 11:47:52] ----- simulation: 90/100 -----
+INFO [2022-12-04 11:47:52] load simulated data
+INFO [2022-12-04 11:47:52] load theta...
+INFO [2022-12-04 11:48:07] load sigma...
+INFO [2022-12-04 11:48:10] model: group_lasso_hierarchical
+INFO [2022-12-04 11:48:12] model: horseshoe_group
+INFO [2022-12-04 11:48:14] model: horseshoe_group_plus
+INFO [2022-12-04 11:48:16] append data
+INFO [2022-12-04 11:48:16] ----- simulation: 91/100 -----
+INFO [2022-12-04 11:48:16] load simulated data
+INFO [2022-12-04 11:48:16] load theta...
+INFO [2022-12-04 11:48:32] load sigma...
+INFO [2022-12-04 11:48:37] model: group_lasso_hierarchical
+INFO [2022-12-04 11:48:39] model: horseshoe_group
+INFO [2022-12-04 11:48:41] model: horseshoe_group_plus
+INFO [2022-12-04 11:48:43] append data
+INFO [2022-12-04 11:48:43] ----- simulation: 92/100 -----
+INFO [2022-12-04 11:48:43] load simulated data
+INFO [2022-12-04 11:48:43] load theta...
+INFO [2022-12-04 11:48:57] load sigma...
+INFO [2022-12-04 11:49:01] model: group_lasso_hierarchical
+INFO [2022-12-04 11:49:04] model: horseshoe_group
+INFO [2022-12-04 11:49:06] model: horseshoe_group_plus
+INFO [2022-12-04 11:49:08] append data
+INFO [2022-12-04 11:49:08] ----- simulation: 93/100 -----
+INFO [2022-12-04 11:49:08] load simulated data
+INFO [2022-12-04 11:49:08] load theta...
+INFO [2022-12-04 11:49:22] load sigma...
+INFO [2022-12-04 11:49:25] model: group_lasso_hierarchical
+INFO [2022-12-04 11:49:27] model: horseshoe_group
+INFO [2022-12-04 11:49:29] model: horseshoe_group_plus
+INFO [2022-12-04 11:49:31] append data
+INFO [2022-12-04 11:49:31] ----- simulation: 94/100 -----
+INFO [2022-12-04 11:49:31] load simulated data
+INFO [2022-12-04 11:49:31] load theta...
+INFO [2022-12-04 11:49:45] load sigma...
+INFO [2022-12-04 11:49:48] model: group_lasso_hierarchical
+INFO [2022-12-04 11:49:50] model: horseshoe_group
+INFO [2022-12-04 11:49:52] model: horseshoe_group_plus
+INFO [2022-12-04 11:49:54] append data
+INFO [2022-12-04 11:49:54] ----- simulation: 95/100 -----
+INFO [2022-12-04 11:49:54] load simulated data
+INFO [2022-12-04 11:49:54] load theta...
+INFO [2022-12-04 11:50:08] load sigma...
+INFO [2022-12-04 11:50:11] model: group_lasso_hierarchical
+INFO [2022-12-04 11:50:13] model: horseshoe_group
+INFO [2022-12-04 11:50:15] model: horseshoe_group_plus
+INFO [2022-12-04 11:50:17] append data
+INFO [2022-12-04 11:50:17] ----- simulation: 96/100 -----
+INFO [2022-12-04 11:50:17] load simulated data
+INFO [2022-12-04 11:50:17] load theta...
+INFO [2022-12-04 11:50:31] load sigma...
+INFO [2022-12-04 11:50:34] model: group_lasso_hierarchical
+INFO [2022-12-04 11:50:37] model: horseshoe_group
+INFO [2022-12-04 11:50:38] model: horseshoe_group_plus
+INFO [2022-12-04 11:50:40] append data
+INFO [2022-12-04 11:50:40] ----- simulation: 97/100 -----
+INFO [2022-12-04 11:50:40] load simulated data
+INFO [2022-12-04 11:50:40] load theta...
+INFO [2022-12-04 11:50:55] load sigma...
+INFO [2022-12-04 11:50:59] model: group_lasso_hierarchical
+INFO [2022-12-04 11:51:01] model: horseshoe_group
+INFO [2022-12-04 11:51:03] model: horseshoe_group_plus
+INFO [2022-12-04 11:51:05] append data
+INFO [2022-12-04 11:51:05] ----- simulation: 98/100 -----
+INFO [2022-12-04 11:51:05] load simulated data
+INFO [2022-12-04 11:51:05] load theta...
+INFO [2022-12-04 11:51:19] load sigma...
+INFO [2022-12-04 11:51:21] model: group_lasso_hierarchical
+INFO [2022-12-04 11:51:24] model: horseshoe_group
+INFO [2022-12-04 11:51:26] model: horseshoe_group_plus
+INFO [2022-12-04 11:51:28] append data
+INFO [2022-12-04 11:51:28] ----- simulation: 99/100 -----
+INFO [2022-12-04 11:51:28] load simulated data
+INFO [2022-12-04 11:51:28] load theta...
+INFO [2022-12-04 11:51:41] load sigma...
+INFO [2022-12-04 11:51:44] model: group_lasso_hierarchical
+INFO [2022-12-04 11:51:47] model: horseshoe_group
+INFO [2022-12-04 11:51:49] model: horseshoe_group_plus
+INFO [2022-12-04 11:51:50] append data
+INFO [2022-12-04 11:51:50] ----- simulation: 100/100 -----
+INFO [2022-12-04 11:51:50] load simulated data
+INFO [2022-12-04 11:51:51] load theta...
+INFO [2022-12-04 11:52:04] load sigma...
+INFO [2022-12-04 11:52:08] model: group_lasso_hierarchical
+INFO [2022-12-04 11:52:11] model: horseshoe_group
+INFO [2022-12-04 11:52:12] model: horseshoe_group_plus
+INFO [2022-12-04 11:52:14] append data

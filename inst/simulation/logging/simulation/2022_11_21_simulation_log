@@ -1,0 +1,1477 @@
+INFO [2022-11-21 20:44:13] Setting input variables
+INFO [2022-11-21 21:00:39] Setting input variables
+INFO [2022-11-21 21:00:39] Simulating input data for: 70 simulations
+INFO [2022-11-21 21:00:39] Done with input data generation
+INFO [2022-11-21 21:00:39] Creating Stan models
+INFO [2022-11-21 21:00:39] Stan models creation done: 4 models
+INFO [2022-11-21 21:00:39] Starting model fitting for each generated data
+INFO [2022-11-21 21:01:15] Extract data for: Group Lasso Hierarchical
+INFO [2022-11-21 21:06:14] Extract data for: Group Lasso Hierarchical
+INFO [2022-11-21 21:06:14] --- Simulation: 1/70 ---
+INFO [2022-11-21 21:06:14] Load Stan
+INFO [2022-11-21 21:06:17] Prep Data
+INFO [2022-11-21 21:06:29] Calc Coefficient
+INFO [2022-11-21 21:06:36] Write parquet #1
+INFO [2022-11-21 21:06:46] Prep Summary
+INFO [2022-11-21 21:07:23] Setting input variables
+INFO [2022-11-21 21:07:23] Simulating input data for: 70 simulations
+INFO [2022-11-21 21:07:23] Done with input data generation
+INFO [2022-11-21 21:07:23] Creating Stan models
+INFO [2022-11-21 21:07:24] Stan models creation done: 4 models
+INFO [2022-11-21 21:08:00] Extract data for: Group Lasso Hierarchical
+INFO [2022-11-21 21:08:04] --- Simulation: 1/70 ---
+INFO [2022-11-21 21:08:18] Load Stan
+INFO [2022-11-21 21:08:43] Prep Data
+INFO [2022-11-21 21:09:01] Calc Coefficient
+INFO [2022-11-21 21:09:19] Write parquet #1
+INFO [2022-11-21 21:10:13] Prep Summary
+INFO [2022-11-21 21:11:32] Prep Summary
+INFO [2022-11-21 21:11:32] Write parquet #2
+INFO [2022-11-21 21:12:00] Setting input variables
+INFO [2022-11-21 21:12:00] Simulating input data for: 70 simulations
+INFO [2022-11-21 21:12:00] Done with input data generation
+INFO [2022-11-21 21:12:00] Creating Stan models
+INFO [2022-11-21 21:12:00] Stan models creation done: 4 models
+INFO [2022-11-21 21:12:15] Extract data for: Group Lasso Hierarchical
+INFO [2022-11-21 21:12:15] --- Simulation: 1/70 ---
+INFO [2022-11-21 21:12:15] Load Stan
+INFO [2022-11-21 21:12:18] Prep Data
+INFO [2022-11-21 21:12:32] Calc Coefficient
+INFO [2022-11-21 21:12:38] Write parquet #1
+INFO [2022-11-21 21:12:46] Prep Summary
+INFO [2022-11-21 21:12:57] Write parquet #2
+INFO [2022-11-21 21:12:57] --- Simulation: 2/70 ---
+INFO [2022-11-21 21:12:57] Load Stan
+INFO [2022-11-21 21:13:00] Prep Data
+INFO [2022-11-21 21:13:12] Calc Coefficient
+INFO [2022-11-21 21:13:18] Write parquet #1
+INFO [2022-11-21 21:13:26] Prep Summary
+INFO [2022-11-21 21:13:38] Write parquet #2
+INFO [2022-11-21 21:13:39] --- Simulation: 3/70 ---
+INFO [2022-11-21 21:13:39] Load Stan
+INFO [2022-11-21 21:13:41] Prep Data
+INFO [2022-11-21 21:13:53] Calc Coefficient
+INFO [2022-11-21 21:14:00] Write parquet #1
+INFO [2022-11-21 21:14:07] Prep Summary
+INFO [2022-11-21 21:14:19] Write parquet #2
+INFO [2022-11-21 21:14:20] --- Simulation: 4/70 ---
+INFO [2022-11-21 21:14:21] Load Stan
+INFO [2022-11-21 21:14:23] Prep Data
+INFO [2022-11-21 21:14:35] Calc Coefficient
+INFO [2022-11-21 21:14:41] Write parquet #1
+INFO [2022-11-21 21:14:49] Prep Summary
+INFO [2022-11-21 21:40:24] Setting input variables
+INFO [2022-11-21 21:40:24] Simulating input data for: 70 simulations
+INFO [2022-11-21 21:40:24] Done with input data generation
+INFO [2022-11-21 21:40:24] Creating Stan models
+INFO [2022-11-21 21:40:24] Stan models creation done: 4 models
+INFO [2022-11-21 21:41:03] Extract data for: Group Lasso Hierarchical
+INFO [2022-11-21 21:41:03] --- Simulation: 1/70 ---
+INFO [2022-11-21 21:41:03] Load Stan
+INFO [2022-11-21 21:41:06] Prep Data
+INFO [2022-11-21 21:41:19] Calc Coefficient
+INFO [2022-11-21 21:41:25] Write parquet #1
+INFO [2022-11-21 21:41:34] Prep Summary
+INFO [2022-11-21 21:41:45] Write parquet #2
+INFO [2022-11-21 21:41:45] --- Simulation: 2/70 ---
+INFO [2022-11-21 21:41:45] Load Stan
+INFO [2022-11-21 21:41:47] Prep Data
+INFO [2022-11-21 21:41:59] Calc Coefficient
+INFO [2022-11-21 21:42:05] Write parquet #1
+INFO [2022-11-21 21:42:14] Prep Summary
+INFO [2022-11-21 21:42:26] Write parquet #2
+INFO [2022-11-21 21:42:27] --- Simulation: 3/70 ---
+INFO [2022-11-21 21:42:27] Load Stan
+INFO [2022-11-21 21:42:29] Prep Data
+INFO [2022-11-21 21:42:41] Calc Coefficient
+INFO [2022-11-21 21:42:47] Write parquet #1
+INFO [2022-11-21 21:42:55] Prep Summary
+INFO [2022-11-21 21:43:07] Write parquet #2
+INFO [2022-11-21 21:43:09] --- Simulation: 4/70 ---
+INFO [2022-11-21 21:43:09] Load Stan
+INFO [2022-11-21 21:43:11] Prep Data
+INFO [2022-11-21 21:43:23] Calc Coefficient
+INFO [2022-11-21 21:43:29] Write parquet #1
+INFO [2022-11-21 21:43:38] Prep Summary
+INFO [2022-11-21 21:43:50] Write parquet #2
+INFO [2022-11-21 21:43:50] --- Simulation: 5/70 ---
+INFO [2022-11-21 21:43:50] Load Stan
+INFO [2022-11-21 21:43:53] Prep Data
+INFO [2022-11-21 21:44:05] Calc Coefficient
+INFO [2022-11-21 21:44:12] Write parquet #1
+INFO [2022-11-21 21:44:19] Prep Summary
+INFO [2022-11-21 21:44:31] Write parquet #2
+INFO [2022-11-21 21:44:33] --- Simulation: 6/70 ---
+INFO [2022-11-21 21:44:33] Load Stan
+INFO [2022-11-21 21:44:35] Prep Data
+INFO [2022-11-21 21:44:46] Calc Coefficient
+INFO [2022-11-21 21:44:53] Write parquet #1
+INFO [2022-11-21 21:45:01] Prep Summary
+INFO [2022-11-21 21:45:13] Write parquet #2
+INFO [2022-11-21 21:45:14] --- Simulation: 7/70 ---
+INFO [2022-11-21 21:45:14] Load Stan
+INFO [2022-11-21 21:45:16] Prep Data
+INFO [2022-11-21 21:45:28] Calc Coefficient
+INFO [2022-11-21 21:45:34] Write parquet #1
+INFO [2022-11-21 21:45:42] Prep Summary
+INFO [2022-11-21 21:45:54] Write parquet #2
+INFO [2022-11-21 21:45:55] --- Simulation: 8/70 ---
+INFO [2022-11-21 21:45:55] Load Stan
+INFO [2022-11-21 21:45:57] Prep Data
+INFO [2022-11-21 21:46:09] Calc Coefficient
+INFO [2022-11-21 21:46:16] Write parquet #1
+INFO [2022-11-21 21:46:24] Prep Summary
+INFO [2022-11-21 21:46:35] Write parquet #2
+INFO [2022-11-21 21:46:36] --- Simulation: 9/70 ---
+INFO [2022-11-21 21:46:37] Load Stan
+INFO [2022-11-21 21:46:39] Prep Data
+INFO [2022-11-21 21:46:51] Calc Coefficient
+INFO [2022-11-21 21:46:57] Write parquet #1
+INFO [2022-11-21 21:47:05] Prep Summary
+INFO [2022-11-21 21:47:16] Write parquet #2
+INFO [2022-11-21 21:47:18] --- Simulation: 10/70 ---
+INFO [2022-11-21 21:47:18] Load Stan
+INFO [2022-11-21 21:47:20] Prep Data
+INFO [2022-11-21 21:47:32] Calc Coefficient
+INFO [2022-11-21 21:47:38] Write parquet #1
+INFO [2022-11-21 21:47:47] Prep Summary
+INFO [2022-11-21 21:47:58] Write parquet #2
+INFO [2022-11-21 21:47:59] --- Simulation: 11/70 ---
+INFO [2022-11-21 21:47:59] Load Stan
+INFO [2022-11-21 21:48:01] Prep Data
+INFO [2022-11-21 21:48:12] Calc Coefficient
+INFO [2022-11-21 21:48:19] Write parquet #1
+INFO [2022-11-21 21:48:28] Prep Summary
+INFO [2022-11-21 21:48:40] Write parquet #2
+INFO [2022-11-21 21:48:40] --- Simulation: 12/70 ---
+INFO [2022-11-21 21:48:40] Load Stan
+INFO [2022-11-21 21:48:42] Prep Data
+INFO [2022-11-21 21:48:54] Calc Coefficient
+INFO [2022-11-21 21:49:00] Write parquet #1
+INFO [2022-11-21 21:49:08] Prep Summary
+INFO [2022-11-21 21:49:20] Write parquet #2
+INFO [2022-11-21 21:49:20] --- Simulation: 13/70 ---
+INFO [2022-11-21 21:49:20] Load Stan
+INFO [2022-11-21 21:49:22] Prep Data
+INFO [2022-11-21 21:49:35] Calc Coefficient
+INFO [2022-11-21 21:49:42] Write parquet #1
+INFO [2022-11-21 21:49:50] Prep Summary
+INFO [2022-11-21 21:50:02] Write parquet #2
+INFO [2022-11-21 21:50:03] --- Simulation: 14/70 ---
+INFO [2022-11-21 21:50:03] Load Stan
+INFO [2022-11-21 21:50:05] Prep Data
+INFO [2022-11-21 21:50:17] Calc Coefficient
+INFO [2022-11-21 21:50:23] Write parquet #1
+INFO [2022-11-21 21:50:31] Prep Summary
+INFO [2022-11-21 21:50:43] Write parquet #2
+INFO [2022-11-21 21:50:43] --- Simulation: 15/70 ---
+INFO [2022-11-21 21:50:43] Load Stan
+INFO [2022-11-21 21:50:45] Prep Data
+INFO [2022-11-21 21:50:57] Calc Coefficient
+INFO [2022-11-21 21:51:03] Write parquet #1
+INFO [2022-11-21 21:51:11] Prep Summary
+INFO [2022-11-21 21:51:23] Write parquet #2
+INFO [2022-11-21 21:51:24] --- Simulation: 16/70 ---
+INFO [2022-11-21 21:51:24] Load Stan
+INFO [2022-11-21 21:51:26] Prep Data
+INFO [2022-11-21 21:51:37] Calc Coefficient
+INFO [2022-11-21 21:51:43] Write parquet #1
+INFO [2022-11-21 21:51:52] Prep Summary
+INFO [2022-11-21 21:52:03] Write parquet #2
+INFO [2022-11-21 21:52:04] --- Simulation: 17/70 ---
+INFO [2022-11-21 21:52:04] Load Stan
+INFO [2022-11-21 21:52:06] Prep Data
+INFO [2022-11-21 21:52:18] Calc Coefficient
+INFO [2022-11-21 21:52:24] Write parquet #1
+INFO [2022-11-21 21:52:32] Prep Summary
+INFO [2022-11-21 21:52:43] Write parquet #2
+INFO [2022-11-21 21:52:44] --- Simulation: 18/70 ---
+INFO [2022-11-21 21:52:44] Load Stan
+INFO [2022-11-21 21:52:46] Prep Data
+INFO [2022-11-21 21:52:57] Calc Coefficient
+INFO [2022-11-21 21:53:04] Write parquet #1
+INFO [2022-11-21 21:53:12] Prep Summary
+INFO [2022-11-21 21:53:24] Write parquet #2
+INFO [2022-11-21 21:53:25] --- Simulation: 19/70 ---
+INFO [2022-11-21 21:53:25] Load Stan
+INFO [2022-11-21 21:53:27] Prep Data
+INFO [2022-11-21 21:53:39] Calc Coefficient
+INFO [2022-11-21 21:53:45] Write parquet #1
+INFO [2022-11-21 21:53:53] Prep Summary
+INFO [2022-11-21 21:54:04] Write parquet #2
+INFO [2022-11-21 21:54:05] --- Simulation: 20/70 ---
+INFO [2022-11-21 21:54:05] Load Stan
+INFO [2022-11-21 21:54:07] Prep Data
+INFO [2022-11-21 21:54:19] Calc Coefficient
+INFO [2022-11-21 21:54:25] Write parquet #1
+INFO [2022-11-21 21:54:32] Prep Summary
+INFO [2022-11-21 21:54:44] Write parquet #2
+INFO [2022-11-21 21:54:44] --- Simulation: 21/70 ---
+INFO [2022-11-21 21:54:44] Load Stan
+INFO [2022-11-21 21:54:46] Prep Data
+INFO [2022-11-21 21:54:58] Calc Coefficient
+INFO [2022-11-21 21:55:04] Write parquet #1
+INFO [2022-11-21 21:55:12] Prep Summary
+INFO [2022-11-21 21:55:24] Write parquet #2
+INFO [2022-11-21 21:55:24] --- Simulation: 22/70 ---
+INFO [2022-11-21 21:55:24] Load Stan
+INFO [2022-11-21 21:55:26] Prep Data
+INFO [2022-11-21 21:55:38] Calc Coefficient
+INFO [2022-11-21 21:55:44] Write parquet #1
+INFO [2022-11-21 21:55:51] Prep Summary
+INFO [2022-11-21 21:56:03] Write parquet #2
+INFO [2022-11-21 21:56:03] --- Simulation: 23/70 ---
+INFO [2022-11-21 21:56:03] Load Stan
+INFO [2022-11-21 21:56:05] Prep Data
+INFO [2022-11-21 21:56:17] Calc Coefficient
+INFO [2022-11-21 21:56:23] Write parquet #1
+INFO [2022-11-21 21:56:31] Prep Summary
+INFO [2022-11-21 21:56:42] Write parquet #2
+INFO [2022-11-21 21:56:43] --- Simulation: 24/70 ---
+INFO [2022-11-21 21:56:43] Load Stan
+INFO [2022-11-21 21:56:45] Prep Data
+INFO [2022-11-21 21:56:56] Calc Coefficient
+INFO [2022-11-21 21:57:03] Write parquet #1
+INFO [2022-11-21 21:57:11] Prep Summary
+INFO [2022-11-21 21:57:23] Write parquet #2
+INFO [2022-11-21 21:57:24] --- Simulation: 25/70 ---
+INFO [2022-11-21 21:57:24] Load Stan
+INFO [2022-11-21 21:57:26] Prep Data
+INFO [2022-11-21 21:57:38] Calc Coefficient
+INFO [2022-11-21 21:57:44] Write parquet #1
+INFO [2022-11-21 21:57:52] Prep Summary
+INFO [2022-11-21 21:58:04] Write parquet #2
+INFO [2022-11-21 21:58:04] --- Simulation: 26/70 ---
+INFO [2022-11-21 21:58:04] Load Stan
+INFO [2022-11-21 21:58:06] Prep Data
+INFO [2022-11-21 21:58:18] Calc Coefficient
+INFO [2022-11-21 21:58:24] Write parquet #1
+INFO [2022-11-21 21:58:32] Prep Summary
+INFO [2022-11-21 21:58:43] Write parquet #2
+INFO [2022-11-21 21:58:44] --- Simulation: 27/70 ---
+INFO [2022-11-21 21:58:44] Load Stan
+INFO [2022-11-21 21:58:46] Prep Data
+INFO [2022-11-21 21:58:57] Calc Coefficient
+INFO [2022-11-21 21:59:04] Write parquet #1
+INFO [2022-11-21 21:59:12] Prep Summary
+INFO [2022-11-21 21:59:23] Write parquet #2
+INFO [2022-11-21 21:59:23] --- Simulation: 28/70 ---
+INFO [2022-11-21 21:59:23] Load Stan
+INFO [2022-11-21 21:59:25] Prep Data
+INFO [2022-11-21 21:59:37] Calc Coefficient
+INFO [2022-11-21 21:59:43] Write parquet #1
+INFO [2022-11-21 21:59:51] Prep Summary
+INFO [2022-11-21 22:00:02] Write parquet #2
+INFO [2022-11-21 22:00:03] --- Simulation: 29/70 ---
+INFO [2022-11-21 22:00:03] Load Stan
+INFO [2022-11-21 22:00:05] Prep Data
+INFO [2022-11-21 22:00:16] Calc Coefficient
+INFO [2022-11-21 22:00:22] Write parquet #1
+INFO [2022-11-21 22:00:30] Prep Summary
+INFO [2022-11-21 22:00:42] Write parquet #2
+INFO [2022-11-21 22:00:42] --- Simulation: 30/70 ---
+INFO [2022-11-21 22:00:42] Load Stan
+INFO [2022-11-21 22:00:44] Prep Data
+INFO [2022-11-21 22:00:56] Calc Coefficient
+INFO [2022-11-21 22:01:02] Write parquet #1
+INFO [2022-11-21 22:01:11] Prep Summary
+INFO [2022-11-21 22:01:22] Write parquet #2
+INFO [2022-11-21 22:01:23] --- Simulation: 31/70 ---
+INFO [2022-11-21 22:01:24] Load Stan
+INFO [2022-11-21 22:01:26] Prep Data
+INFO [2022-11-21 22:01:37] Calc Coefficient
+INFO [2022-11-21 22:01:43] Write parquet #1
+INFO [2022-11-21 22:01:51] Prep Summary
+INFO [2022-11-21 22:02:03] Write parquet #2
+INFO [2022-11-21 22:02:03] --- Simulation: 32/70 ---
+INFO [2022-11-21 22:02:03] Load Stan
+INFO [2022-11-21 22:02:05] Prep Data
+INFO [2022-11-21 22:02:17] Calc Coefficient
+INFO [2022-11-21 22:02:23] Write parquet #1
+INFO [2022-11-21 22:02:30] Prep Summary
+INFO [2022-11-21 22:02:41] Write parquet #2
+INFO [2022-11-21 22:02:42] --- Simulation: 33/70 ---
+INFO [2022-11-21 22:02:42] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/33
+INFO [2022-11-21 22:02:42] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/33
+INFO [2022-11-21 22:02:43] Load Stan
+INFO [2022-11-21 22:02:45] Prep Data
+INFO [2022-11-21 22:02:56] Calc Coefficient
+INFO [2022-11-21 22:03:03] Write parquet #1
+INFO [2022-11-21 22:03:10] Prep Summary
+INFO [2022-11-21 22:03:22] Write parquet #2
+INFO [2022-11-21 22:03:23] --- Simulation: 34/70 ---
+INFO [2022-11-21 22:03:23] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/34
+INFO [2022-11-21 22:03:23] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/34
+INFO [2022-11-21 22:03:23] Load Stan
+INFO [2022-11-21 22:03:25] Prep Data
+INFO [2022-11-21 22:03:37] Calc Coefficient
+INFO [2022-11-21 22:03:43] Write parquet #1
+INFO [2022-11-21 22:03:50] Prep Summary
+INFO [2022-11-21 22:04:01] Write parquet #2
+INFO [2022-11-21 22:04:02] --- Simulation: 35/70 ---
+INFO [2022-11-21 22:04:02] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/35
+INFO [2022-11-21 22:04:02] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/35
+INFO [2022-11-21 22:04:02] Load Stan
+INFO [2022-11-21 22:04:04] Prep Data
+INFO [2022-11-21 22:04:15] Calc Coefficient
+INFO [2022-11-21 22:04:21] Write parquet #1
+INFO [2022-11-21 22:04:29] Prep Summary
+INFO [2022-11-21 22:04:40] Write parquet #2
+INFO [2022-11-21 22:04:41] --- Simulation: 36/70 ---
+INFO [2022-11-21 22:04:41] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/36
+INFO [2022-11-21 22:04:41] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/36
+INFO [2022-11-21 22:04:41] Load Stan
+INFO [2022-11-21 22:04:43] Prep Data
+INFO [2022-11-21 22:04:54] Calc Coefficient
+INFO [2022-11-21 22:05:01] Write parquet #1
+INFO [2022-11-21 22:05:09] Prep Summary
+INFO [2022-11-21 22:05:20] Write parquet #2
+INFO [2022-11-21 22:05:20] --- Simulation: 37/70 ---
+INFO [2022-11-21 22:05:20] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/37
+INFO [2022-11-21 22:05:20] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/37
+INFO [2022-11-21 22:05:20] Load Stan
+INFO [2022-11-21 22:05:22] Prep Data
+INFO [2022-11-21 22:05:34] Calc Coefficient
+INFO [2022-11-21 22:05:40] Write parquet #1
+INFO [2022-11-21 22:05:48] Prep Summary
+INFO [2022-11-21 22:05:59] Write parquet #2
+INFO [2022-11-21 22:06:00] --- Simulation: 38/70 ---
+INFO [2022-11-21 22:06:00] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/38
+INFO [2022-11-21 22:06:00] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/38
+INFO [2022-11-21 22:06:00] Load Stan
+INFO [2022-11-21 22:06:02] Prep Data
+INFO [2022-11-21 22:06:13] Calc Coefficient
+INFO [2022-11-21 22:06:19] Write parquet #1
+INFO [2022-11-21 22:06:27] Prep Summary
+INFO [2022-11-21 22:06:38] Write parquet #2
+INFO [2022-11-21 22:06:39] --- Simulation: 39/70 ---
+INFO [2022-11-21 22:06:39] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/39
+INFO [2022-11-21 22:06:39] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/39
+INFO [2022-11-21 22:06:39] Load Stan
+INFO [2022-11-21 22:06:41] Prep Data
+INFO [2022-11-21 22:06:52] Calc Coefficient
+INFO [2022-11-21 22:06:59] Write parquet #1
+INFO [2022-11-21 22:07:06] Prep Summary
+INFO [2022-11-21 22:07:18] Write parquet #2
+INFO [2022-11-21 22:07:19] --- Simulation: 40/70 ---
+INFO [2022-11-21 22:07:19] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/40
+INFO [2022-11-21 22:07:19] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/40
+INFO [2022-11-21 22:07:19] Load Stan
+INFO [2022-11-21 22:07:21] Prep Data
+INFO [2022-11-21 22:07:33] Calc Coefficient
+INFO [2022-11-21 22:07:39] Write parquet #1
+INFO [2022-11-21 22:07:46] Prep Summary
+INFO [2022-11-21 22:07:58] Write parquet #2
+INFO [2022-11-21 22:07:58] --- Simulation: 41/70 ---
+INFO [2022-11-21 22:07:58] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/41
+INFO [2022-11-21 22:07:58] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/41
+INFO [2022-11-21 22:07:58] Load Stan
+INFO [2022-11-21 22:08:00] Prep Data
+INFO [2022-11-21 22:08:12] Calc Coefficient
+INFO [2022-11-21 22:08:18] Write parquet #1
+INFO [2022-11-21 22:08:25] Prep Summary
+INFO [2022-11-21 22:08:37] Write parquet #2
+INFO [2022-11-21 22:08:37] --- Simulation: 42/70 ---
+INFO [2022-11-21 22:08:37] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/42
+INFO [2022-11-21 22:08:37] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/42
+INFO [2022-11-21 22:08:37] Load Stan
+INFO [2022-11-21 22:08:39] Prep Data
+INFO [2022-11-21 22:08:51] Calc Coefficient
+INFO [2022-11-21 22:08:57] Write parquet #1
+INFO [2022-11-21 22:09:05] Prep Summary
+INFO [2022-11-21 22:09:17] Write parquet #2
+INFO [2022-11-21 22:09:17] --- Simulation: 43/70 ---
+INFO [2022-11-21 22:09:17] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/43
+INFO [2022-11-21 22:09:17] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/43
+INFO [2022-11-21 22:09:17] Load Stan
+INFO [2022-11-21 22:09:19] Prep Data
+INFO [2022-11-21 22:09:31] Calc Coefficient
+INFO [2022-11-21 22:09:37] Write parquet #1
+INFO [2022-11-21 22:09:44] Prep Summary
+INFO [2022-11-21 22:09:56] Write parquet #2
+INFO [2022-11-21 22:09:56] --- Simulation: 44/70 ---
+INFO [2022-11-21 22:09:56] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/44
+INFO [2022-11-21 22:09:56] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/44
+INFO [2022-11-21 22:09:56] Load Stan
+INFO [2022-11-21 22:09:58] Prep Data
+INFO [2022-11-21 22:10:10] Calc Coefficient
+INFO [2022-11-21 22:10:16] Write parquet #1
+INFO [2022-11-21 22:10:23] Prep Summary
+INFO [2022-11-21 22:10:35] Write parquet #2
+INFO [2022-11-21 22:10:35] --- Simulation: 45/70 ---
+INFO [2022-11-21 22:10:35] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/45
+INFO [2022-11-21 22:10:35] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/45
+INFO [2022-11-21 22:10:35] Load Stan
+INFO [2022-11-21 22:10:38] Prep Data
+INFO [2022-11-21 22:10:49] Calc Coefficient
+INFO [2022-11-21 22:10:56] Write parquet #1
+INFO [2022-11-21 22:11:03] Prep Summary
+INFO [2022-11-21 22:11:15] Write parquet #2
+INFO [2022-11-21 22:11:15] --- Simulation: 46/70 ---
+INFO [2022-11-21 22:11:15] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/46
+INFO [2022-11-21 22:11:15] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/46
+INFO [2022-11-21 22:11:15] Load Stan
+INFO [2022-11-21 22:11:17] Prep Data
+INFO [2022-11-21 22:11:29] Calc Coefficient
+INFO [2022-11-21 22:11:35] Write parquet #1
+INFO [2022-11-21 22:11:42] Prep Summary
+INFO [2022-11-21 22:11:54] Write parquet #2
+INFO [2022-11-21 22:11:54] --- Simulation: 47/70 ---
+INFO [2022-11-21 22:11:54] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/47
+INFO [2022-11-21 22:11:54] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/47
+INFO [2022-11-21 22:11:54] Load Stan
+INFO [2022-11-21 22:11:56] Prep Data
+INFO [2022-11-21 22:12:08] Calc Coefficient
+INFO [2022-11-21 22:12:14] Write parquet #1
+INFO [2022-11-21 22:12:22] Prep Summary
+INFO [2022-11-21 22:12:33] Write parquet #2
+INFO [2022-11-21 22:12:33] --- Simulation: 48/70 ---
+INFO [2022-11-21 22:12:33] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/48
+INFO [2022-11-21 22:12:33] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/48
+INFO [2022-11-21 22:12:33] Load Stan
+INFO [2022-11-21 22:12:35] Prep Data
+INFO [2022-11-21 22:12:47] Calc Coefficient
+INFO [2022-11-21 22:12:53] Write parquet #1
+INFO [2022-11-21 22:13:01] Prep Summary
+INFO [2022-11-21 22:13:13] Write parquet #2
+INFO [2022-11-21 22:13:13] --- Simulation: 49/70 ---
+INFO [2022-11-21 22:13:13] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/49
+INFO [2022-11-21 22:13:13] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/49
+INFO [2022-11-21 22:13:13] Load Stan
+INFO [2022-11-21 22:13:15] Prep Data
+INFO [2022-11-21 22:13:26] Calc Coefficient
+INFO [2022-11-21 22:13:32] Write parquet #1
+INFO [2022-11-21 22:13:40] Prep Summary
+INFO [2022-11-21 22:13:51] Write parquet #2
+INFO [2022-11-21 22:13:52] --- Simulation: 50/70 ---
+INFO [2022-11-21 22:13:52] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/50
+INFO [2022-11-21 22:13:52] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/50
+INFO [2022-11-21 22:13:52] Load Stan
+INFO [2022-11-21 22:13:54] Prep Data
+INFO [2022-11-21 22:14:06] Calc Coefficient
+INFO [2022-11-21 22:14:12] Write parquet #1
+INFO [2022-11-21 22:14:19] Prep Summary
+INFO [2022-11-21 22:14:30] Write parquet #2
+INFO [2022-11-21 22:14:31] --- Simulation: 51/70 ---
+INFO [2022-11-21 22:14:31] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/51
+INFO [2022-11-21 22:14:31] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/51
+INFO [2022-11-21 22:14:31] Load Stan
+INFO [2022-11-21 22:14:33] Prep Data
+INFO [2022-11-21 22:14:44] Calc Coefficient
+INFO [2022-11-21 22:14:51] Write parquet #1
+INFO [2022-11-21 22:14:59] Prep Summary
+INFO [2022-11-21 22:15:10] Write parquet #2
+INFO [2022-11-21 22:15:10] --- Simulation: 52/70 ---
+INFO [2022-11-21 22:15:10] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/52
+INFO [2022-11-21 22:15:10] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/52
+INFO [2022-11-21 22:15:10] Load Stan
+INFO [2022-11-21 22:15:12] Prep Data
+INFO [2022-11-21 22:15:24] Calc Coefficient
+INFO [2022-11-21 22:15:30] Write parquet #1
+INFO [2022-11-21 22:15:37] Prep Summary
+INFO [2022-11-21 22:15:49] Write parquet #2
+INFO [2022-11-21 22:15:49] --- Simulation: 53/70 ---
+INFO [2022-11-21 22:15:49] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/53
+INFO [2022-11-21 22:15:49] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/53
+INFO [2022-11-21 22:15:49] Load Stan
+INFO [2022-11-21 22:15:51] Prep Data
+INFO [2022-11-21 22:16:03] Calc Coefficient
+INFO [2022-11-21 22:16:09] Write parquet #1
+INFO [2022-11-21 22:16:17] Prep Summary
+INFO [2022-11-21 22:16:28] Write parquet #2
+INFO [2022-11-21 22:16:29] --- Simulation: 54/70 ---
+INFO [2022-11-21 22:16:29] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/54
+INFO [2022-11-21 22:16:29] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/54
+INFO [2022-11-21 22:16:29] Load Stan
+INFO [2022-11-21 22:16:31] Prep Data
+INFO [2022-11-21 22:16:42] Calc Coefficient
+INFO [2022-11-21 22:16:49] Write parquet #1
+INFO [2022-11-21 22:16:56] Prep Summary
+INFO [2022-11-21 22:17:08] Write parquet #2
+INFO [2022-11-21 22:17:08] --- Simulation: 55/70 ---
+INFO [2022-11-21 22:17:08] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/55
+INFO [2022-11-21 22:17:08] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/55
+INFO [2022-11-21 22:17:08] Load Stan
+INFO [2022-11-21 22:17:10] Prep Data
+INFO [2022-11-21 22:17:21] Calc Coefficient
+INFO [2022-11-21 22:17:27] Write parquet #1
+INFO [2022-11-21 22:17:35] Prep Summary
+INFO [2022-11-21 22:17:46] Write parquet #2
+INFO [2022-11-21 22:17:47] --- Simulation: 56/70 ---
+INFO [2022-11-21 22:17:47] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/56
+INFO [2022-11-21 22:17:47] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/56
+INFO [2022-11-21 22:17:47] Load Stan
+INFO [2022-11-21 22:17:49] Prep Data
+INFO [2022-11-21 22:18:00] Calc Coefficient
+INFO [2022-11-21 22:18:06] Write parquet #1
+INFO [2022-11-21 22:18:14] Prep Summary
+INFO [2022-11-21 22:18:25] Write parquet #2
+INFO [2022-11-21 22:18:25] --- Simulation: 57/70 ---
+INFO [2022-11-21 22:18:25] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/57
+INFO [2022-11-21 22:18:25] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/57
+INFO [2022-11-21 22:18:25] Load Stan
+INFO [2022-11-21 22:18:27] Prep Data
+INFO [2022-11-21 22:18:38] Calc Coefficient
+INFO [2022-11-21 22:18:45] Write parquet #1
+INFO [2022-11-21 22:18:53] Prep Summary
+INFO [2022-11-21 22:19:04] Write parquet #2
+INFO [2022-11-21 22:19:05] --- Simulation: 58/70 ---
+INFO [2022-11-21 22:19:05] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/58
+INFO [2022-11-21 22:19:05] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/58
+INFO [2022-11-21 22:19:05] Load Stan
+INFO [2022-11-21 22:19:07] Prep Data
+INFO [2022-11-21 22:19:18] Calc Coefficient
+INFO [2022-11-21 22:19:24] Write parquet #1
+INFO [2022-11-21 22:19:32] Prep Summary
+INFO [2022-11-21 22:19:43] Write parquet #2
+INFO [2022-11-21 22:19:43] --- Simulation: 59/70 ---
+INFO [2022-11-21 22:19:43] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/59
+INFO [2022-11-21 22:19:43] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/59
+INFO [2022-11-21 22:19:43] Load Stan
+INFO [2022-11-21 22:19:45] Prep Data
+INFO [2022-11-21 22:19:57] Calc Coefficient
+INFO [2022-11-21 22:20:03] Write parquet #1
+INFO [2022-11-21 22:20:10] Prep Summary
+INFO [2022-11-21 22:20:21] Write parquet #2
+INFO [2022-11-21 22:20:22] --- Simulation: 60/70 ---
+INFO [2022-11-21 22:20:22] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/60
+INFO [2022-11-21 22:20:22] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/60
+INFO [2022-11-21 22:20:22] Load Stan
+INFO [2022-11-21 22:20:24] Prep Data
+INFO [2022-11-21 22:20:35] Calc Coefficient
+INFO [2022-11-21 22:20:41] Write parquet #1
+INFO [2022-11-21 22:20:49] Prep Summary
+INFO [2022-11-21 22:21:00] Write parquet #2
+INFO [2022-11-21 22:21:00] --- Simulation: 61/70 ---
+INFO [2022-11-21 22:21:00] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/61
+INFO [2022-11-21 22:21:00] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/61
+INFO [2022-11-21 22:21:00] Load Stan
+INFO [2022-11-21 22:21:03] Prep Data
+INFO [2022-11-21 22:21:13] Calc Coefficient
+INFO [2022-11-21 22:21:20] Write parquet #1
+INFO [2022-11-21 22:21:27] Prep Summary
+INFO [2022-11-21 22:21:38] Write parquet #2
+INFO [2022-11-21 22:21:39] --- Simulation: 62/70 ---
+INFO [2022-11-21 22:21:39] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/62
+INFO [2022-11-21 22:21:39] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/62
+INFO [2022-11-21 22:21:39] Load Stan
+INFO [2022-11-21 22:21:41] Prep Data
+INFO [2022-11-21 22:21:52] Calc Coefficient
+INFO [2022-11-21 22:21:58] Write parquet #1
+INFO [2022-11-21 22:22:06] Prep Summary
+INFO [2022-11-21 22:22:17] Write parquet #2
+INFO [2022-11-21 22:22:17] --- Simulation: 63/70 ---
+INFO [2022-11-21 22:22:17] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/63
+INFO [2022-11-21 22:22:17] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/63
+INFO [2022-11-21 22:22:17] Load Stan
+INFO [2022-11-21 22:22:19] Prep Data
+INFO [2022-11-21 22:22:30] Calc Coefficient
+INFO [2022-11-21 22:22:37] Write parquet #1
+INFO [2022-11-21 22:22:44] Prep Summary
+INFO [2022-11-21 22:22:55] Write parquet #2
+INFO [2022-11-21 22:22:56] --- Simulation: 64/70 ---
+INFO [2022-11-21 22:22:56] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/64
+INFO [2022-11-21 22:22:56] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/64
+INFO [2022-11-21 22:22:56] Load Stan
+INFO [2022-11-21 22:22:58] Prep Data
+INFO [2022-11-21 22:23:09] Calc Coefficient
+INFO [2022-11-21 22:23:15] Write parquet #1
+INFO [2022-11-21 22:23:22] Prep Summary
+INFO [2022-11-21 22:23:34] Write parquet #2
+INFO [2022-11-21 22:23:34] --- Simulation: 65/70 ---
+INFO [2022-11-21 22:23:34] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/65
+INFO [2022-11-21 22:23:34] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/65
+INFO [2022-11-21 22:23:34] Load Stan
+INFO [2022-11-21 22:23:36] Prep Data
+INFO [2022-11-21 22:23:47] Calc Coefficient
+INFO [2022-11-21 22:23:53] Write parquet #1
+INFO [2022-11-21 22:24:01] Prep Summary
+INFO [2022-11-21 22:24:12] Write parquet #2
+INFO [2022-11-21 22:24:12] --- Simulation: 66/70 ---
+INFO [2022-11-21 22:24:12] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/66
+INFO [2022-11-21 22:24:12] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/66
+INFO [2022-11-21 22:24:12] Load Stan
+INFO [2022-11-21 22:24:14] Prep Data
+INFO [2022-11-21 22:24:25] Calc Coefficient
+INFO [2022-11-21 22:24:32] Write parquet #1
+INFO [2022-11-21 22:24:39] Prep Summary
+INFO [2022-11-21 22:24:51] Write parquet #2
+INFO [2022-11-21 22:24:51] --- Simulation: 67/70 ---
+INFO [2022-11-21 22:24:51] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/67
+INFO [2022-11-21 22:24:51] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/67
+INFO [2022-11-21 22:24:51] Load Stan
+INFO [2022-11-21 22:24:53] Prep Data
+INFO [2022-11-21 22:25:04] Calc Coefficient
+INFO [2022-11-21 22:25:10] Write parquet #1
+INFO [2022-11-21 22:25:18] Prep Summary
+INFO [2022-11-21 22:25:29] Write parquet #2
+INFO [2022-11-21 22:25:29] --- Simulation: 68/70 ---
+INFO [2022-11-21 22:25:29] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/68
+INFO [2022-11-21 22:25:29] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/68
+INFO [2022-11-21 22:25:29] Load Stan
+INFO [2022-11-21 22:25:31] Prep Data
+INFO [2022-11-21 22:25:42] Calc Coefficient
+INFO [2022-11-21 22:25:48] Write parquet #1
+INFO [2022-11-21 22:25:56] Prep Summary
+INFO [2022-11-21 22:26:07] Write parquet #2
+INFO [2022-11-21 22:26:07] --- Simulation: 69/70 ---
+INFO [2022-11-21 22:26:07] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/69
+INFO [2022-11-21 22:26:07] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/69
+INFO [2022-11-21 22:26:07] Load Stan
+INFO [2022-11-21 22:26:09] Prep Data
+INFO [2022-11-21 22:26:20] Calc Coefficient
+INFO [2022-11-21 22:26:27] Write parquet #1
+INFO [2022-11-21 22:26:34] Prep Summary
+INFO [2022-11-21 22:26:46] Write parquet #2
+INFO [2022-11-21 22:26:46] --- Simulation: 70/70 ---
+INFO [2022-11-21 22:26:46] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/70
+INFO [2022-11-21 22:26:46] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/70
+INFO [2022-11-21 22:26:46] Load Stan
+INFO [2022-11-21 22:26:48] Prep Data
+INFO [2022-11-21 22:26:59] Calc Coefficient
+INFO [2022-11-21 22:27:05] Write parquet #1
+INFO [2022-11-21 22:27:12] Prep Summary
+INFO [2022-11-21 22:27:24] Write parquet #2
+INFO [2022-11-21 22:27:24] Extract data for: Horseshoe Group Plus
+INFO [2022-11-21 22:27:24] --- Simulation: 1/70 ---
+INFO [2022-11-21 22:27:24] Load Stan
+INFO [2022-11-21 22:27:26] Prep Data
+INFO [2022-11-21 22:27:41] Calc Coefficient
+INFO [2022-11-21 22:27:48] Write parquet #1
+INFO [2022-11-21 22:27:58] Prep Summary
+INFO [2022-11-21 22:28:12] Write parquet #2
+INFO [2022-11-21 22:28:14] --- Simulation: 2/70 ---
+INFO [2022-11-21 22:28:14] Load Stan
+INFO [2022-11-21 22:28:17] Prep Data
+INFO [2022-11-21 22:28:31] Calc Coefficient
+INFO [2022-11-21 22:28:38] Write parquet #1
+INFO [2022-11-21 22:28:51] Prep Summary
+INFO [2022-11-21 22:29:06] Write parquet #2
+INFO [2022-11-21 22:29:08] --- Simulation: 3/70 ---
+INFO [2022-11-21 22:29:08] Load Stan
+INFO [2022-11-21 22:29:11] Prep Data
+INFO [2022-11-21 22:29:25] Calc Coefficient
+INFO [2022-11-21 22:29:31] Write parquet #1
+INFO [2022-11-21 22:29:41] Prep Summary
+INFO [2022-11-21 22:29:56] Write parquet #2
+INFO [2022-11-21 22:29:57] --- Simulation: 4/70 ---
+INFO [2022-11-21 22:29:58] Load Stan
+INFO [2022-11-21 22:30:00] Prep Data
+INFO [2022-11-21 22:30:14] Calc Coefficient
+INFO [2022-11-21 22:30:21] Write parquet #1
+INFO [2022-11-21 22:30:32] Prep Summary
+INFO [2022-11-21 22:30:46] Write parquet #2
+INFO [2022-11-21 22:30:47] --- Simulation: 5/70 ---
+INFO [2022-11-21 22:30:47] Load Stan
+INFO [2022-11-21 22:30:49] Prep Data
+INFO [2022-11-21 22:31:03] Calc Coefficient
+INFO [2022-11-21 22:31:10] Write parquet #1
+INFO [2022-11-21 22:31:22] Prep Summary
+INFO [2022-11-21 22:31:37] Write parquet #2
+INFO [2022-11-21 22:31:38] --- Simulation: 6/70 ---
+INFO [2022-11-21 22:31:38] Load Stan
+INFO [2022-11-21 22:31:40] Prep Data
+INFO [2022-11-21 22:31:55] Calc Coefficient
+INFO [2022-11-21 22:32:01] Write parquet #1
+INFO [2022-11-21 22:32:11] Prep Summary
+INFO [2022-11-21 22:32:25] Write parquet #2
+INFO [2022-11-21 22:32:26] --- Simulation: 7/70 ---
+INFO [2022-11-21 22:32:26] Load Stan
+INFO [2022-11-21 22:32:29] Prep Data
+INFO [2022-11-21 22:32:43] Calc Coefficient
+INFO [2022-11-21 22:32:50] Write parquet #1
+INFO [2022-11-21 22:33:00] Prep Summary
+INFO [2022-11-21 22:33:15] Write parquet #2
+INFO [2022-11-21 22:33:17] --- Simulation: 8/70 ---
+INFO [2022-11-21 22:33:17] Load Stan
+INFO [2022-11-21 22:33:20] Prep Data
+INFO [2022-11-21 22:33:34] Calc Coefficient
+INFO [2022-11-21 22:33:40] Write parquet #1
+INFO [2022-11-21 22:33:52] Prep Summary
+INFO [2022-11-21 22:34:06] Write parquet #2
+INFO [2022-11-21 22:34:08] --- Simulation: 9/70 ---
+INFO [2022-11-21 22:34:08] Load Stan
+INFO [2022-11-21 22:34:11] Prep Data
+INFO [2022-11-21 22:34:25] Calc Coefficient
+INFO [2022-11-21 22:34:31] Write parquet #1
+INFO [2022-11-21 22:34:42] Prep Summary
+INFO [2022-11-21 22:34:57] Write parquet #2
+INFO [2022-11-21 22:34:58] --- Simulation: 10/70 ---
+INFO [2022-11-21 22:34:58] Load Stan
+INFO [2022-11-21 22:35:01] Prep Data
+INFO [2022-11-21 22:35:15] Calc Coefficient
+INFO [2022-11-21 22:35:22] Write parquet #1
+INFO [2022-11-21 22:35:34] Prep Summary
+INFO [2022-11-21 22:35:49] Write parquet #2
+INFO [2022-11-21 22:35:50] --- Simulation: 11/70 ---
+INFO [2022-11-21 22:35:50] Load Stan
+INFO [2022-11-21 22:35:52] Prep Data
+INFO [2022-11-21 22:36:06] Calc Coefficient
+INFO [2022-11-21 22:36:13] Write parquet #1
+INFO [2022-11-21 22:36:25] Prep Summary
+INFO [2022-11-21 22:36:40] Write parquet #2
+INFO [2022-11-21 22:36:41] --- Simulation: 12/70 ---
+INFO [2022-11-21 22:36:41] Load Stan
+INFO [2022-11-21 22:36:43] Prep Data
+INFO [2022-11-21 22:36:57] Calc Coefficient
+INFO [2022-11-21 22:37:03] Write parquet #1
+INFO [2022-11-21 22:37:13] Prep Summary
+INFO [2022-11-21 22:37:28] Write parquet #2
+INFO [2022-11-21 22:37:28] --- Simulation: 13/70 ---
+INFO [2022-11-21 22:37:29] Load Stan
+INFO [2022-11-21 22:37:31] Prep Data
+INFO [2022-11-21 22:37:45] Calc Coefficient
+INFO [2022-11-21 22:37:52] Write parquet #1
+INFO [2022-11-21 22:38:03] Prep Summary
+INFO [2022-11-21 22:38:18] Write parquet #2
+INFO [2022-11-21 22:38:19] --- Simulation: 14/70 ---
+INFO [2022-11-21 22:38:19] Load Stan
+INFO [2022-11-21 22:38:21] Prep Data
+INFO [2022-11-21 22:38:35] Calc Coefficient
+INFO [2022-11-21 22:38:42] Write parquet #1
+INFO [2022-11-21 22:38:53] Prep Summary
+INFO [2022-11-21 22:39:07] Write parquet #2
+INFO [2022-11-21 22:39:09] --- Simulation: 15/70 ---
+INFO [2022-11-21 22:39:09] Load Stan
+INFO [2022-11-21 22:39:11] Prep Data
+INFO [2022-11-21 22:39:25] Calc Coefficient
+INFO [2022-11-21 22:39:31] Write parquet #1
+INFO [2022-11-21 22:39:41] Prep Summary
+INFO [2022-11-21 22:39:56] Write parquet #2
+INFO [2022-11-21 22:39:56] --- Simulation: 16/70 ---
+INFO [2022-11-21 22:39:56] Load Stan
+INFO [2022-11-21 22:39:59] Prep Data
+INFO [2022-11-21 22:40:12] Calc Coefficient
+INFO [2022-11-21 22:40:19] Write parquet #1
+INFO [2022-11-21 22:40:30] Prep Summary
+INFO [2022-11-21 22:40:45] Write parquet #2
+INFO [2022-11-21 22:40:47] --- Simulation: 17/70 ---
+INFO [2022-11-21 22:40:47] Load Stan
+INFO [2022-11-21 22:40:49] Prep Data
+INFO [2022-11-21 22:41:03] Calc Coefficient
+INFO [2022-11-21 22:41:10] Write parquet #1
+INFO [2022-11-21 22:41:21] Prep Summary
+INFO [2022-11-21 22:41:36] Write parquet #2
+INFO [2022-11-21 22:41:38] --- Simulation: 18/70 ---
+INFO [2022-11-21 22:41:38] Load Stan
+INFO [2022-11-21 22:41:40] Prep Data
+INFO [2022-11-21 22:41:54] Calc Coefficient
+INFO [2022-11-21 22:42:00] Write parquet #1
+INFO [2022-11-21 22:42:11] Prep Summary
+INFO [2022-11-21 22:42:25] Write parquet #2
+INFO [2022-11-21 22:42:26] --- Simulation: 19/70 ---
+INFO [2022-11-21 22:42:27] Load Stan
+INFO [2022-11-21 22:42:29] Prep Data
+INFO [2022-11-21 22:42:43] Calc Coefficient
+INFO [2022-11-21 22:42:50] Write parquet #1
+INFO [2022-11-21 22:43:02] Prep Summary
+INFO [2022-11-21 22:43:16] Write parquet #2
+INFO [2022-11-21 22:43:18] --- Simulation: 20/70 ---
+INFO [2022-11-21 22:43:18] Load Stan
+INFO [2022-11-21 22:43:20] Prep Data
+INFO [2022-11-21 22:43:34] Calc Coefficient
+INFO [2022-11-21 22:43:40] Write parquet #1
+INFO [2022-11-21 22:43:51] Prep Summary
+INFO [2022-11-21 22:44:07] Write parquet #2
+INFO [2022-11-21 22:44:09] --- Simulation: 21/70 ---
+INFO [2022-11-21 22:44:09] Load Stan
+INFO [2022-11-21 22:44:11] Prep Data
+INFO [2022-11-21 22:44:25] Calc Coefficient
+INFO [2022-11-21 22:44:31] Write parquet #1
+INFO [2022-11-21 22:44:41] Prep Summary
+INFO [2022-11-21 22:44:56] Write parquet #2
+INFO [2022-11-21 22:44:57] --- Simulation: 22/70 ---
+INFO [2022-11-21 22:44:57] Load Stan
+INFO [2022-11-21 22:44:59] Prep Data
+INFO [2022-11-21 22:45:13] Calc Coefficient
+INFO [2022-11-21 22:45:20] Write parquet #1
+INFO [2022-11-21 22:45:31] Prep Summary
+INFO [2022-11-21 22:45:46] Write parquet #2
+INFO [2022-11-21 22:45:47] --- Simulation: 23/70 ---
+INFO [2022-11-21 22:45:47] Load Stan
+INFO [2022-11-21 22:45:50] Prep Data
+INFO [2022-11-21 22:46:03] Calc Coefficient
+INFO [2022-11-21 22:46:10] Write parquet #1
+INFO [2022-11-21 22:46:21] Prep Summary
+INFO [2022-11-21 22:46:36] Write parquet #2
+INFO [2022-11-21 22:46:38] --- Simulation: 24/70 ---
+INFO [2022-11-21 22:46:38] Load Stan
+INFO [2022-11-21 22:46:40] Prep Data
+INFO [2022-11-21 22:46:54] Calc Coefficient
+INFO [2022-11-21 22:47:00] Write parquet #1
+INFO [2022-11-21 22:47:10] Prep Summary
+INFO [2022-11-21 22:47:26] Write parquet #2
+INFO [2022-11-21 22:47:27] --- Simulation: 25/70 ---
+INFO [2022-11-21 22:47:27] Load Stan
+INFO [2022-11-21 22:47:29] Prep Data
+INFO [2022-11-21 22:47:43] Calc Coefficient
+INFO [2022-11-21 22:47:50] Write parquet #1
+INFO [2022-11-21 22:48:00] Prep Summary
+INFO [2022-11-21 22:48:16] Write parquet #2
+INFO [2022-11-21 22:48:17] --- Simulation: 26/70 ---
+INFO [2022-11-21 22:48:17] Load Stan
+INFO [2022-11-21 22:48:20] Prep Data
+INFO [2022-11-21 22:48:34] Calc Coefficient
+INFO [2022-11-21 22:48:40] Write parquet #1
+INFO [2022-11-21 22:48:51] Prep Summary
+INFO [2022-11-21 22:49:06] Write parquet #2
+INFO [2022-11-21 22:49:08] --- Simulation: 27/70 ---
+INFO [2022-11-21 22:49:08] Load Stan
+INFO [2022-11-21 22:49:10] Prep Data
+INFO [2022-11-21 22:49:24] Calc Coefficient
+INFO [2022-11-21 22:49:31] Write parquet #1
+INFO [2022-11-21 22:49:41] Prep Summary
+INFO [2022-11-21 22:49:56] Write parquet #2
+INFO [2022-11-21 22:49:57] --- Simulation: 28/70 ---
+INFO [2022-11-21 22:49:57] Load Stan
+INFO [2022-11-21 22:49:59] Prep Data
+INFO [2022-11-21 22:50:13] Calc Coefficient
+INFO [2022-11-21 22:50:20] Write parquet #1
+INFO [2022-11-21 22:50:32] Prep Summary
+INFO [2022-11-21 22:50:47] Write parquet #2
+INFO [2022-11-21 22:50:48] --- Simulation: 29/70 ---
+INFO [2022-11-21 22:50:48] Load Stan
+INFO [2022-11-21 22:50:50] Prep Data
+INFO [2022-11-21 22:51:04] Calc Coefficient
+INFO [2022-11-21 22:51:11] Write parquet #1
+INFO [2022-11-21 22:51:22] Prep Summary
+INFO [2022-11-21 22:51:38] Write parquet #2
+INFO [2022-11-21 22:51:39] --- Simulation: 30/70 ---
+INFO [2022-11-21 22:51:39] Load Stan
+INFO [2022-11-21 22:51:42] Prep Data
+INFO [2022-11-21 22:51:56] Calc Coefficient
+INFO [2022-11-21 22:52:02] Write parquet #1
+INFO [2022-11-21 22:52:12] Prep Summary
+INFO [2022-11-21 22:52:27] Write parquet #2
+INFO [2022-11-21 22:52:27] --- Simulation: 31/70 ---
+INFO [2022-11-21 22:52:27] Load Stan
+INFO [2022-11-21 22:52:30] Prep Data
+INFO [2022-11-21 22:52:44] Calc Coefficient
+INFO [2022-11-21 22:52:51] Write parquet #1
+INFO [2022-11-21 22:53:01] Prep Summary
+INFO [2022-11-21 22:53:16] Write parquet #2
+INFO [2022-11-21 22:53:17] --- Simulation: 32/70 ---
+INFO [2022-11-21 22:53:18] Load Stan
+INFO [2022-11-21 22:53:20] Prep Data
+INFO [2022-11-21 22:53:34] Calc Coefficient
+INFO [2022-11-21 22:53:40] Write parquet #1
+INFO [2022-11-21 22:53:53] Prep Summary
+INFO [2022-11-21 22:54:08] Write parquet #2
+INFO [2022-11-21 22:54:10] --- Simulation: 33/70 ---
+INFO [2022-11-21 22:54:10] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/33
+INFO [2022-11-21 22:54:10] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/33
+INFO [2022-11-21 22:54:10] Load Stan
+INFO [2022-11-21 22:54:13] Prep Data
+INFO [2022-11-21 22:54:27] Calc Coefficient
+INFO [2022-11-21 22:54:33] Write parquet #1
+INFO [2022-11-21 22:54:43] Prep Summary
+INFO [2022-11-21 22:54:58] Write parquet #2
+INFO [2022-11-21 22:54:58] --- Simulation: 34/70 ---
+INFO [2022-11-21 22:54:58] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/34
+INFO [2022-11-21 22:54:58] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/34
+INFO [2022-11-21 22:54:58] Load Stan
+INFO [2022-11-21 22:55:00] Prep Data
+INFO [2022-11-21 22:55:14] Calc Coefficient
+INFO [2022-11-21 22:55:21] Write parquet #1
+INFO [2022-11-21 22:55:32] Prep Summary
+INFO [2022-11-21 22:55:47] Write parquet #2
+INFO [2022-11-21 22:55:48] --- Simulation: 35/70 ---
+INFO [2022-11-21 22:55:48] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/35
+INFO [2022-11-21 22:55:48] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/35
+INFO [2022-11-21 22:55:48] Load Stan
+INFO [2022-11-21 22:55:51] Prep Data
+INFO [2022-11-21 22:56:05] Calc Coefficient
+INFO [2022-11-21 22:56:11] Write parquet #1
+INFO [2022-11-21 22:56:22] Prep Summary
+INFO [2022-11-21 22:56:39] Write parquet #2
+INFO [2022-11-21 22:56:40] --- Simulation: 36/70 ---
+INFO [2022-11-21 22:56:40] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/36
+INFO [2022-11-21 22:56:40] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/36
+INFO [2022-11-21 22:56:40] Load Stan
+INFO [2022-11-21 22:56:43] Prep Data
+INFO [2022-11-21 22:56:57] Calc Coefficient
+INFO [2022-11-21 22:57:03] Write parquet #1
+INFO [2022-11-21 22:57:13] Prep Summary
+INFO [2022-11-21 22:57:27] Write parquet #2
+INFO [2022-11-21 22:57:28] --- Simulation: 37/70 ---
+INFO [2022-11-21 22:57:28] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/37
+INFO [2022-11-21 22:57:28] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/37
+INFO [2022-11-21 22:57:28] Load Stan
+INFO [2022-11-21 22:57:30] Prep Data
+INFO [2022-11-21 22:57:44] Calc Coefficient
+INFO [2022-11-21 22:57:51] Write parquet #1
+INFO [2022-11-21 22:58:01] Prep Summary
+INFO [2022-11-21 22:58:17] Write parquet #2
+INFO [2022-11-21 22:58:18] --- Simulation: 38/70 ---
+INFO [2022-11-21 22:58:18] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/38
+INFO [2022-11-21 22:58:18] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/38
+INFO [2022-11-21 22:58:18] Load Stan
+INFO [2022-11-21 22:58:20] Prep Data
+INFO [2022-11-21 22:58:35] Calc Coefficient
+INFO [2022-11-21 22:58:40] Write parquet #1
+INFO [2022-11-21 22:58:50] Prep Summary
+INFO [2022-11-21 22:59:04] Write parquet #2
+INFO [2022-11-21 22:59:05] --- Simulation: 39/70 ---
+INFO [2022-11-21 22:59:05] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/39
+INFO [2022-11-21 22:59:05] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/39
+INFO [2022-11-21 22:59:05] Load Stan
+INFO [2022-11-21 22:59:07] Prep Data
+INFO [2022-11-21 22:59:22] Calc Coefficient
+INFO [2022-11-21 22:59:28] Write parquet #1
+INFO [2022-11-21 22:59:38] Prep Summary
+INFO [2022-11-21 22:59:52] Write parquet #2
+INFO [2022-11-21 22:59:52] --- Simulation: 40/70 ---
+INFO [2022-11-21 22:59:52] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/40
+INFO [2022-11-21 22:59:52] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/40
+INFO [2022-11-21 22:59:52] Load Stan
+INFO [2022-11-21 22:59:55] Prep Data
+INFO [2022-11-21 23:00:09] Calc Coefficient
+INFO [2022-11-21 23:00:15] Write parquet #1
+INFO [2022-11-21 23:00:26] Prep Summary
+INFO [2022-11-21 23:00:41] Write parquet #2
+INFO [2022-11-21 23:00:42] --- Simulation: 41/70 ---
+INFO [2022-11-21 23:00:42] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/41
+INFO [2022-11-21 23:00:42] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/41
+INFO [2022-11-21 23:00:42] Load Stan
+INFO [2022-11-21 23:00:44] Prep Data
+INFO [2022-11-21 23:00:58] Calc Coefficient
+INFO [2022-11-21 23:01:04] Write parquet #1
+INFO [2022-11-21 23:01:15] Prep Summary
+INFO [2022-11-21 23:01:29] Write parquet #2
+INFO [2022-11-21 23:01:30] --- Simulation: 42/70 ---
+INFO [2022-11-21 23:01:30] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/42
+INFO [2022-11-21 23:01:30] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/42
+INFO [2022-11-21 23:01:30] Load Stan
+INFO [2022-11-21 23:01:32] Prep Data
+INFO [2022-11-21 23:01:46] Calc Coefficient
+INFO [2022-11-21 23:01:52] Write parquet #1
+INFO [2022-11-21 23:02:03] Prep Summary
+INFO [2022-11-21 23:02:18] Write parquet #2
+INFO [2022-11-21 23:02:18] --- Simulation: 43/70 ---
+INFO [2022-11-21 23:02:18] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/43
+INFO [2022-11-21 23:02:18] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/43
+INFO [2022-11-21 23:02:18] Load Stan
+INFO [2022-11-21 23:02:21] Prep Data
+INFO [2022-11-21 23:02:35] Calc Coefficient
+INFO [2022-11-21 23:02:40] Write parquet #1
+INFO [2022-11-21 23:02:50] Prep Summary
+INFO [2022-11-21 23:03:04] Write parquet #2
+INFO [2022-11-21 23:03:05] --- Simulation: 44/70 ---
+INFO [2022-11-21 23:03:05] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/44
+INFO [2022-11-21 23:03:05] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/44
+INFO [2022-11-21 23:03:05] Load Stan
+INFO [2022-11-21 23:03:07] Prep Data
+INFO [2022-11-21 23:03:21] Calc Coefficient
+INFO [2022-11-21 23:03:28] Write parquet #1
+INFO [2022-11-21 23:03:37] Prep Summary
+INFO [2022-11-21 23:03:52] Write parquet #2
+INFO [2022-11-21 23:03:52] --- Simulation: 45/70 ---
+INFO [2022-11-21 23:03:52] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/45
+INFO [2022-11-21 23:03:52] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/45
+INFO [2022-11-21 23:03:52] Load Stan
+INFO [2022-11-21 23:03:54] Prep Data
+INFO [2022-11-21 23:04:08] Calc Coefficient
+INFO [2022-11-21 23:04:15] Write parquet #1
+INFO [2022-11-21 23:04:26] Prep Summary
+INFO [2022-11-21 23:04:41] Write parquet #2
+INFO [2022-11-21 23:04:41] --- Simulation: 46/70 ---
+INFO [2022-11-21 23:04:41] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/46
+INFO [2022-11-21 23:04:41] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/46
+INFO [2022-11-21 23:04:41] Load Stan
+INFO [2022-11-21 23:04:44] Prep Data
+INFO [2022-11-21 23:04:58] Calc Coefficient
+INFO [2022-11-21 23:05:04] Write parquet #1
+INFO [2022-11-21 23:05:13] Prep Summary
+INFO [2022-11-21 23:05:28] Write parquet #2
+INFO [2022-11-21 23:05:28] --- Simulation: 47/70 ---
+INFO [2022-11-21 23:05:28] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/47
+INFO [2022-11-21 23:05:28] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/47
+INFO [2022-11-21 23:05:28] Load Stan
+INFO [2022-11-21 23:05:31] Prep Data
+INFO [2022-11-21 23:05:46] Calc Coefficient
+INFO [2022-11-21 23:05:51] Write parquet #1
+INFO [2022-11-21 23:06:01] Prep Summary
+INFO [2022-11-21 23:06:15] Write parquet #2
+INFO [2022-11-21 23:06:16] --- Simulation: 48/70 ---
+INFO [2022-11-21 23:06:16] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/48
+INFO [2022-11-21 23:06:16] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/48
+INFO [2022-11-21 23:06:16] Load Stan
+INFO [2022-11-21 23:06:18] Prep Data
+INFO [2022-11-21 23:06:32] Calc Coefficient
+INFO [2022-11-21 23:06:38] Write parquet #1
+INFO [2022-11-21 23:06:49] Prep Summary
+INFO [2022-11-21 23:07:04] Write parquet #2
+INFO [2022-11-21 23:07:04] --- Simulation: 49/70 ---
+INFO [2022-11-21 23:07:04] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/49
+INFO [2022-11-21 23:07:05] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/49
+INFO [2022-11-21 23:07:06] Load Stan
+INFO [2022-11-21 23:07:08] Prep Data
+INFO [2022-11-21 23:07:22] Calc Coefficient
+INFO [2022-11-21 23:07:29] Write parquet #1
+INFO [2022-11-21 23:07:40] Prep Summary
+INFO [2022-11-21 23:07:55] Write parquet #2
+INFO [2022-11-21 23:07:55] --- Simulation: 50/70 ---
+INFO [2022-11-21 23:07:55] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/50
+INFO [2022-11-21 23:07:55] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/50
+INFO [2022-11-21 23:07:55] Load Stan
+INFO [2022-11-21 23:07:58] Prep Data
+INFO [2022-11-21 23:08:12] Calc Coefficient
+INFO [2022-11-21 23:08:18] Write parquet #1
+INFO [2022-11-21 23:08:28] Prep Summary
+INFO [2022-11-21 23:08:43] Write parquet #2
+INFO [2022-11-21 23:08:43] --- Simulation: 51/70 ---
+INFO [2022-11-21 23:08:43] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/51
+INFO [2022-11-21 23:08:43] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/51
+INFO [2022-11-21 23:08:43] Load Stan
+INFO [2022-11-21 23:08:46] Prep Data
+INFO [2022-11-21 23:09:00] Calc Coefficient
+INFO [2022-11-21 23:09:06] Write parquet #1
+INFO [2022-11-21 23:09:17] Prep Summary
+INFO [2022-11-21 23:09:31] Write parquet #2
+INFO [2022-11-21 23:09:31] --- Simulation: 52/70 ---
+INFO [2022-11-21 23:09:31] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/52
+INFO [2022-11-21 23:09:31] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/52
+INFO [2022-11-21 23:09:31] Load Stan
+INFO [2022-11-21 23:09:34] Prep Data
+INFO [2022-11-21 23:09:48] Calc Coefficient
+INFO [2022-11-21 23:09:55] Write parquet #1
+INFO [2022-11-21 23:10:06] Prep Summary
+INFO [2022-11-21 23:10:21] Write parquet #2
+INFO [2022-11-21 23:10:22] --- Simulation: 53/70 ---
+INFO [2022-11-21 23:10:22] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/53
+INFO [2022-11-21 23:10:22] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/53
+INFO [2022-11-21 23:10:22] Load Stan
+INFO [2022-11-21 23:10:24] Prep Data
+INFO [2022-11-21 23:10:38] Calc Coefficient
+INFO [2022-11-21 23:10:44] Write parquet #1
+INFO [2022-11-21 23:10:54] Prep Summary
+INFO [2022-11-21 23:11:09] Write parquet #2
+INFO [2022-11-21 23:11:10] --- Simulation: 54/70 ---
+INFO [2022-11-21 23:11:10] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/54
+INFO [2022-11-21 23:11:10] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/54
+INFO [2022-11-21 23:11:10] Load Stan
+INFO [2022-11-21 23:11:12] Prep Data
+INFO [2022-11-21 23:11:26] Calc Coefficient
+INFO [2022-11-21 23:11:33] Write parquet #1
+INFO [2022-11-21 23:11:45] Prep Summary
+INFO [2022-11-21 23:12:00] Write parquet #2
+INFO [2022-11-21 23:12:01] --- Simulation: 55/70 ---
+INFO [2022-11-21 23:12:01] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/55
+INFO [2022-11-21 23:12:01] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/55
+INFO [2022-11-21 23:12:01] Load Stan
+INFO [2022-11-21 23:12:04] Prep Data
+INFO [2022-11-21 23:12:18] Calc Coefficient
+INFO [2022-11-21 23:12:24] Write parquet #1
+INFO [2022-11-21 23:12:34] Prep Summary
+INFO [2022-11-21 23:12:49] Write parquet #2
+INFO [2022-11-21 23:12:49] --- Simulation: 56/70 ---
+INFO [2022-11-21 23:12:49] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/56
+INFO [2022-11-21 23:12:49] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/56
+INFO [2022-11-21 23:12:49] Load Stan
+INFO [2022-11-21 23:12:51] Prep Data
+INFO [2022-11-21 23:13:06] Calc Coefficient
+INFO [2022-11-21 23:13:12] Write parquet #1
+INFO [2022-11-21 23:13:22] Prep Summary
+INFO [2022-11-21 23:13:36] Write parquet #2
+INFO [2022-11-21 23:13:36] --- Simulation: 57/70 ---
+INFO [2022-11-21 23:13:36] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/57
+INFO [2022-11-21 23:13:36] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/57
+INFO [2022-11-21 23:13:36] Load Stan
+INFO [2022-11-21 23:13:39] Prep Data
+INFO [2022-11-21 23:13:53] Calc Coefficient
+INFO [2022-11-21 23:13:59] Write parquet #1
+INFO [2022-11-21 23:14:09] Prep Summary
+INFO [2022-11-21 23:14:23] Write parquet #2
+INFO [2022-11-21 23:14:23] --- Simulation: 58/70 ---
+INFO [2022-11-21 23:14:23] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/58
+INFO [2022-11-21 23:14:23] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/58
+INFO [2022-11-21 23:14:23] Load Stan
+INFO [2022-11-21 23:14:26] Prep Data
+INFO [2022-11-21 23:14:40] Calc Coefficient
+INFO [2022-11-21 23:14:46] Write parquet #1
+INFO [2022-11-21 23:14:56] Prep Summary
+INFO [2022-11-21 23:15:10] Write parquet #2
+INFO [2022-11-21 23:15:10] --- Simulation: 59/70 ---
+INFO [2022-11-21 23:15:10] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/59
+INFO [2022-11-21 23:15:10] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/59
+INFO [2022-11-21 23:15:10] Load Stan
+INFO [2022-11-21 23:15:13] Prep Data
+INFO [2022-11-21 23:15:27] Calc Coefficient
+INFO [2022-11-21 23:15:33] Write parquet #1
+INFO [2022-11-21 23:15:44] Prep Summary
+INFO [2022-11-21 23:15:59] Write parquet #2
+INFO [2022-11-21 23:16:00] --- Simulation: 60/70 ---
+INFO [2022-11-21 23:16:00] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/60
+INFO [2022-11-21 23:16:00] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/60
+INFO [2022-11-21 23:16:00] Load Stan
+INFO [2022-11-21 23:16:02] Prep Data
+INFO [2022-11-21 23:16:16] Calc Coefficient
+INFO [2022-11-21 23:16:22] Write parquet #1
+INFO [2022-11-21 23:16:32] Prep Summary
+INFO [2022-11-21 23:16:46] Write parquet #2
+INFO [2022-11-21 23:16:47] --- Simulation: 61/70 ---
+INFO [2022-11-21 23:16:47] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/61
+INFO [2022-11-21 23:16:47] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/61
+INFO [2022-11-21 23:16:47] Load Stan
+INFO [2022-11-21 23:16:49] Prep Data
+INFO [2022-11-21 23:17:03] Calc Coefficient
+INFO [2022-11-21 23:17:09] Write parquet #1
+INFO [2022-11-21 23:17:19] Prep Summary
+INFO [2022-11-21 23:17:34] Write parquet #2
+INFO [2022-11-21 23:17:34] --- Simulation: 62/70 ---
+INFO [2022-11-21 23:17:34] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/62
+INFO [2022-11-21 23:17:34] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/62
+INFO [2022-11-21 23:17:34] Load Stan
+INFO [2022-11-21 23:17:37] Prep Data
+INFO [2022-11-21 23:17:51] Calc Coefficient
+INFO [2022-11-21 23:17:57] Write parquet #1
+INFO [2022-11-21 23:18:08] Prep Summary
+INFO [2022-11-21 23:18:24] Write parquet #2
+INFO [2022-11-21 23:18:24] --- Simulation: 63/70 ---
+INFO [2022-11-21 23:18:24] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/63
+INFO [2022-11-21 23:18:24] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/63
+INFO [2022-11-21 23:18:24] Load Stan
+INFO [2022-11-21 23:18:27] Prep Data
+INFO [2022-11-21 23:18:41] Calc Coefficient
+INFO [2022-11-21 23:18:47] Write parquet #1
+INFO [2022-11-21 23:18:57] Prep Summary
+INFO [2022-11-21 23:19:11] Write parquet #2
+INFO [2022-11-21 23:19:11] --- Simulation: 64/70 ---
+INFO [2022-11-21 23:19:11] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/64
+INFO [2022-11-21 23:19:11] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/64
+INFO [2022-11-21 23:19:11] Load Stan
+INFO [2022-11-21 23:19:14] Prep Data
+INFO [2022-11-21 23:19:28] Calc Coefficient
+INFO [2022-11-21 23:19:35] Write parquet #1
+INFO [2022-11-21 23:19:45] Prep Summary
+INFO [2022-11-21 23:20:01] Write parquet #2
+INFO [2022-11-21 23:20:01] --- Simulation: 65/70 ---
+INFO [2022-11-21 23:20:01] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/65
+INFO [2022-11-21 23:20:01] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/65
+INFO [2022-11-21 23:20:01] Load Stan
+INFO [2022-11-21 23:20:04] Prep Data
+INFO [2022-11-21 23:20:18] Calc Coefficient
+INFO [2022-11-21 23:20:23] Write parquet #1
+INFO [2022-11-21 23:20:33] Prep Summary
+INFO [2022-11-21 23:20:47] Write parquet #2
+INFO [2022-11-21 23:20:48] --- Simulation: 66/70 ---
+INFO [2022-11-21 23:20:48] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/66
+INFO [2022-11-21 23:20:48] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/66
+INFO [2022-11-21 23:20:48] Load Stan
+INFO [2022-11-21 23:20:50] Prep Data
+INFO [2022-11-21 23:21:05] Calc Coefficient
+INFO [2022-11-21 23:21:11] Write parquet #1
+INFO [2022-11-21 23:21:21] Prep Summary
+INFO [2022-11-21 23:21:36] Write parquet #2
+INFO [2022-11-21 23:21:36] --- Simulation: 67/70 ---
+INFO [2022-11-21 23:21:36] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/67
+INFO [2022-11-21 23:21:36] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/67
+INFO [2022-11-21 23:21:36] Load Stan
+INFO [2022-11-21 23:21:38] Prep Data
+INFO [2022-11-21 23:21:53] Calc Coefficient
+INFO [2022-11-21 23:21:59] Write parquet #1
+INFO [2022-11-21 23:22:10] Prep Summary
+INFO [2022-11-21 23:22:25] Write parquet #2
+INFO [2022-11-21 23:22:25] --- Simulation: 68/70 ---
+INFO [2022-11-21 23:22:25] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/68
+INFO [2022-11-21 23:22:25] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/68
+INFO [2022-11-21 23:22:25] Load Stan
+INFO [2022-11-21 23:22:28] Prep Data
+INFO [2022-11-21 23:22:42] Calc Coefficient
+INFO [2022-11-21 23:22:48] Write parquet #1
+INFO [2022-11-21 23:22:58] Prep Summary
+INFO [2022-11-21 23:23:13] Write parquet #2
+INFO [2022-11-21 23:23:13] --- Simulation: 69/70 ---
+INFO [2022-11-21 23:23:13] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/69
+INFO [2022-11-21 23:23:13] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/69
+INFO [2022-11-21 23:23:13] Load Stan
+INFO [2022-11-21 23:23:16] Prep Data
+INFO [2022-11-21 23:23:29] Calc Coefficient
+INFO [2022-11-21 23:23:36] Write parquet #1
+INFO [2022-11-21 23:23:47] Prep Summary
+INFO [2022-11-21 23:24:02] Write parquet #2
+INFO [2022-11-21 23:24:02] --- Simulation: 70/70 ---
+INFO [2022-11-21 23:24:02] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/70
+INFO [2022-11-21 23:24:02] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/70
+INFO [2022-11-21 23:24:02] Load Stan
+INFO [2022-11-21 23:24:05] Prep Data
+INFO [2022-11-21 23:24:19] Calc Coefficient
+INFO [2022-11-21 23:24:25] Write parquet #1
+INFO [2022-11-21 23:24:36] Prep Summary
+INFO [2022-11-21 23:24:50] Write parquet #2
+INFO [2022-11-21 23:24:51] Extract data for: Horseshoe Group
+INFO [2022-11-21 23:24:51] --- Simulation: 1/69 ---
+INFO [2022-11-21 23:24:51] Load Stan
+INFO [2022-11-21 23:24:53] Prep Data
+INFO [2022-11-21 23:25:04] Calc Coefficient
+INFO [2022-11-21 23:25:10] Write parquet #1
+INFO [2022-11-21 23:25:18] Prep Summary
+INFO [2022-11-21 23:25:29] Write parquet #2
+INFO [2022-11-21 23:25:30] --- Simulation: 2/69 ---
+INFO [2022-11-21 23:25:30] Load Stan
+INFO [2022-11-21 23:25:32] Prep Data
+INFO [2022-11-21 23:25:43] Calc Coefficient
+INFO [2022-11-21 23:25:49] Write parquet #1
+INFO [2022-11-21 23:25:57] Prep Summary
+INFO [2022-11-21 23:26:08] Write parquet #2
+INFO [2022-11-21 23:26:09] --- Simulation: 3/69 ---
+INFO [2022-11-21 23:26:09] Load Stan
+INFO [2022-11-21 23:26:11] Prep Data
+INFO [2022-11-21 23:26:22] Calc Coefficient
+INFO [2022-11-21 23:26:27] Write parquet #1
+INFO [2022-11-21 23:26:36] Prep Summary
+INFO [2022-11-21 23:26:47] Write parquet #2
+INFO [2022-11-21 23:26:47] --- Simulation: 4/69 ---
+INFO [2022-11-21 23:26:47] Load Stan
+INFO [2022-11-21 23:26:50] Prep Data
+INFO [2022-11-21 23:27:01] Calc Coefficient
+INFO [2022-11-21 23:27:07] Write parquet #1
+INFO [2022-11-21 23:27:15] Prep Summary
+INFO [2022-11-21 23:27:27] Write parquet #2
+INFO [2022-11-21 23:27:29] --- Simulation: 5/69 ---
+INFO [2022-11-21 23:27:29] Load Stan
+INFO [2022-11-21 23:27:31] Prep Data
+INFO [2022-11-21 23:27:42] Calc Coefficient
+INFO [2022-11-21 23:27:47] Write parquet #1
+INFO [2022-11-21 23:27:56] Prep Summary
+INFO [2022-11-21 23:28:07] Write parquet #2
+INFO [2022-11-21 23:28:07] --- Simulation: 6/69 ---
+INFO [2022-11-21 23:28:07] Load Stan
+INFO [2022-11-21 23:28:10] Prep Data
+INFO [2022-11-21 23:28:21] Calc Coefficient
+INFO [2022-11-21 23:28:27] Write parquet #1
+INFO [2022-11-21 23:28:35] Prep Summary
+INFO [2022-11-21 23:28:46] Write parquet #2
+INFO [2022-11-21 23:28:48] --- Simulation: 7/69 ---
+INFO [2022-11-21 23:28:48] Load Stan
+INFO [2022-11-21 23:28:50] Prep Data
+INFO [2022-11-21 23:29:01] Calc Coefficient
+INFO [2022-11-21 23:29:06] Write parquet #1
+INFO [2022-11-21 23:29:14] Prep Summary
+INFO [2022-11-21 23:29:25] Write parquet #2
+INFO [2022-11-21 23:29:25] --- Simulation: 8/69 ---
+INFO [2022-11-21 23:29:25] Load Stan
+INFO [2022-11-21 23:29:28] Prep Data
+INFO [2022-11-21 23:29:39] Calc Coefficient
+INFO [2022-11-21 23:29:45] Write parquet #1
+INFO [2022-11-21 23:29:53] Prep Summary
+INFO [2022-11-21 23:30:04] Write parquet #2
+INFO [2022-11-21 23:30:04] --- Simulation: 9/69 ---
+INFO [2022-11-21 23:30:04] Load Stan
+INFO [2022-11-21 23:30:06] Prep Data
+INFO [2022-11-21 23:30:18] Calc Coefficient
+INFO [2022-11-21 23:30:23] Write parquet #1
+INFO [2022-11-21 23:30:31] Prep Summary
+INFO [2022-11-21 23:30:42] Write parquet #2
+INFO [2022-11-21 23:30:43] --- Simulation: 10/69 ---
+INFO [2022-11-21 23:30:43] Load Stan
+INFO [2022-11-21 23:30:45] Prep Data
+INFO [2022-11-21 23:30:56] Calc Coefficient
+INFO [2022-11-21 23:31:02] Write parquet #1
+INFO [2022-11-21 23:31:10] Prep Summary
+INFO [2022-11-21 23:31:21] Write parquet #2
+INFO [2022-11-21 23:31:22] --- Simulation: 11/69 ---
+INFO [2022-11-21 23:31:22] Load Stan
+INFO [2022-11-21 23:31:24] Prep Data
+INFO [2022-11-21 23:31:35] Calc Coefficient
+INFO [2022-11-21 23:31:41] Write parquet #1
+INFO [2022-11-21 23:31:49] Prep Summary
+INFO [2022-11-21 23:32:00] Write parquet #2
+INFO [2022-11-21 23:32:02] --- Simulation: 12/69 ---
+INFO [2022-11-21 23:32:02] Load Stan
+INFO [2022-11-21 23:32:04] Prep Data
+INFO [2022-11-21 23:32:15] Calc Coefficient
+INFO [2022-11-21 23:32:21] Write parquet #1
+INFO [2022-11-21 23:32:29] Prep Summary
+INFO [2022-11-21 23:32:40] Write parquet #2
+INFO [2022-11-21 23:32:41] --- Simulation: 13/69 ---
+INFO [2022-11-21 23:32:42] Load Stan
+INFO [2022-11-21 23:32:44] Prep Data
+INFO [2022-11-21 23:32:55] Calc Coefficient
+INFO [2022-11-21 23:33:00] Write parquet #1
+INFO [2022-11-21 23:33:08] Prep Summary
+INFO [2022-11-21 23:33:19] Write parquet #2
+INFO [2022-11-21 23:33:19] --- Simulation: 14/69 ---
+INFO [2022-11-21 23:33:19] Load Stan
+INFO [2022-11-21 23:33:22] Prep Data
+INFO [2022-11-21 23:33:33] Calc Coefficient
+INFO [2022-11-21 23:33:39] Write parquet #1
+INFO [2022-11-21 23:33:47] Prep Summary
+INFO [2022-11-21 23:33:59] Write parquet #2
+INFO [2022-11-21 23:34:00] --- Simulation: 15/69 ---
+INFO [2022-11-21 23:34:00] Load Stan
+INFO [2022-11-21 23:34:01] Prep Data
+INFO [2022-11-21 23:34:13] Calc Coefficient
+INFO [2022-11-21 23:34:18] Write parquet #1
+INFO [2022-11-21 23:34:26] Prep Summary
+INFO [2022-11-21 23:34:38] Write parquet #2
+INFO [2022-11-21 23:34:38] --- Simulation: 16/69 ---
+INFO [2022-11-21 23:34:39] Load Stan
+INFO [2022-11-21 23:34:41] Prep Data
+INFO [2022-11-21 23:34:52] Calc Coefficient
+INFO [2022-11-21 23:34:58] Write parquet #1
+INFO [2022-11-21 23:35:06] Prep Summary
+INFO [2022-11-21 23:35:18] Write parquet #2
+INFO [2022-11-21 23:35:19] --- Simulation: 17/69 ---
+INFO [2022-11-21 23:35:19] Load Stan
+INFO [2022-11-21 23:35:21] Prep Data
+INFO [2022-11-21 23:35:33] Calc Coefficient
+INFO [2022-11-21 23:35:38] Write parquet #1
+INFO [2022-11-21 23:35:46] Prep Summary
+INFO [2022-11-21 23:35:58] Write parquet #2
+INFO [2022-11-21 23:36:00] --- Simulation: 18/69 ---
+INFO [2022-11-21 23:36:00] Load Stan
+INFO [2022-11-21 23:36:02] Prep Data
+INFO [2022-11-21 23:36:13] Calc Coefficient
+INFO [2022-11-21 23:36:19] Write parquet #1
+INFO [2022-11-21 23:36:27] Prep Summary
+INFO [2022-11-21 23:36:38] Write parquet #2
+INFO [2022-11-21 23:36:40] --- Simulation: 19/69 ---
+INFO [2022-11-21 23:36:41] Load Stan
+INFO [2022-11-21 23:36:43] Prep Data
+INFO [2022-11-21 23:36:54] Calc Coefficient
+INFO [2022-11-21 23:37:00] Write parquet #1
+INFO [2022-11-21 23:37:07] Prep Summary
+INFO [2022-11-21 23:37:19] Write parquet #2
+INFO [2022-11-21 23:37:21] --- Simulation: 20/69 ---
+INFO [2022-11-21 23:37:21] Load Stan
+INFO [2022-11-21 23:37:23] Prep Data
+INFO [2022-11-21 23:37:34] Calc Coefficient
+INFO [2022-11-21 23:37:40] Write parquet #1
+INFO [2022-11-21 23:37:48] Prep Summary
+INFO [2022-11-21 23:37:59] Write parquet #2
+INFO [2022-11-21 23:38:01] --- Simulation: 21/69 ---
+INFO [2022-11-21 23:38:01] Load Stan
+INFO [2022-11-21 23:38:03] Prep Data
+INFO [2022-11-21 23:38:13] Calc Coefficient
+INFO [2022-11-21 23:38:19] Write parquet #1
+INFO [2022-11-21 23:38:27] Prep Summary
+INFO [2022-11-21 23:38:38] Write parquet #2
+INFO [2022-11-21 23:38:39] --- Simulation: 22/69 ---
+INFO [2022-11-21 23:38:40] Load Stan
+INFO [2022-11-21 23:38:42] Prep Data
+INFO [2022-11-21 23:38:53] Calc Coefficient
+INFO [2022-11-21 23:38:59] Write parquet #1
+INFO [2022-11-21 23:39:06] Prep Summary
+INFO [2022-11-21 23:39:18] Write parquet #2
+INFO [2022-11-21 23:39:18] --- Simulation: 23/69 ---
+INFO [2022-11-21 23:39:18] Load Stan
+INFO [2022-11-21 23:39:20] Prep Data
+INFO [2022-11-21 23:39:31] Calc Coefficient
+INFO [2022-11-21 23:39:37] Write parquet #1
+INFO [2022-11-21 23:39:45] Prep Summary
+INFO [2022-11-21 23:39:56] Write parquet #2
+INFO [2022-11-21 23:39:58] --- Simulation: 24/69 ---
+INFO [2022-11-21 23:39:58] Load Stan
+INFO [2022-11-21 23:40:00] Prep Data
+INFO [2022-11-21 23:40:11] Calc Coefficient
+INFO [2022-11-21 23:40:17] Write parquet #1
+INFO [2022-11-21 23:40:25] Prep Summary
+INFO [2022-11-21 23:40:36] Write parquet #2
+INFO [2022-11-21 23:40:37] --- Simulation: 25/69 ---
+INFO [2022-11-21 23:40:38] Load Stan
+INFO [2022-11-21 23:40:40] Prep Data
+INFO [2022-11-21 23:40:51] Calc Coefficient
+INFO [2022-11-21 23:40:56] Write parquet #1
+INFO [2022-11-21 23:41:04] Prep Summary
+INFO [2022-11-21 23:41:16] Write parquet #2
+INFO [2022-11-21 23:41:16] --- Simulation: 26/69 ---
+INFO [2022-11-21 23:41:16] Load Stan
+INFO [2022-11-21 23:41:19] Prep Data
+INFO [2022-11-21 23:41:30] Calc Coefficient
+INFO [2022-11-21 23:41:36] Write parquet #1
+INFO [2022-11-21 23:41:43] Prep Summary
+INFO [2022-11-21 23:41:55] Write parquet #2
+INFO [2022-11-21 23:41:57] --- Simulation: 27/69 ---
+INFO [2022-11-21 23:41:57] Load Stan
+INFO [2022-11-21 23:41:59] Prep Data
+INFO [2022-11-21 23:42:10] Calc Coefficient
+INFO [2022-11-21 23:42:16] Write parquet #1
+INFO [2022-11-21 23:42:23] Prep Summary
+INFO [2022-11-21 23:42:35] Write parquet #2
+INFO [2022-11-21 23:42:35] --- Simulation: 28/69 ---
+INFO [2022-11-21 23:42:35] Load Stan
+INFO [2022-11-21 23:42:38] Prep Data
+INFO [2022-11-21 23:42:49] Calc Coefficient
+INFO [2022-11-21 23:42:54] Write parquet #1
+INFO [2022-11-21 23:43:03] Prep Summary
+INFO [2022-11-21 23:43:14] Write parquet #2
+INFO [2022-11-21 23:43:14] --- Simulation: 29/69 ---
+INFO [2022-11-21 23:43:14] Load Stan
+INFO [2022-11-21 23:43:17] Prep Data
+INFO [2022-11-21 23:43:28] Calc Coefficient
+INFO [2022-11-21 23:43:34] Write parquet #1
+INFO [2022-11-21 23:43:41] Prep Summary
+INFO [2022-11-21 23:43:53] Write parquet #2
+INFO [2022-11-21 23:43:55] --- Simulation: 30/69 ---
+INFO [2022-11-21 23:43:55] Load Stan
+INFO [2022-11-21 23:43:57] Prep Data
+INFO [2022-11-21 23:44:08] Calc Coefficient
+INFO [2022-11-21 23:44:14] Write parquet #1
+INFO [2022-11-21 23:44:22] Prep Summary
+INFO [2022-11-21 23:44:33] Write parquet #2
+INFO [2022-11-21 23:44:34] --- Simulation: 31/69 ---
+INFO [2022-11-21 23:44:34] Load Stan
+INFO [2022-11-21 23:44:36] Prep Data
+INFO [2022-11-21 23:44:48] Calc Coefficient
+INFO [2022-11-21 23:44:54] Write parquet #1
+INFO [2022-11-21 23:45:02] Prep Summary
+INFO [2022-11-21 23:45:13] Write parquet #2
+INFO [2022-11-21 23:45:14] --- Simulation: 32/69 ---
+INFO [2022-11-21 23:45:14] Load Stan
+INFO [2022-11-21 23:45:16] Prep Data
+INFO [2022-11-21 23:45:27] Calc Coefficient
+INFO [2022-11-21 23:45:33] Write parquet #1
+INFO [2022-11-21 23:45:40] Prep Summary
+INFO [2022-11-21 23:45:52] Write parquet #2
+INFO [2022-11-21 23:45:52] --- Simulation: 33/69 ---
+INFO [2022-11-21 23:45:52] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/33
+INFO [2022-11-21 23:45:52] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/33
+INFO [2022-11-21 23:45:52] Load Stan
+INFO [2022-11-21 23:45:55] Prep Data
+INFO [2022-11-21 23:46:06] Calc Coefficient
+INFO [2022-11-21 23:46:12] Write parquet #1
+INFO [2022-11-21 23:46:20] Prep Summary
+INFO [2022-11-21 23:46:31] Write parquet #2
+INFO [2022-11-21 23:46:31] --- Simulation: 34/69 ---
+INFO [2022-11-21 23:46:31] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/34
+INFO [2022-11-21 23:46:31] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/34
+INFO [2022-11-21 23:46:31] Load Stan
+INFO [2022-11-21 23:46:34] Prep Data
+INFO [2022-11-21 23:46:45] Calc Coefficient
+INFO [2022-11-21 23:46:51] Write parquet #1
+INFO [2022-11-21 23:46:58] Prep Summary
+INFO [2022-11-21 23:47:10] Write parquet #2
+INFO [2022-11-21 23:47:11] --- Simulation: 35/69 ---
+INFO [2022-11-21 23:47:11] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/35
+INFO [2022-11-21 23:47:11] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/35
+INFO [2022-11-21 23:47:11] Load Stan
+INFO [2022-11-21 23:47:13] Prep Data
+INFO [2022-11-21 23:47:23] Calc Coefficient
+INFO [2022-11-21 23:47:30] Write parquet #1
+INFO [2022-11-21 23:47:37] Prep Summary
+INFO [2022-11-21 23:47:49] Write parquet #2
+INFO [2022-11-21 23:47:49] --- Simulation: 36/69 ---
+INFO [2022-11-21 23:47:49] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/36
+INFO [2022-11-21 23:47:49] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/36
+INFO [2022-11-21 23:47:49] Load Stan
+INFO [2022-11-21 23:47:52] Prep Data
+INFO [2022-11-21 23:48:02] Calc Coefficient
+INFO [2022-11-21 23:48:09] Write parquet #1
+INFO [2022-11-21 23:48:16] Prep Summary
+INFO [2022-11-21 23:48:29] Write parquet #2
+INFO [2022-11-21 23:48:29] --- Simulation: 37/69 ---
+INFO [2022-11-21 23:48:29] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/37
+INFO [2022-11-21 23:48:29] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/37
+INFO [2022-11-21 23:48:29] Load Stan
+INFO [2022-11-21 23:48:31] Prep Data
+INFO [2022-11-21 23:48:42] Calc Coefficient
+INFO [2022-11-21 23:48:48] Write parquet #1
+INFO [2022-11-21 23:48:56] Prep Summary
+INFO [2022-11-21 23:49:08] Write parquet #2
+INFO [2022-11-21 23:49:08] --- Simulation: 38/69 ---
+INFO [2022-11-21 23:49:08] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/38
+INFO [2022-11-21 23:49:08] Create folder at: /media/simulation/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/38
+INFO [2022-11-21 23:49:08] Load Stan
+INFO [2022-11-21 23:49:10] Prep Data
+INFO [2022-11-21 23:49:21] Calc Coefficient

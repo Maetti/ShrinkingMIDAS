@@ -1,0 +1,266 @@
+INFO [2022-08-14 13:20:19] Setting input variables
+INFO [2022-08-14 13:20:19] Creating Stan models
+INFO [2022-08-14 13:20:19] Stan models creation done: 4 models
+INFO [2022-08-14 15:12:21] Setting input variables
+INFO [2022-08-14 15:12:24] Creating Stan models
+INFO [2022-08-14 15:12:24] Stan models creation done: 4 models
+INFO [2022-08-14 15:26:03] ----- group_lasso_hierarchical ------
+INFO [2022-08-14 15:26:03] Simulation: 1/10
+INFO [2022-08-14 15:26:07] Simulation: 2/10
+INFO [2022-08-14 15:26:10] Simulation: 3/10
+INFO [2022-08-14 15:26:13] Simulation: 4/10
+INFO [2022-08-14 15:26:16] Simulation: 5/10
+INFO [2022-08-14 15:26:20] Simulation: 6/10
+INFO [2022-08-14 15:26:23] Simulation: 7/10
+INFO [2022-08-14 15:26:27] Simulation: 8/10
+INFO [2022-08-14 15:26:30] Simulation: 9/10
+INFO [2022-08-14 15:26:33] Simulation: 10/10
+INFO [2022-08-14 15:26:36] ----- horseshoe_group_plus ------
+INFO [2022-08-14 15:26:36] Simulation: 1/10
+INFO [2022-08-14 15:26:40] Simulation: 2/10
+INFO [2022-08-14 15:26:44] Simulation: 3/10
+INFO [2022-08-14 15:26:47] Simulation: 4/10
+INFO [2022-08-14 15:26:51] Simulation: 5/10
+INFO [2022-08-14 15:26:55] Simulation: 6/10
+INFO [2022-08-14 15:26:58] Simulation: 7/10
+INFO [2022-08-14 15:27:02] Simulation: 8/10
+INFO [2022-08-14 15:27:06] Simulation: 9/10
+INFO [2022-08-14 15:27:10] Simulation: 10/10
+INFO [2022-08-14 15:27:13] ----- horseshoe_group_vector ------
+INFO [2022-08-14 15:27:13] Simulation: 1/10
+INFO [2022-08-14 15:27:16] Simulation: 2/10
+INFO [2022-08-14 15:27:20] Simulation: 3/10
+INFO [2022-08-14 15:27:23] Simulation: 4/10
+INFO [2022-08-14 15:27:26] Simulation: 5/10
+INFO [2022-08-14 15:27:30] Simulation: 6/10
+INFO [2022-08-14 15:27:33] Simulation: 7/10
+INFO [2022-08-14 15:27:36] Simulation: 8/10
+INFO [2022-08-14 15:27:39] Simulation: 9/10
+INFO [2022-08-14 15:27:43] Simulation: 10/10
+INFO [2022-08-14 15:51:15] ----- group_lasso_hierarchical ------
+INFO [2022-08-14 15:51:18] Simulation: 1/10
+INFO [2022-08-14 16:01:49] Simulation: 1/10
+INFO [2022-08-14 16:01:52] Simulation: 2/10
+INFO [2022-08-14 16:01:56] Simulation: 3/10
+INFO [2022-08-14 16:02:00] Simulation: 4/10
+INFO [2022-08-14 16:02:03] Simulation: 5/10
+INFO [2022-08-14 16:02:07] Simulation: 6/10
+INFO [2022-08-14 16:02:11] Simulation: 7/10
+INFO [2022-08-14 16:02:14] Simulation: 8/10
+INFO [2022-08-14 16:02:18] Simulation: 9/10
+INFO [2022-08-14 16:02:21] Simulation: 10/10
+INFO [2022-08-14 16:03:16] ----- group_lasso_hierarchical ------
+INFO [2022-08-14 16:03:16] Simulation: 1/10
+INFO [2022-08-14 16:03:19] Simulation: 2/10
+INFO [2022-08-14 16:03:23] Simulation: 3/10
+INFO [2022-08-14 16:03:27] Simulation: 4/10
+INFO [2022-08-14 16:03:30] Simulation: 5/10
+INFO [2022-08-14 16:03:33] Simulation: 6/10
+INFO [2022-08-14 16:03:37] Simulation: 7/10
+INFO [2022-08-14 16:03:41] Simulation: 8/10
+INFO [2022-08-14 16:03:44] Simulation: 9/10
+INFO [2022-08-14 16:03:47] Simulation: 10/10
+INFO [2022-08-14 16:03:51] ----- horseshoe_group_plus ------
+INFO [2022-08-14 16:03:51] Simulation: 1/10
+INFO [2022-08-14 16:03:55] Simulation: 2/10
+INFO [2022-08-14 16:03:59] Simulation: 3/10
+INFO [2022-08-14 16:04:02] Simulation: 4/10
+INFO [2022-08-14 16:04:06] Simulation: 5/10
+INFO [2022-08-14 16:04:10] Simulation: 6/10
+INFO [2022-08-14 16:04:14] Simulation: 7/10
+INFO [2022-08-14 16:04:18] Simulation: 8/10
+INFO [2022-08-14 16:04:22] Simulation: 9/10
+INFO [2022-08-14 16:04:26] Simulation: 10/10
+INFO [2022-08-14 16:04:30] ----- horseshoe_group_vector ------
+INFO [2022-08-14 16:04:30] Simulation: 1/10
+INFO [2022-08-14 16:04:33] Simulation: 2/10
+INFO [2022-08-14 16:04:37] Simulation: 3/10
+INFO [2022-08-14 16:04:40] Simulation: 4/10
+INFO [2022-08-14 16:04:44] Simulation: 5/10
+INFO [2022-08-14 16:04:48] Simulation: 6/10
+INFO [2022-08-14 16:04:52] Simulation: 7/10
+INFO [2022-08-14 16:04:56] Simulation: 8/10
+INFO [2022-08-14 16:04:59] Simulation: 9/10
+INFO [2022-08-14 16:05:03] Simulation: 10/10
+INFO [2022-08-14 16:37:34] ----- group_lasso_hierarchical ------
+INFO [2022-08-14 16:38:21] ----- group_lasso_hierarchical ------
+INFO [2022-08-14 16:38:22] Simulation: 1/10
+INFO [2022-08-14 16:46:08] ----- group_lasso_hierarchical ------
+INFO [2022-08-14 16:46:12] Simulation: 1/10
+INFO [2022-08-14 16:54:08] ----- group_lasso_hierarchical ------
+INFO [2022-08-14 16:54:12] Simulation: 1/10
+INFO [2022-08-14 17:48:25] ----- group_lasso_hierarchical ------
+INFO [2022-08-14 17:48:25] Simulation: 1/10
+INFO [2022-08-14 17:48:28] Simulation: 2/10
+INFO [2022-08-14 17:48:32] Simulation: 3/10
+INFO [2022-08-14 17:48:35] Simulation: 4/10
+INFO [2022-08-14 18:02:00] ----- group_lasso_hierarchical ------
+INFO [2022-08-14 18:02:04] Simulation: 1/10
+INFO [2022-08-14 18:06:58] ----- group_lasso_hierarchical ------
+INFO [2022-08-14 18:06:58] Simulation: 1/10
+INFO [2022-08-14 18:07:01] Simulation: 2/10
+INFO [2022-08-14 18:07:05] Simulation: 3/10
+INFO [2022-08-14 18:07:08] Simulation: 4/10
+INFO [2022-08-14 18:07:11] Simulation: 5/10
+INFO [2022-08-14 18:07:15] Simulation: 6/10
+INFO [2022-08-14 18:07:18] Simulation: 7/10
+INFO [2022-08-14 18:07:21] Simulation: 8/10
+INFO [2022-08-14 18:07:24] Simulation: 9/10
+INFO [2022-08-14 18:07:27] Simulation: 10/10
+INFO [2022-08-14 18:07:30] ----- horseshoe_group_plus ------
+INFO [2022-08-14 18:07:30] Simulation: 1/10
+INFO [2022-08-14 18:07:34] Simulation: 2/10
+INFO [2022-08-14 18:07:38] Simulation: 3/10
+INFO [2022-08-14 18:07:41] Simulation: 4/10
+INFO [2022-08-14 18:07:45] Simulation: 5/10
+INFO [2022-08-14 18:07:48] Simulation: 6/10
+INFO [2022-08-14 18:07:52] Simulation: 7/10
+INFO [2022-08-14 18:07:56] Simulation: 8/10
+INFO [2022-08-14 18:07:59] Simulation: 9/10
+INFO [2022-08-14 18:08:03] Simulation: 10/10
+INFO [2022-08-14 18:08:06] ----- horseshoe_group_vector ------
+INFO [2022-08-14 18:08:06] Simulation: 1/10
+INFO [2022-08-14 18:08:09] Simulation: 2/10
+INFO [2022-08-14 18:08:13] Simulation: 3/10
+INFO [2022-08-14 18:08:16] Simulation: 4/10
+INFO [2022-08-14 18:08:19] Simulation: 5/10
+INFO [2022-08-14 18:08:22] Simulation: 6/10
+INFO [2022-08-14 18:08:25] Simulation: 7/10
+INFO [2022-08-14 18:08:28] Simulation: 8/10
+INFO [2022-08-14 18:08:32] Simulation: 9/10
+INFO [2022-08-14 18:08:35] Simulation: 10/10
+INFO [2022-08-14 18:33:06] Setting input variables
+INFO [2022-08-14 18:33:06] Creating Stan models
+INFO [2022-08-14 18:33:06] Stan models creation done: 4 models
+INFO [2022-08-14 18:33:06] ----- group_lasso_hierarchical ------
+INFO [2022-08-14 18:33:06] Simulation: 1/10
+INFO [2022-08-14 18:33:10] Simulation: 2/10
+INFO [2022-08-14 18:33:14] Simulation: 3/10
+INFO [2022-08-14 18:33:17] Simulation: 4/10
+INFO [2022-08-14 18:33:20] Simulation: 5/10
+INFO [2022-08-14 18:33:24] Simulation: 6/10
+INFO [2022-08-14 18:33:27] Simulation: 7/10
+INFO [2022-08-14 18:33:30] Simulation: 8/10
+INFO [2022-08-14 18:33:33] Simulation: 9/10
+INFO [2022-08-14 18:33:37] Simulation: 10/10
+INFO [2022-08-14 18:33:40] ----- horseshoe_group_plus ------
+INFO [2022-08-14 18:33:40] Simulation: 1/10
+INFO [2022-08-14 18:33:44] Simulation: 2/10
+INFO [2022-08-14 18:33:48] Simulation: 3/10
+INFO [2022-08-14 18:33:52] Simulation: 4/10
+INFO [2022-08-14 18:33:55] Simulation: 5/10
+INFO [2022-08-14 18:33:59] Simulation: 6/10
+INFO [2022-08-14 18:34:02] Simulation: 7/10
+INFO [2022-08-14 18:34:06] Simulation: 8/10
+INFO [2022-08-14 18:34:10] Simulation: 9/10
+INFO [2022-08-14 18:34:14] Simulation: 10/10
+INFO [2022-08-14 18:34:17] ----- horseshoe_group_vector ------
+INFO [2022-08-14 18:34:17] Simulation: 1/10
+INFO [2022-08-14 18:34:21] Simulation: 2/10
+INFO [2022-08-14 18:34:24] Simulation: 3/10
+INFO [2022-08-14 18:34:27] Simulation: 4/10
+INFO [2022-08-14 18:34:30] Simulation: 5/10
+INFO [2022-08-14 18:34:34] Simulation: 6/10
+INFO [2022-08-14 18:34:37] Simulation: 7/10
+INFO [2022-08-14 18:34:40] Simulation: 8/10
+INFO [2022-08-14 18:34:43] Simulation: 9/10
+INFO [2022-08-14 18:34:47] Simulation: 10/10
+INFO [2022-08-14 18:34:52] ----- group_lasso_hierarchical ------
+INFO [2022-08-14 18:34:52] Simulation: 1/10
+INFO [2022-08-14 18:34:56] Simulation: 2/10
+INFO [2022-08-14 18:34:59] Simulation: 3/10
+INFO [2022-08-14 18:35:02] Simulation: 4/10
+INFO [2022-08-14 18:35:06] Simulation: 5/10
+INFO [2022-08-14 18:35:09] Simulation: 6/10
+INFO [2022-08-14 18:35:12] Simulation: 7/10
+INFO [2022-08-14 18:35:16] Simulation: 8/10
+INFO [2022-08-14 18:35:19] Simulation: 9/10
+INFO [2022-08-14 18:35:23] Simulation: 10/10
+INFO [2022-08-14 18:35:26] ----- horseshoe_group_plus ------
+INFO [2022-08-14 18:35:26] Simulation: 1/10
+INFO [2022-08-14 18:35:30] Simulation: 2/10
+INFO [2022-08-14 18:35:34] Simulation: 3/10
+INFO [2022-08-14 18:35:37] Simulation: 4/10
+INFO [2022-08-14 18:35:41] Simulation: 5/10
+INFO [2022-08-14 18:35:45] Simulation: 6/10
+INFO [2022-08-14 18:35:49] Simulation: 7/10
+INFO [2022-08-14 18:35:53] Simulation: 8/10
+INFO [2022-08-14 18:35:57] Simulation: 9/10
+INFO [2022-08-14 18:36:00] Simulation: 10/10
+INFO [2022-08-14 18:36:04] ----- horseshoe_group_vector ------
+INFO [2022-08-14 18:36:04] Simulation: 1/10
+INFO [2022-08-14 18:36:07] Simulation: 2/10
+INFO [2022-08-14 18:36:11] Simulation: 3/10
+INFO [2022-08-14 18:36:14] Simulation: 4/10
+INFO [2022-08-14 18:36:17] Simulation: 5/10
+INFO [2022-08-14 18:36:21] Simulation: 6/10
+INFO [2022-08-14 18:36:24] Simulation: 7/10
+INFO [2022-08-14 18:36:27] Simulation: 8/10
+INFO [2022-08-14 18:36:31] Simulation: 9/10
+INFO [2022-08-14 18:36:34] Simulation: 10/10
+INFO [2022-08-14 18:36:39] ----- group_lasso_hierarchical ------
+INFO [2022-08-14 18:36:39] Simulation: 1/10
+INFO [2022-08-14 18:36:42] Simulation: 2/10
+INFO [2022-08-14 18:36:45] Simulation: 3/10
+INFO [2022-08-14 18:36:49] Simulation: 4/10
+INFO [2022-08-14 18:36:52] Simulation: 5/10
+INFO [2022-08-14 18:36:55] Simulation: 6/10
+INFO [2022-08-14 18:36:58] Simulation: 7/10
+INFO [2022-08-14 18:37:01] Simulation: 8/10
+INFO [2022-08-14 18:37:04] Simulation: 9/10
+INFO [2022-08-14 18:37:07] Simulation: 10/10
+INFO [2022-08-14 18:37:11] ----- horseshoe_group_plus ------
+INFO [2022-08-14 18:37:11] Simulation: 1/10
+INFO [2022-08-14 18:37:14] Simulation: 2/10
+INFO [2022-08-14 18:37:18] Simulation: 3/10
+INFO [2022-08-14 18:37:22] Simulation: 4/10
+INFO [2022-08-14 18:37:25] Simulation: 5/10
+INFO [2022-08-14 18:37:29] Simulation: 6/10
+INFO [2022-08-14 18:37:33] Simulation: 7/10
+INFO [2022-08-14 18:37:36] Simulation: 8/10
+INFO [2022-08-14 18:37:40] Simulation: 9/10
+INFO [2022-08-14 18:37:43] Simulation: 10/10
+INFO [2022-08-14 18:37:47] ----- horseshoe_group_vector ------
+INFO [2022-08-14 18:37:47] Simulation: 1/10
+INFO [2022-08-14 18:37:50] Simulation: 2/10
+INFO [2022-08-14 18:37:54] Simulation: 3/10
+INFO [2022-08-14 18:37:58] Simulation: 4/10
+INFO [2022-08-14 18:38:02] Simulation: 5/10
+INFO [2022-08-14 18:38:05] Simulation: 6/10
+INFO [2022-08-14 18:38:09] Simulation: 7/10
+INFO [2022-08-14 18:38:12] Simulation: 8/10
+INFO [2022-08-14 18:38:16] Simulation: 9/10
+INFO [2022-08-14 18:38:19] Simulation: 10/10
+INFO [2022-08-14 21:19:17] ----- group_lasso_hierarchical ------
+INFO [2022-08-14 21:19:17] Simulation: 1/10
+INFO [2022-08-14 21:19:21] Simulation: 2/10
+INFO [2022-08-14 21:19:25] Simulation: 3/10
+INFO [2022-08-14 21:19:29] Simulation: 4/10
+INFO [2022-08-14 21:19:32] Simulation: 5/10
+INFO [2022-08-14 21:19:36] Simulation: 6/10
+INFO [2022-08-14 21:19:40] Simulation: 7/10
+INFO [2022-08-14 21:19:43] Simulation: 8/10
+INFO [2022-08-14 21:19:47] Simulation: 9/10
+INFO [2022-08-14 21:19:51] Simulation: 10/10
+INFO [2022-08-14 21:19:55] ----- horseshoe_group_plus ------
+INFO [2022-08-14 21:19:55] Simulation: 1/10
+INFO [2022-08-14 21:19:58] Simulation: 2/10
+INFO [2022-08-14 21:20:02] Simulation: 3/10
+INFO [2022-08-14 21:20:06] Simulation: 4/10
+INFO [2022-08-14 21:20:10] Simulation: 5/10
+INFO [2022-08-14 21:20:14] Simulation: 6/10
+INFO [2022-08-14 21:20:17] Simulation: 7/10
+INFO [2022-08-14 21:20:21] Simulation: 8/10
+INFO [2022-08-14 21:20:25] Simulation: 9/10
+INFO [2022-08-14 21:20:28] Simulation: 10/10
+INFO [2022-08-14 21:20:32] ----- horseshoe_group_vector ------
+INFO [2022-08-14 21:20:32] Simulation: 1/10
+INFO [2022-08-14 21:20:35] Simulation: 2/10
+INFO [2022-08-14 21:20:39] Simulation: 3/10
+INFO [2022-08-14 21:20:42] Simulation: 4/10
+INFO [2022-08-14 21:20:45] Simulation: 5/10
+INFO [2022-08-14 21:20:48] Simulation: 6/10
+INFO [2022-08-14 21:20:51] Simulation: 7/10
+INFO [2022-08-14 21:20:55] Simulation: 8/10
+INFO [2022-08-14 21:20:58] Simulation: 9/10
+INFO [2022-08-14 21:21:01] Simulation: 10/10

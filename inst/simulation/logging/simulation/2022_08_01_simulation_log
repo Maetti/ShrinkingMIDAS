@@ -1,0 +1,9 @@
+INFO [2022-08-01 20:50:51] Setting input variables
+INFO [2022-08-01 20:50:56] Creating Stan models
+INFO [2022-08-01 21:00:47] Creating Stan models
+INFO [2022-08-01 21:00:47] Stan models creation done: 4 models
+INFO [2022-08-01 21:01:30] ----------------- Run: 1/10 -----------------
+INFO [2022-08-01 21:01:34] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/001_rawdata.rds
+INFO [2022-08-01 21:01:40] Horseshoe Plus Wo Group (run 1)
+INFO [2022-08-01 21:01:43] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/01_stan_objects/horseshoe_plus_wo_group
+INFO [2022-08-01 21:02:02] Estimate model...

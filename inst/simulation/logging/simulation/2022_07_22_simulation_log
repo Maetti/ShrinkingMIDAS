@@ -1,0 +1,55 @@
+INFO [2022-07-22 20:38:39] Starting with simulating input data
+INFO [2022-07-22 20:39:45] Starting with simulating input data
+INFO [2022-07-22 20:39:45] Run: 1
+INFO [2022-07-22 20:39:46] Run: 2
+INFO [2022-07-22 20:39:46] Run: 3
+INFO [2022-07-22 20:39:46] Run: 4
+INFO [2022-07-22 20:39:46] Run: 5
+INFO [2022-07-22 20:39:47] Run: 6
+INFO [2022-07-22 20:39:47] Run: 7
+INFO [2022-07-22 20:39:47] Run: 8
+INFO [2022-07-22 20:39:47] Run: 9
+INFO [2022-07-22 20:39:48] Run: 10
+INFO [2022-07-22 20:43:35] Done with input data generation
+INFO [2022-07-22 20:43:37] Creating Stan models
+INFO [2022-07-22 21:08:23] Creating Stan models
+INFO [2022-07-22 21:08:24] Stan models creation done: 3 models
+INFO [2022-07-22 21:32:47] Stan models creation done: 3 models
+INFO [2022-07-22 21:32:47] Starting model fitting for each generated data
+INFO [2022-07-22 21:33:40] ----------------- Run: 3/1 -----------------
+INFO [2022-07-22 21:34:10] Setting input variables
+INFO [2022-07-22 21:35:07] Setting input variables
+INFO [2022-07-22 21:35:12] ----------------- Run: 3/1 -----------------
+INFO [2022-07-22 21:36:01] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/001_rawdata.rds
+INFO [2022-07-22 21:36:44] Creating Stan models
+INFO [2022-07-22 22:06:16] Setting input variables
+INFO [2022-07-22 22:06:21] Done with input data generation
+INFO [2022-07-22 22:06:21] Creating Stan models
+INFO [2022-07-22 22:08:36] Stan models creation done: 3 models
+INFO [2022-07-22 22:08:38] Starting model fitting for each generated data
+INFO [2022-07-22 22:08:49] ----------------- Run: 3/1 -----------------
+INFO [2022-07-22 22:08:51] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/003_rawdata.rds
+INFO [2022-07-22 22:09:24] Group Lasso Hierarchical (run 3)
+INFO [2022-07-22 22:09:38] Group Lasso Hierarchical (run 1)
+INFO [2022-07-22 22:09:45] Group Lasso Hierarchical (run 1)
+INFO [2022-07-22 22:10:26] Setting input variables
+INFO [2022-07-22 22:10:26] Simulating input data for: 10 simulations
+INFO [2022-07-22 22:10:26] Done with input data generation
+INFO [2022-07-22 22:10:26] Creating Stan models
+INFO [2022-07-22 22:10:26] Stan models creation done: 3 models
+INFO [2022-07-22 22:10:26] Starting model fitting for each generated data
+INFO [2022-07-22 22:10:51] ----------------- Run: 1/1 -----------------
+INFO [2022-07-22 22:10:51] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/001_rawdata.rds
+INFO [2022-07-22 22:10:51] Group Lasso Hierarchical (run 1)
+INFO [2022-07-22 22:10:51] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/group_lasso_hierarchical
+INFO [2022-07-22 22:11:12] ----------------- Run: 1/1 -----------------
+INFO [2022-07-22 22:11:12] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/001_rawdata.rds
+INFO [2022-07-22 22:11:17] Group Lasso Hierarchical (run 1)
+INFO [2022-07-22 22:25:23] Horseshoe Group Plus (run 1)
+INFO [2022-07-22 22:25:24] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/horseshoe_group_plus
+INFO [2022-07-22 22:25:40] Horseshoe Group Vector (run 1)
+INFO [2022-07-22 22:25:40] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/horseshoe_group_vector
+INFO [2022-07-22 22:25:47] Horseshoe Group Vector (run 1)
+INFO [2022-07-22 22:27:07] Group Lasso Hierarchical (run 1)
+INFO [2022-07-22 22:44:28] Horseshoe Group Plus (run 1)
+INFO [2022-07-22 23:09:10] Horseshoe Group Vector (run 1)

@@ -1,0 +1,269 @@
+INFO [2022-11-13 13:02:44] Setting input variables
+INFO [2022-11-13 13:02:44] Simulating input data for: 26 simulations
+INFO [2022-11-13 13:02:45] Create data for simulation: 026
+INFO [2022-11-13 13:02:45] Done with input data generation
+INFO [2022-11-13 13:02:45] Creating Stan models
+INFO [2022-11-13 13:02:45] Stan models creation done: 4 models
+INFO [2022-11-13 13:02:45] Starting model fitting for each generated data
+INFO [2022-11-13 13:02:45] ----------------- Run: 1/26 -----------------
+INFO [2022-11-13 13:02:45] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/001_rawdata.rds
+INFO [2022-11-13 13:05:03] Setting input variables
+INFO [2022-11-13 13:05:03] Simulating input data for: 26 simulations
+INFO [2022-11-13 13:05:03] Create data for simulation: 026
+INFO [2022-11-13 13:05:03] Done with input data generation
+INFO [2022-11-13 13:05:03] Creating Stan models
+INFO [2022-11-13 13:05:03] Stan models creation done: 4 models
+INFO [2022-11-13 13:05:03] Starting model fitting for each generated data
+INFO [2022-11-13 13:05:03] ----------------- Run: 1/26 -----------------
+INFO [2022-11-13 13:05:03] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/001_rawdata.rds
+INFO [2022-11-13 13:05:03] Group Lasso Hierarchical (run 1)
+INFO [2022-11-13 13:05:03] File already exists - skipped to next...
+INFO [2022-11-13 13:05:03] Horseshoe Group Plus (run 1)
+INFO [2022-11-13 13:05:03] File already exists - skipped to next...
+INFO [2022-11-13 13:05:03] Horseshoe Group (run 1)
+INFO [2022-11-13 13:05:03] File already exists - skipped to next...
+INFO [2022-11-13 13:05:09] ----------------- Run: 2/26 -----------------
+INFO [2022-11-13 13:05:09] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/002_rawdata.rds
+INFO [2022-11-13 13:05:09] Group Lasso Hierarchical (run 2)
+INFO [2022-11-13 13:05:09] File already exists - skipped to next...
+INFO [2022-11-13 13:05:09] Horseshoe Group Plus (run 2)
+INFO [2022-11-13 13:05:09] File already exists - skipped to next...
+INFO [2022-11-13 13:05:09] Horseshoe Group (run 2)
+INFO [2022-11-13 13:05:09] File already exists - skipped to next...
+INFO [2022-11-13 13:05:14] ----------------- Run: 3/26 -----------------
+INFO [2022-11-13 13:05:14] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/003_rawdata.rds
+INFO [2022-11-13 13:05:14] Group Lasso Hierarchical (run 3)
+INFO [2022-11-13 13:05:14] File already exists - skipped to next...
+INFO [2022-11-13 13:05:14] Horseshoe Group Plus (run 3)
+INFO [2022-11-13 13:05:14] File already exists - skipped to next...
+INFO [2022-11-13 13:05:14] Horseshoe Group (run 3)
+INFO [2022-11-13 13:05:14] File already exists - skipped to next...
+INFO [2022-11-13 13:05:19] ----------------- Run: 4/26 -----------------
+INFO [2022-11-13 13:05:19] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/004_rawdata.rds
+INFO [2022-11-13 13:05:19] Group Lasso Hierarchical (run 4)
+INFO [2022-11-13 13:05:19] File already exists - skipped to next...
+INFO [2022-11-13 13:05:19] Horseshoe Group Plus (run 4)
+INFO [2022-11-13 13:05:19] File already exists - skipped to next...
+INFO [2022-11-13 13:05:19] Horseshoe Group (run 4)
+INFO [2022-11-13 13:05:19] File already exists - skipped to next...
+INFO [2022-11-13 13:05:24] ----------------- Run: 5/26 -----------------
+INFO [2022-11-13 13:05:24] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/005_rawdata.rds
+INFO [2022-11-13 13:05:24] Group Lasso Hierarchical (run 5)
+INFO [2022-11-13 13:05:24] File already exists - skipped to next...
+INFO [2022-11-13 13:05:24] Horseshoe Group Plus (run 5)
+INFO [2022-11-13 13:05:24] File already exists - skipped to next...
+INFO [2022-11-13 13:05:24] Horseshoe Group (run 5)
+INFO [2022-11-13 13:05:24] File already exists - skipped to next...
+INFO [2022-11-13 13:05:29] ----------------- Run: 6/26 -----------------
+INFO [2022-11-13 13:05:29] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/006_rawdata.rds
+INFO [2022-11-13 13:05:29] Group Lasso Hierarchical (run 6)
+INFO [2022-11-13 13:05:29] File already exists - skipped to next...
+INFO [2022-11-13 13:05:29] Horseshoe Group Plus (run 6)
+INFO [2022-11-13 13:05:29] File already exists - skipped to next...
+INFO [2022-11-13 13:05:29] Horseshoe Group (run 6)
+INFO [2022-11-13 13:05:29] File already exists - skipped to next...
+INFO [2022-11-13 13:05:34] ----------------- Run: 7/26 -----------------
+INFO [2022-11-13 13:05:34] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/007_rawdata.rds
+INFO [2022-11-13 13:05:34] Group Lasso Hierarchical (run 7)
+INFO [2022-11-13 13:05:34] File already exists - skipped to next...
+INFO [2022-11-13 13:05:34] Horseshoe Group Plus (run 7)
+INFO [2022-11-13 13:05:34] File already exists - skipped to next...
+INFO [2022-11-13 13:05:34] Horseshoe Group (run 7)
+INFO [2022-11-13 13:05:34] File already exists - skipped to next...
+INFO [2022-11-13 13:05:40] ----------------- Run: 8/26 -----------------
+INFO [2022-11-13 13:05:40] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/008_rawdata.rds
+INFO [2022-11-13 13:05:40] Group Lasso Hierarchical (run 8)
+INFO [2022-11-13 13:05:40] File already exists - skipped to next...
+INFO [2022-11-13 13:05:40] Horseshoe Group Plus (run 8)
+INFO [2022-11-13 13:05:40] File already exists - skipped to next...
+INFO [2022-11-13 13:05:40] Horseshoe Group (run 8)
+INFO [2022-11-13 13:05:40] File already exists - skipped to next...
+INFO [2022-11-13 13:05:45] ----------------- Run: 9/26 -----------------
+INFO [2022-11-13 13:05:45] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/009_rawdata.rds
+INFO [2022-11-13 13:05:45] Group Lasso Hierarchical (run 9)
+INFO [2022-11-13 13:05:45] File already exists - skipped to next...
+INFO [2022-11-13 13:05:45] Horseshoe Group Plus (run 9)
+INFO [2022-11-13 13:05:45] File already exists - skipped to next...
+INFO [2022-11-13 13:05:45] Horseshoe Group (run 9)
+INFO [2022-11-13 13:05:45] File already exists - skipped to next...
+INFO [2022-11-13 13:05:50] ----------------- Run: 10/26 -----------------
+INFO [2022-11-13 13:05:50] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/010_rawdata.rds
+INFO [2022-11-13 13:05:50] Group Lasso Hierarchical (run 10)
+INFO [2022-11-13 13:05:50] File already exists - skipped to next...
+INFO [2022-11-13 13:05:50] Horseshoe Group Plus (run 10)
+INFO [2022-11-13 13:05:50] File already exists - skipped to next...
+INFO [2022-11-13 13:05:50] Horseshoe Group (run 10)
+INFO [2022-11-13 13:05:50] File already exists - skipped to next...
+INFO [2022-11-13 13:05:55] ----------------- Run: 11/26 -----------------
+INFO [2022-11-13 13:05:55] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/011_rawdata.rds
+INFO [2022-11-13 13:05:55] Group Lasso Hierarchical (run 11)
+INFO [2022-11-13 13:05:55] File already exists - skipped to next...
+INFO [2022-11-13 13:05:55] Horseshoe Group Plus (run 11)
+INFO [2022-11-13 13:05:55] File already exists - skipped to next...
+INFO [2022-11-13 13:05:55] Horseshoe Group (run 11)
+INFO [2022-11-13 13:05:55] File already exists - skipped to next...
+INFO [2022-11-13 13:06:00] ----------------- Run: 12/26 -----------------
+INFO [2022-11-13 13:06:00] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/012_rawdata.rds
+INFO [2022-11-13 13:06:00] Group Lasso Hierarchical (run 12)
+INFO [2022-11-13 13:06:00] File already exists - skipped to next...
+INFO [2022-11-13 13:06:00] Horseshoe Group Plus (run 12)
+INFO [2022-11-13 13:06:00] File already exists - skipped to next...
+INFO [2022-11-13 13:06:00] Horseshoe Group (run 12)
+INFO [2022-11-13 13:06:00] File already exists - skipped to next...
+INFO [2022-11-13 13:06:06] ----------------- Run: 13/26 -----------------
+INFO [2022-11-13 13:06:06] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/013_rawdata.rds
+INFO [2022-11-13 13:06:06] Group Lasso Hierarchical (run 13)
+INFO [2022-11-13 13:06:06] File already exists - skipped to next...
+INFO [2022-11-13 13:06:06] Horseshoe Group Plus (run 13)
+INFO [2022-11-13 13:06:06] File already exists - skipped to next...
+INFO [2022-11-13 13:06:06] Horseshoe Group (run 13)
+INFO [2022-11-13 13:06:06] File already exists - skipped to next...
+INFO [2022-11-13 13:06:11] ----------------- Run: 14/26 -----------------
+INFO [2022-11-13 13:06:11] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/014_rawdata.rds
+INFO [2022-11-13 13:06:11] Group Lasso Hierarchical (run 14)
+INFO [2022-11-13 13:06:11] File already exists - skipped to next...
+INFO [2022-11-13 13:06:11] Horseshoe Group Plus (run 14)
+INFO [2022-11-13 13:06:11] File already exists - skipped to next...
+INFO [2022-11-13 13:06:11] Horseshoe Group (run 14)
+INFO [2022-11-13 13:06:11] File already exists - skipped to next...
+INFO [2022-11-13 13:06:16] ----------------- Run: 15/26 -----------------
+INFO [2022-11-13 13:06:16] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/015_rawdata.rds
+INFO [2022-11-13 13:06:16] Group Lasso Hierarchical (run 15)
+INFO [2022-11-13 13:06:16] File already exists - skipped to next...
+INFO [2022-11-13 13:06:16] Horseshoe Group Plus (run 15)
+INFO [2022-11-13 13:06:16] File already exists - skipped to next...
+INFO [2022-11-13 13:06:16] Horseshoe Group (run 15)
+INFO [2022-11-13 13:06:16] File already exists - skipped to next...
+INFO [2022-11-13 13:06:21] ----------------- Run: 16/26 -----------------
+INFO [2022-11-13 13:06:21] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/016_rawdata.rds
+INFO [2022-11-13 13:06:21] Group Lasso Hierarchical (run 16)
+INFO [2022-11-13 13:06:21] File already exists - skipped to next...
+INFO [2022-11-13 13:06:21] Horseshoe Group Plus (run 16)
+INFO [2022-11-13 13:06:21] File already exists - skipped to next...
+INFO [2022-11-13 13:06:21] Horseshoe Group (run 16)
+INFO [2022-11-13 13:06:21] File already exists - skipped to next...
+INFO [2022-11-13 13:06:26] ----------------- Run: 17/26 -----------------
+INFO [2022-11-13 13:06:26] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/017_rawdata.rds
+INFO [2022-11-13 13:06:26] Group Lasso Hierarchical (run 17)
+INFO [2022-11-13 13:06:26] File already exists - skipped to next...
+INFO [2022-11-13 13:06:26] Horseshoe Group Plus (run 17)
+INFO [2022-11-13 13:06:26] File already exists - skipped to next...
+INFO [2022-11-13 13:06:26] Horseshoe Group (run 17)
+INFO [2022-11-13 13:06:26] File already exists - skipped to next...
+INFO [2022-11-13 13:06:31] ----------------- Run: 18/26 -----------------
+INFO [2022-11-13 13:06:31] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/018_rawdata.rds
+INFO [2022-11-13 13:06:31] Group Lasso Hierarchical (run 18)
+INFO [2022-11-13 13:06:31] File already exists - skipped to next...
+INFO [2022-11-13 13:06:31] Horseshoe Group Plus (run 18)
+INFO [2022-11-13 13:06:31] File already exists - skipped to next...
+INFO [2022-11-13 13:06:31] Horseshoe Group (run 18)
+INFO [2022-11-13 13:06:31] File already exists - skipped to next...
+INFO [2022-11-13 13:06:37] ----------------- Run: 19/26 -----------------
+INFO [2022-11-13 13:06:37] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/019_rawdata.rds
+INFO [2022-11-13 13:06:37] Group Lasso Hierarchical (run 19)
+INFO [2022-11-13 13:06:37] File already exists - skipped to next...
+INFO [2022-11-13 13:06:37] Horseshoe Group Plus (run 19)
+INFO [2022-11-13 13:06:37] File already exists - skipped to next...
+INFO [2022-11-13 13:06:37] Horseshoe Group (run 19)
+INFO [2022-11-13 13:06:37] File already exists - skipped to next...
+INFO [2022-11-13 13:06:42] ----------------- Run: 20/26 -----------------
+INFO [2022-11-13 13:06:42] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/020_rawdata.rds
+INFO [2022-11-13 13:06:42] Group Lasso Hierarchical (run 20)
+INFO [2022-11-13 13:06:42] File already exists - skipped to next...
+INFO [2022-11-13 13:06:42] Horseshoe Group Plus (run 20)
+INFO [2022-11-13 13:06:42] File already exists - skipped to next...
+INFO [2022-11-13 13:06:42] Horseshoe Group (run 20)
+INFO [2022-11-13 13:06:42] File already exists - skipped to next...
+INFO [2022-11-13 13:06:47] ----------------- Run: 21/26 -----------------
+INFO [2022-11-13 13:06:47] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/021_rawdata.rds
+INFO [2022-11-13 13:06:47] Group Lasso Hierarchical (run 21)
+INFO [2022-11-13 13:06:47] File already exists - skipped to next...
+INFO [2022-11-13 13:06:47] Horseshoe Group Plus (run 21)
+INFO [2022-11-13 13:06:47] File already exists - skipped to next...
+INFO [2022-11-13 13:06:47] Horseshoe Group (run 21)
+INFO [2022-11-13 13:06:47] File already exists - skipped to next...
+INFO [2022-11-13 13:06:52] ----------------- Run: 22/26 -----------------
+INFO [2022-11-13 13:06:52] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/022_rawdata.rds
+INFO [2022-11-13 13:06:52] Group Lasso Hierarchical (run 22)
+INFO [2022-11-13 13:06:52] File already exists - skipped to next...
+INFO [2022-11-13 13:06:52] Horseshoe Group Plus (run 22)
+INFO [2022-11-13 13:06:52] File already exists - skipped to next...
+INFO [2022-11-13 13:06:52] Horseshoe Group (run 22)
+INFO [2022-11-13 13:06:52] File already exists - skipped to next...
+INFO [2022-11-13 13:06:57] ----------------- Run: 23/26 -----------------
+INFO [2022-11-13 13:06:57] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/023_rawdata.rds
+INFO [2022-11-13 13:06:57] Group Lasso Hierarchical (run 23)
+INFO [2022-11-13 13:06:57] File already exists - skipped to next...
+INFO [2022-11-13 13:06:57] Horseshoe Group Plus (run 23)
+INFO [2022-11-13 13:06:57] File already exists - skipped to next...
+INFO [2022-11-13 13:06:57] Horseshoe Group (run 23)
+INFO [2022-11-13 13:06:57] File already exists - skipped to next...
+INFO [2022-11-13 13:07:03] ----------------- Run: 24/26 -----------------
+INFO [2022-11-13 13:07:03] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/024_rawdata.rds
+INFO [2022-11-13 13:07:03] Group Lasso Hierarchical (run 24)
+INFO [2022-11-13 13:07:03] File already exists - skipped to next...
+INFO [2022-11-13 13:07:03] Horseshoe Group Plus (run 24)
+INFO [2022-11-13 13:07:03] File already exists - skipped to next...
+INFO [2022-11-13 13:07:03] Horseshoe Group (run 24)
+INFO [2022-11-13 13:07:03] File already exists - skipped to next...
+INFO [2022-11-13 13:07:08] ----------------- Run: 25/26 -----------------
+INFO [2022-11-13 13:07:08] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/025_rawdata.rds
+INFO [2022-11-13 13:07:08] Group Lasso Hierarchical (run 25)
+INFO [2022-11-13 13:07:08] File already exists - skipped to next...
+INFO [2022-11-13 13:07:08] Horseshoe Group Plus (run 25)
+INFO [2022-11-13 13:07:08] File already exists - skipped to next...
+INFO [2022-11-13 13:07:08] Horseshoe Group (run 25)
+INFO [2022-11-13 13:07:08] File already exists - skipped to next...
+INFO [2022-11-13 13:07:13] ----------------- Run: 26/26 -----------------
+INFO [2022-11-13 13:07:13] Load input file: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/input/026_rawdata.rds
+INFO [2022-11-13 13:07:13] Group Lasso Hierarchical (run 26)
+INFO [2022-11-13 13:07:13] Estimte Model...
+INFO [2022-11-13 13:22:56] Horseshoe Group Plus (run 26)
+INFO [2022-11-13 13:22:56] Estimte Model...
+INFO [2022-11-13 13:46:38] Horseshoe Group (run 26)
+INFO [2022-11-13 13:46:38] Estimte Model...
+INFO [2022-11-13 14:02:36] Extract data for: Group Lasso Hierarchical
+INFO [2022-11-13 14:24:56] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/group_lasso_hierarchical/26
+INFO [2022-11-13 14:24:58] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/group_lasso_hierarchical/26
+INFO [2022-11-13 14:25:52] Extract data for: Horseshoe Group Plus
+INFO [2022-11-13 14:46:49] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/18
+INFO [2022-11-13 14:46:50] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/18
+INFO [2022-11-13 14:48:18] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/19
+INFO [2022-11-13 14:48:20] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/19
+INFO [2022-11-13 14:49:34] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/20
+INFO [2022-11-13 14:49:36] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/20
+INFO [2022-11-13 14:50:47] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/21
+INFO [2022-11-13 14:50:49] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/21
+INFO [2022-11-13 14:52:01] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/22
+INFO [2022-11-13 14:52:03] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/22
+INFO [2022-11-13 14:53:14] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/23
+INFO [2022-11-13 14:53:15] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/23
+INFO [2022-11-13 14:54:31] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/24
+INFO [2022-11-13 14:54:33] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/24
+INFO [2022-11-13 14:55:48] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/25
+INFO [2022-11-13 14:55:50] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/25
+INFO [2022-11-13 14:57:11] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group_plus/26
+INFO [2022-11-13 14:57:13] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group_plus/26
+INFO [2022-11-13 14:58:48] Extract data for: Horseshoe Group
+INFO [2022-11-13 15:14:00] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/16
+INFO [2022-11-13 15:14:00] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/16
+INFO [2022-11-13 15:14:54] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/17
+INFO [2022-11-13 15:14:56] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/17
+INFO [2022-11-13 15:15:52] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/18
+INFO [2022-11-13 15:15:53] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/18
+INFO [2022-11-13 15:16:49] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/19
+INFO [2022-11-13 15:16:50] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/19
+INFO [2022-11-13 15:17:45] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/20
+INFO [2022-11-13 15:17:45] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/20
+INFO [2022-11-13 15:18:38] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/21
+INFO [2022-11-13 15:18:40] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/21
+INFO [2022-11-13 15:19:37] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/22
+INFO [2022-11-13 15:19:39] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/22
+INFO [2022-11-13 15:20:35] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/23
+INFO [2022-11-13 15:20:36] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/23
+INFO [2022-11-13 15:21:32] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/24
+INFO [2022-11-13 15:21:33] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/24
+INFO [2022-11-13 15:22:30] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/25
+INFO [2022-11-13 15:22:30] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/25
+INFO [2022-11-13 15:23:25] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/02_raw_extracted/horseshoe_group/26
+INFO [2022-11-13 15:23:27] Create folder at: /home/matthias/Schreibtisch/SoSe 21/ShrinkingMidas/inst/simulation/output/03_summaries/horseshoe_group/26

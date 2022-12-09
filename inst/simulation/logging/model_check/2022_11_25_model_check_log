@@ -1,0 +1,19 @@
+INFO [2022-11-25 23:14:23] Setting input variables
+INFO [2022-11-25 23:14:27] Creating Stan models
+INFO [2022-11-25 23:14:28] Stan models creation done: 4 models
+INFO [2022-11-25 23:15:06] ----- group_lasso_hierarchical ------
+INFO [2022-11-25 23:15:06] Simulation: 1/100
+INFO [2022-11-25 23:15:11] Simulation: 2/100
+INFO [2022-11-25 23:15:16] Simulation: 3/100
+INFO [2022-11-25 23:15:20] Simulation: 4/100
+INFO [2022-11-25 23:15:25] Simulation: 5/100
+INFO [2022-11-25 23:15:29] Simulation: 6/100
+INFO [2022-11-25 23:15:33] Simulation: 7/100
+INFO [2022-11-25 23:15:38] Simulation: 8/100
+INFO [2022-11-25 23:15:42] Simulation: 9/100
+INFO [2022-11-25 23:15:47] Simulation: 10/100
+INFO [2022-11-25 23:15:51] Simulation: 11/100
+INFO [2022-11-25 23:15:55] Simulation: 12/100
+INFO [2022-11-25 23:16:13] Setting input variables
+INFO [2022-11-25 23:16:13] Creating Stan models
+INFO [2022-11-25 23:16:13] Stan models creation done: 4 models
